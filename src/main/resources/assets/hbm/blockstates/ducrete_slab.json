@@ -1,0 +1,13 @@
+﻿{
+    "variants":  {
+                     "type=bottom":  {
+                                         "model":  "hbm:half_slab_ducrete"
+                                     },
+                     "type=top":  {
+                                      "model":  "hbm:upper_slab_ducrete"
+                                  },
+                     "type=double":  {
+                                         "model":  "hbm:ducrete"
+                                     }
+                 }
+}

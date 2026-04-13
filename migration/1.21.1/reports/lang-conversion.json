@@ -1,0 +1,266 @@
+﻿[
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\lang\\ar_sa.lang",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\assets\\hbm\\lang\\ar_sa.json",
+        "entries":  8781,
+        "duplicateKeys":  [
+
+                          ],
+        "skippedLines":  0,
+        "modernItemKeyAliases":  2401,
+        "modernBlockKeyAliases":  981,
+        "modernEntityKeyAliases":  25
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\lang\\de_de.lang",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\assets\\hbm\\lang\\de_de.json",
+        "entries":  8780,
+        "duplicateKeys":  [
+
+                          ],
+        "skippedLines":  0,
+        "modernItemKeyAliases":  2401,
+        "modernBlockKeyAliases":  981,
+        "modernEntityKeyAliases":  25
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\lang\\el_gr.lang",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\assets\\hbm\\lang\\el_gr.json",
+        "entries":  8781,
+        "duplicateKeys":  [
+
+                          ],
+        "skippedLines":  0,
+        "modernItemKeyAliases":  2401,
+        "modernBlockKeyAliases":  981,
+        "modernEntityKeyAliases":  25
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\lang\\en_us.lang",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\assets\\hbm\\lang\\en_us.json",
+        "entries":  8767,
+        "duplicateKeys":  [
+
+                          ],
+        "skippedLines":  0,
+        "modernItemKeyAliases":  2401,
+        "modernBlockKeyAliases":  974,
+        "modernEntityKeyAliases":  25
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\lang\\es_es.lang",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\assets\\hbm\\lang\\es_es.json",
+        "entries":  8781,
+        "duplicateKeys":  [
+
+                          ],
+        "skippedLines":  0,
+        "modernItemKeyAliases":  2401,
+        "modernBlockKeyAliases":  981,
+        "modernEntityKeyAliases":  25
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\lang\\fi_fi.lang",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\assets\\hbm\\lang\\fi_fi.json",
+        "entries":  8781,
+        "duplicateKeys":  [
+
+                          ],
+        "skippedLines":  0,
+        "modernItemKeyAliases":  2401,
+        "modernBlockKeyAliases":  981,
+        "modernEntityKeyAliases":  25
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\lang\\fr_fr.lang",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\assets\\hbm\\lang\\fr_fr.json",
+        "entries":  8781,
+        "duplicateKeys":  [
+
+                          ],
+        "skippedLines":  0,
+        "modernItemKeyAliases":  2401,
+        "modernBlockKeyAliases":  981,
+        "modernEntityKeyAliases":  25
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\lang\\hi_in.lang",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\assets\\hbm\\lang\\hi_in.json",
+        "entries":  8781,
+        "duplicateKeys":  [
+
+                          ],
+        "skippedLines":  0,
+        "modernItemKeyAliases":  2401,
+        "modernBlockKeyAliases":  981,
+        "modernEntityKeyAliases":  25
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\lang\\id_id.lang",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\assets\\hbm\\lang\\id_id.json",
+        "entries":  8781,
+        "duplicateKeys":  [
+
+                          ],
+        "skippedLines":  0,
+        "modernItemKeyAliases":  2401,
+        "modernBlockKeyAliases":  981,
+        "modernEntityKeyAliases":  25
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\lang\\it_it.lang",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\assets\\hbm\\lang\\it_it.json",
+        "entries":  8781,
+        "duplicateKeys":  [
+
+                          ],
+        "skippedLines":  0,
+        "modernItemKeyAliases":  2401,
+        "modernBlockKeyAliases":  981,
+        "modernEntityKeyAliases":  25
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\lang\\ja_jp.lang",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\assets\\hbm\\lang\\ja_jp.json",
+        "entries":  8781,
+        "duplicateKeys":  [
+
+                          ],
+        "skippedLines":  0,
+        "modernItemKeyAliases":  2401,
+        "modernBlockKeyAliases":  981,
+        "modernEntityKeyAliases":  25
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\lang\\ko_kr.lang",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\assets\\hbm\\lang\\ko_kr.json",
+        "entries":  8781,
+        "duplicateKeys":  [
+
+                          ],
+        "skippedLines":  0,
+        "modernItemKeyAliases":  2401,
+        "modernBlockKeyAliases":  981,
+        "modernEntityKeyAliases":  25
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\lang\\nl_nl.lang",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\assets\\hbm\\lang\\nl_nl.json",
+        "entries":  8781,
+        "duplicateKeys":  [
+
+                          ],
+        "skippedLines":  0,
+        "modernItemKeyAliases":  2401,
+        "modernBlockKeyAliases":  981,
+        "modernEntityKeyAliases":  25
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\lang\\no_no.lang",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\assets\\hbm\\lang\\no_no.json",
+        "entries":  8781,
+        "duplicateKeys":  [
+
+                          ],
+        "skippedLines":  0,
+        "modernItemKeyAliases":  2401,
+        "modernBlockKeyAliases":  981,
+        "modernEntityKeyAliases":  25
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\lang\\pl_pl.lang",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\assets\\hbm\\lang\\pl_pl.json",
+        "entries":  8781,
+        "duplicateKeys":  [
+
+                          ],
+        "skippedLines":  0,
+        "modernItemKeyAliases":  2401,
+        "modernBlockKeyAliases":  981,
+        "modernEntityKeyAliases":  25
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\lang\\pt_pt.lang",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\assets\\hbm\\lang\\pt_pt.json",
+        "entries":  8781,
+        "duplicateKeys":  [
+
+                          ],
+        "skippedLines":  0,
+        "modernItemKeyAliases":  2401,
+        "modernBlockKeyAliases":  981,
+        "modernEntityKeyAliases":  25
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\lang\\ru_ru.lang",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\assets\\hbm\\lang\\ru_ru.json",
+        "entries":  8781,
+        "duplicateKeys":  [
+
+                          ],
+        "skippedLines":  0,
+        "modernItemKeyAliases":  2401,
+        "modernBlockKeyAliases":  981,
+        "modernEntityKeyAliases":  25
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\lang\\sv_se.lang",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\assets\\hbm\\lang\\sv_se.json",
+        "entries":  8781,
+        "duplicateKeys":  [
+
+                          ],
+        "skippedLines":  0,
+        "modernItemKeyAliases":  2401,
+        "modernBlockKeyAliases":  981,
+        "modernEntityKeyAliases":  25
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\lang\\th_th.lang",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\assets\\hbm\\lang\\th_th.json",
+        "entries":  8781,
+        "duplicateKeys":  [
+
+                          ],
+        "skippedLines":  0,
+        "modernItemKeyAliases":  2401,
+        "modernBlockKeyAliases":  981,
+        "modernEntityKeyAliases":  25
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\lang\\tr_tr.lang",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\assets\\hbm\\lang\\tr_tr.json",
+        "entries":  8781,
+        "duplicateKeys":  [
+
+                          ],
+        "skippedLines":  0,
+        "modernItemKeyAliases":  2401,
+        "modernBlockKeyAliases":  981,
+        "modernEntityKeyAliases":  25
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\lang\\uk_ua.lang",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\assets\\hbm\\lang\\uk_ua.json",
+        "entries":  8781,
+        "duplicateKeys":  [
+
+                          ],
+        "skippedLines":  0,
+        "modernItemKeyAliases":  2401,
+        "modernBlockKeyAliases":  981,
+        "modernEntityKeyAliases":  25
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\lang\\zh_cn.lang",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\assets\\hbm\\lang\\zh_cn.json",
+        "entries":  8781,
+        "duplicateKeys":  [
+
+                          ],
+        "skippedLines":  0,
+        "modernItemKeyAliases":  2401,
+        "modernBlockKeyAliases":  981,
+        "modernEntityKeyAliases":  25
+    }
+]

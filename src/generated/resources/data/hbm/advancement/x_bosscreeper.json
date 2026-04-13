@@ -1,0 +1,27 @@
+{
+	"display": {
+		"icon": {
+			"item": "hbm:coin_creeper"
+		},
+		"title": {
+			"translate": "hbm.achievement.bossCreeper"
+		},
+		"description": {
+			"translate": "hbm.achievement.bossCreeper.desc"
+		}
+	},
+	"parent": "hbm:root",
+	"criteria": {
+		"kill_nuclear_creeper": {
+			"trigger": "minecraft:player_killed_entity",
+			"conditions": {
+				"entity": {
+					"type": "hbm:entity_nuclear_creeper"
+				}
+			}
+		}
+	},
+    "rewards": {
+        "experience": 30
+    }
+}

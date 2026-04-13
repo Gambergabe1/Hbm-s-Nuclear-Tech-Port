@@ -1,0 +1,7 @@
+{
+  "type": "hbm:oil_spot",
+  "config": {
+    "width": 10,
+    "count": 28
+  }
+}

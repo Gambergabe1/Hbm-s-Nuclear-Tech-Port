@@ -1,0 +1,32 @@
+{
+  "values": [
+    {
+      "id": "hbm:schrabidic",
+      "required": false
+    },
+    {
+      "id": "hbm:nitric_acid",
+      "required": false
+    },
+    {
+      "id": "hbm:radiosolvent",
+      "required": false
+    },
+    {
+      "id": "hbm:liquid_osmiridium",
+      "required": false
+    },
+    {
+      "id": "hbm:mud_fluid",
+      "required": false
+    },
+    {
+      "id": "hbm:toxic_fluid",
+      "required": false
+    },
+    {
+      "id": "hbm:corium_fluid",
+      "required": false
+    }
+  ]
+}

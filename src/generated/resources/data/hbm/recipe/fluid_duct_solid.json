@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "A": {
+      "item": "hbm:plate_aluminium"
+    },
+    "D": {
+      "item": "hbm:ingot_polymer"
+    },
+    "S": {
+      "item": "hbm:ingot_steel"
+    }
+  },
+  "pattern": [
+    "SAS",
+    "ADA",
+    "SAS"
+  ],
+  "result": {
+    "count": 8,
+    "id": "hbm:fluid_duct_solid"
+  }
+}

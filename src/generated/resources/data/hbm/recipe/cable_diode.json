@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "A": {
+      "item": "hbm:plate_aluminium"
+    },
+    "C": {
+      "item": "hbm:red_cable"
+    },
+    "Q": {
+      "item": "minecraft:quartz"
+    }
+  },
+  "pattern": [
+    " Q ",
+    "CAC",
+    " Q "
+  ],
+  "result": {
+    "count": 1,
+    "id": "hbm:cable_diode"
+  }
+}

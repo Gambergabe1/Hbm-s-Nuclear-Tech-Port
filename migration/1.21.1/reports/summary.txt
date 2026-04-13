@@ -1,0 +1,13 @@
+Generated 1.21.1 migration outputs.
+Java files: 2871
+Resource files: 13846
+Blocks defined: 988
+Items defined: 2263
+Entity registrations: 167
+Tile entity registrations: 257
+Lang files converted: 22
+Lang entries converted: 193167
+Modern item translation aliases: 52822
+Modern block translation aliases: 21575
+Modern entity translation aliases: 550
+Advancements copied: 94

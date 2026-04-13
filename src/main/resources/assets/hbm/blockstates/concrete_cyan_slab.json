@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "hbm:half_slab_concrete_cyan" },
+        "type=top": { "model": "hbm:upper_slab_concrete_cyan" },
+        "type=double": { "model": "hbm:concrete_cyan" }
+    }
+}

@@ -1,0 +1,7 @@
+{
+	"parent": "block/cube_column",
+	"textures": {
+		"end": "hbm:blocks/fwatz_core",
+		"side": "hbm:blocks/fwatz_computer"
+	}
+}

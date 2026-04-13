@@ -1,0 +1,27 @@
+{
+  "feature": "hbm:ore_bedrock_oil_deposit",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 180
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:height_range",
+      "height": {
+        "type": "minecraft:uniform",
+        "max_inclusive": {
+          "absolute": -58
+        },
+        "min_inclusive": {
+          "absolute": -63
+        }
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

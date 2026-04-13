@@ -1,0 +1,12 @@
+{
+  "values": [
+    {
+      "id": "hbm:amat",
+      "required": false
+    },
+    {
+      "id": "hbm:aschrab",
+      "required": false
+    }
+  ]
+}

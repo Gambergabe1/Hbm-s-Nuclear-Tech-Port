@@ -1,0 +1,11 @@
+{
+  "type": "hbm:pressing",
+  "input": {
+    "item": "minecraft:iron_ingot"
+  },
+  "output": {
+    "item": "hbm:iron_plate",
+    "count": 1
+  },
+  "duration": 200
+}

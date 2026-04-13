@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "hbm:fluid_duct_solid"
+    },
+    {
+      "item": "hbm:brick_compound"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "hbm:fluid_duct_solid_sealed"
+  }
+}

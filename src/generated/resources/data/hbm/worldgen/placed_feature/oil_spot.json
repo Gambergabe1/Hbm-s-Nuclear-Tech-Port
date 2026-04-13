@@ -1,0 +1,15 @@
+{
+  "feature": "hbm:oil_spot",
+  "placement": [
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 55
+    },
+    {
+      "type": "minecraft:in_square"
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

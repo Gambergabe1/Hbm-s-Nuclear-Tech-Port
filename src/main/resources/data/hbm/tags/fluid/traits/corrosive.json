@@ -1,0 +1,48 @@
+{
+  "values": [
+    {
+      "id": "hbm:chlorine",
+      "required": false
+    },
+    {
+      "id": "hbm:fracksol",
+      "required": false
+    },
+    {
+      "id": "hbm:uf6",
+      "required": false
+    },
+    {
+      "id": "hbm:puf6",
+      "required": false
+    },
+    {
+      "id": "hbm:sas3",
+      "required": false
+    },
+    {
+      "id": "hbm:acid",
+      "required": false
+    },
+    {
+      "id": "hbm:sulfuric_acid",
+      "required": false
+    },
+    {
+      "id": "hbm:solvent",
+      "required": false
+    },
+    {
+      "id": "hbm:balefire",
+      "required": false
+    },
+    {
+      "id": "hbm:pain",
+      "required": false
+    },
+    {
+      "id": "hbm:ic2uu_matter",
+      "required": false
+    }
+  ]
+}

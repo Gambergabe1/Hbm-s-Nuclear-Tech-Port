@@ -1,0 +1,378 @@
+﻿[
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\achfiend.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\achfiend.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\achfiend2.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\achfiend2.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\achfoeq.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\achfoeq.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\achmeltdown.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\achmeltdown.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\achomega12.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\achomega12.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\achraddeath.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\achraddeath.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\achradpoison.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\achradpoison.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\achsacrifice.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\achsacrifice.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\achsomewounds.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\achsomewounds.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\achstratum.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\achstratum.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\bobassembly.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\bobassembly.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\bobchemistry.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\bobchemistry.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\bobhidden.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\bobhidden.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\bobmetalworks.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\bobmetalworks.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\bobnuclear.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\bobnuclear.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\boboil.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\boboil.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\bossmaskman.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\bossmaskman.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\bossmeltdown.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\bossmeltdown.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\bossufo.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\bossufo.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\bossworm.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\bossworm.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\digammafeel.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\digammafeel.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\digammakauaimoho.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\digammakauaimoho.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\digammaknow.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\digammaknow.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\digammasee.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\digammasee.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\digammaupontop.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\digammaupontop.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\horizonsbonus.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\horizonsbonus.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\horizonsend.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\horizonsend.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\horizonsstart.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\horizonsstart.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\progress_am241.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\progress_am241.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\progress_anvil.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\progress_anvil.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\progress_assembler.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\progress_assembler.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\progress_australium.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\progress_australium.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\progress_bedrock_ore.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\progress_bedrock_ore.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\progress_bedrock_ore_e.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\progress_bedrock_ore_e.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\progress_bismuth.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\progress_bismuth.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\progress_book.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\progress_book.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\progress_burnerpress.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\progress_burnerpress.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\progress_centrifuge_1.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\progress_centrifuge_1.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\progress_centrifuge_2.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\progress_centrifuge_2.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\progress_chemplant.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\progress_chemplant.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\progress_cladding_electronium.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\progress_cladding_electronium.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\progress_concrete.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\progress_concrete.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\progress_crack.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\progress_crack.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\progress_creative.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\progress_creative.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\progress_crucible.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\progress_crucible.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\progress_crystalizer.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\progress_crystalizer.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\progress_cyclotron.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\progress_cyclotron.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\progress_desh.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\progress_desh.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\progress_dfc.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\progress_dfc.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\progress_difurnace.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\progress_difurnace.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\progress_dineutronium.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\progress_dineutronium.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\progress_dosimeter.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\progress_dosimeter.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\progress_excavator.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\progress_excavator.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\progress_fensu.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\progress_fensu.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\progress_folder.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\progress_folder.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\progress_fraction.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\progress_fraction.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\progress_fusion.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\progress_fusion.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\progress_gc_speed.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\progress_gc_speed.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\progress_geiger.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\progress_geiger.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\progress_gh336.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\progress_gh336.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\progress_hadron.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\progress_hadron.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\progress_mask.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\progress_mask.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\progress_modtable.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\progress_modtable.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\progress_nuke.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\progress_nuke.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\progress_oil_1.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\progress_oil_1.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\progress_oil_2.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\progress_oil_2.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\progress_oil_3.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\progress_oil_3.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\progress_omega_filter.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\progress_omega_filter.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\progress_ore_schrab.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\progress_ore_schrab.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\progress_osmiridium.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\progress_osmiridium.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\progress_pile.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\progress_pile.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\progress_potatos.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\progress_potatos.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\progress_pu239.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\progress_pu239.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\progress_pu241.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\progress_pu241.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\progress_radium.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\progress_radium.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\progress_radspice.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\progress_radspice.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\progress_rbmk.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\progress_rbmk.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\progress_rbmk_boom.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\progress_rbmk_boom.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\progress_refinery.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\progress_refinery.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\progress_schrabidium.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\progress_schrabidium.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\progress_silex.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\progress_silex.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\progress_singularity_spark.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\progress_singularity_spark.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\progress_soldering.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\progress_soldering.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\progress_srb.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\progress_srb.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\progress_transmut.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\progress_transmut.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\progress_u235.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\progress_u235.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\progress_uf.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\progress_uf.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\progress_watz.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\progress_watz.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\progress_watz_boom.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\progress_watz_boom.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\root.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\root.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\soyuz.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\soyuz.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\space.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\space.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\x_bosscreeper.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\x_bosscreeper.json"
+    },
+    {
+        "source":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\src\\main\\resources\\assets\\hbm\\advancements\\x_progress_polymer.json",
+        "target":  "C:\\Users\\Kazutos-PC\\Downloads\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\Hbm-s-Nuclear-Tech-GIT-Custom-1.12.2\\migration\\1.21.1\\src\\main\\resources\\data\\hbm\\advancement\\x_progress_polymer.json"
+    }
+]

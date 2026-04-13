@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "hbm:gas_mask",
+    "hbm:gas_mask_m65",
+    "hbm:gas_mask_mono"
+  ]
+}

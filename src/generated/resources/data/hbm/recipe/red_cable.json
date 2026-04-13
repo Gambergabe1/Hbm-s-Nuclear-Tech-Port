@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "C": {
+      "item": "hbm:coil_copper"
+    },
+    "P": {
+      "item": "hbm:ingot_polymer"
+    },
+    "R": {
+      "item": "hbm:ingot_red_copper"
+    }
+  },
+  "pattern": [
+    " P ",
+    "RCR",
+    " P "
+  ],
+  "result": {
+    "count": 8,
+    "id": "hbm:red_cable"
+  }
+}

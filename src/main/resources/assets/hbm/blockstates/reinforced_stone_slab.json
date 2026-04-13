@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "hbm:half_slab_reinforced_stone" },
+        "type=top": { "model": "hbm:upper_slab_reinforced_stone" },
+        "type=double": { "model": "hbm:reinforced_stone" }
+    }
+}

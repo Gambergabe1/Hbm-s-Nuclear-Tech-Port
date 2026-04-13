@@ -1,0 +1,25 @@
+{
+  "type": "hbm:chem_plant",
+  "inputs": [
+    {
+      "item": "hbm:nitrate"
+    },
+    {
+      "item": "hbm:sulfur"
+    },
+    {
+      "item": "minecraft:coal"
+    }
+  ],
+  "outputs": [
+    {
+      "item": "hbm:explosive_powder",
+      "count": 2
+    },
+    {
+      "item": "hbm:toxic_waste_bucket",
+      "count": 1
+    }
+  ],
+  "duration": 400
+}

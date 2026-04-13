@@ -1,0 +1,17 @@
+{
+  "type": "neoforge:add_spawns",
+  "biomes": [
+    "minecraft:desert",
+    "minecraft:badlands",
+    "minecraft:eroded_badlands",
+    "minecraft:wooded_badlands",
+    "minecraft:savanna",
+    "minecraft:windswept_hills"
+  ],
+  "spawners": {
+    "type": "hbm:entity_nuclear_creeper",
+    "weight": 3,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

@@ -1,0 +1,51 @@
+package com.hbm.render.tileentity;
+
+import com.hbm.tileentity.machine.TileEntityMachineMiniRTG;
+import org.lwjgl.opengl.GL11;
+
+import com.hbm.blocks.ModBlocks;
+import com.hbm.lib.Library;
+import com.hbm.main.ResourceManager;
+
+import net.minecraft.client.renderer.GlStateManager;
+import net.minecraft.client.renderer.tileentity.TileEntitySpecialRenderer;
+import net.minecraft.tileentity.TileEntity;
+
+public class RenderRTG extends TileEntitySpecialRenderer<TileEntityMachineMiniRTG> {
+
+	@Override
+	public void render(TileEntityMachineMiniRTG te, double x, double y, double z, float partialTicks, int destroyStage, float alpha) {
+		GL11.glPushMatrix();
+        GL11.glTranslated(x + 0.5D, y, z + 0.5D);
+        GlStateManager.enableLighting();
+        GlStateManager.disableCull();
+		GL11.glRotatef(180, 0F, 1F, 0F);
+
+        bindTexture(ResourceManager.rtg_connector_tex);
+        //Drillgon200: This is handled by the forge model
+        //ResourceManager.rtg.renderPart("Gen");
+
+        if(Library.canConnect(te.getWorld(), te.getPos().add(1, 0, 0), Library.POS_X))
+        	ResourceManager.rtg_connector.renderAll();
+
+        if(Library.canConnect(te.getWorld(), te.getPos().add(-1, 0, 0), Library.NEG_X)) {
+    		GL11.glRotatef(180, 0F, 1F, 0F);
+    		ResourceManager.rtg_connector.renderAll();
+    		GL11.glRotatef(-180, 0F, 1F, 0F);
+        }
+
+        if(Library.canConnect(te.getWorld(), te.getPos().add(0, 0, -1), Library.NEG_Z)) {
+    		GL11.glRotatef(90, 0F, 1F, 0F);
+    		ResourceManager.rtg_connector.renderAll();
+    		GL11.glRotatef(-90, 0F, 1F, 0F);
+        }
+
+        if(Library.canConnect(te.getWorld(), te.getPos().add(0, 0, 1), Library.POS_Z)) {
+    		GL11.glRotatef(-90, 0F, 1F, 0F);
+    		ResourceManager.rtg_connector.renderAll();
+    		GL11.glRotatef(90, 0F, 1F, 0F);
+        }
+
+        GL11.glPopMatrix();
+	}
+}

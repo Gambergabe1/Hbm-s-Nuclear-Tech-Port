@@ -1,0 +1,15 @@
+{
+  "type": "hbm:centrifuging",
+  "input": {
+    "item": "hbm:uranium_hexafluoride"
+  },
+  "output1": {
+    "item": "hbm:uranium_235",
+    "count": 1
+  },
+  "output2": {
+    "item": "hbm:uranium_238",
+    "count": 3
+  },
+  "duration": 600
+}

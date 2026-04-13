@@ -1,0 +1,28 @@
+{
+  "values": [
+    {
+      "id": "hbm:plasma_dt",
+      "required": false
+    },
+    {
+      "id": "hbm:plasma_hd",
+      "required": false
+    },
+    {
+      "id": "hbm:plasma_ht",
+      "required": false
+    },
+    {
+      "id": "hbm:plasma_put",
+      "required": false
+    },
+    {
+      "id": "hbm:plasma_xm",
+      "required": false
+    },
+    {
+      "id": "hbm:plasma_bf",
+      "required": false
+    }
+  ]
+}

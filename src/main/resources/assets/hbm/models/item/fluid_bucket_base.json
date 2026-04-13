@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:item/generated",
+  "loader": "neoforge:fluid_container",
+  "fluid": "minecraft:water",
+  "flip_gas": true,
+  "textures": {
+    "particle": "minecraft:item/bucket",
+    "base": "minecraft:item/bucket",
+    "fluid": "neoforge:item/mask/bucket_fluid",
+    "cover": "neoforge:item/mask/bucket_fluid_cover"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "redstone",
+  "ingredients": [
+    {
+      "item": "hbm:red_cable"
+    },
+    {
+      "item": "hbm:concrete"
+    },
+    {
+      "item": "hbm:circuit_basic"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "hbm:red_cable_gauge"
+  }
+}
