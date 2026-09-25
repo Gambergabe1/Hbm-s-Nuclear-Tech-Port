@@ -2297,6 +2297,41 @@ public final class HbmItems {
     public static final DeferredItem<Item> AMMO_FOLLY_NUCLEAR = registerSimpleWeaponItem("ammo_folly_nuclear");
     public static final DeferredItem<Item> AMMO_FOLLY_DU = registerSimpleWeaponItem("ammo_folly_du");
 
+    // --- Bulk-ported grenade items (ItemGrenade; no throw/entity behavior yet, same as ammo) ---
+    public static final DeferredItem<Item> GRENADE_STRONG = registerSimpleWeaponItem("grenade_strong");
+    public static final DeferredItem<Item> GRENADE_FRAG = registerSimpleWeaponItem("grenade_frag");
+    public static final DeferredItem<Item> GRENADE_FIRE = registerSimpleWeaponItem("grenade_fire");
+    public static final DeferredItem<Item> GRENADE_SHRAPNEL = registerSimpleWeaponItem("grenade_shrapnel");
+    public static final DeferredItem<Item> GRENADE_CLUSTER = registerSimpleWeaponItem("grenade_cluster");
+    public static final DeferredItem<Item> GRENADE_FLARE = registerSimpleWeaponItem("grenade_flare");
+    public static final DeferredItem<Item> GRENADE_ELECTRIC = registerSimpleWeaponItem("grenade_electric");
+    public static final DeferredItem<Item> GRENADE_POISON = registerSimpleWeaponItem("grenade_poison");
+    public static final DeferredItem<Item> GRENADE_GAS = registerSimpleWeaponItem("grenade_gas");
+    public static final DeferredItem<Item> GRENADE_MIRV = registerSimpleWeaponItem("grenade_mirv");
+    public static final DeferredItem<Item> GRENADE_BURST = registerSimpleWeaponItem("grenade_burst");
+    public static final DeferredItem<Item> GRENADE_PULSE = registerSimpleWeaponItem("grenade_pulse");
+    public static final DeferredItem<Item> GRENADE_PLASMA = registerSimpleWeaponItem("grenade_plasma");
+    public static final DeferredItem<Item> GRENADE_TAU = registerSimpleWeaponItem("grenade_tau");
+    public static final DeferredItem<Item> GRENADE_SCHRABIDIUM = registerSimpleWeaponItem("grenade_schrabidium");
+    public static final DeferredItem<Item> GRENADE_LEMON = registerSimpleWeaponItem("grenade_lemon");
+    public static final DeferredItem<Item> GRENADE_MK2 = registerSimpleWeaponItem("grenade_mk2");
+    public static final DeferredItem<Item> GRENADE_NUCLEAR = registerSimpleWeaponItem("grenade_nuclear");
+    public static final DeferredItem<Item> GRENADE_ZOMG = registerSimpleWeaponItem("grenade_zomg");
+    public static final DeferredItem<Item> GRENADE_SOLINIUM = registerSimpleWeaponItem("grenade_solinium");
+    public static final DeferredItem<Item> GRENADE_BLACK_HOLE = registerSimpleWeaponItem("grenade_black_hole");
+    public static final DeferredItem<Item> GRENADE_IF_GENERIC = registerSimpleWeaponItem("grenade_if_generic");
+    public static final DeferredItem<Item> GRENADE_IF_HE = registerSimpleWeaponItem("grenade_if_he");
+    public static final DeferredItem<Item> GRENADE_IF_BOUNCY = registerSimpleWeaponItem("grenade_if_bouncy");
+    public static final DeferredItem<Item> GRENADE_IF_STICKY = registerSimpleWeaponItem("grenade_if_sticky");
+    public static final DeferredItem<Item> GRENADE_IF_INCENDIARY = registerSimpleWeaponItem("grenade_if_incendiary");
+    public static final DeferredItem<Item> GRENADE_IF_TOXIC = registerSimpleWeaponItem("grenade_if_toxic");
+    public static final DeferredItem<Item> GRENADE_IF_CONCUSSION = registerSimpleWeaponItem("grenade_if_concussion");
+    public static final DeferredItem<Item> GRENADE_IF_BRIMSTONE = registerSimpleWeaponItem("grenade_if_brimstone");
+    public static final DeferredItem<Item> GRENADE_IF_MYSTERY = registerSimpleWeaponItem("grenade_if_mystery");
+    public static final DeferredItem<Item> GRENADE_IF_HOPWIRE = registerSimpleWeaponItem("grenade_if_hopwire");
+    public static final DeferredItem<Item> GRENADE_IF_SPARK = registerSimpleWeaponItem("grenade_if_spark");
+    public static final DeferredItem<Item> GRENADE_IF_NULL = registerSimpleWeaponItem("grenade_if_null");
+
     private HbmItems() {
     }
 
