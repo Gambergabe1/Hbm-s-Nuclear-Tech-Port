@@ -2862,6 +2862,57 @@ public final class HbmItems {
     public static final DeferredItem<BlockItem> BLOCK_CORIUM_COBBLE = ITEMS.registerSimpleBlockItem("block_corium_cobble", HbmBlocks.BLOCK_CORIUM_COBBLE);
     public static final DeferredItem<BlockItem> ANCIENT_SCRAP = ITEMS.registerSimpleBlockItem("ancient_scrap", HbmBlocks.ANCIENT_SCRAP);
 
+    // --- Bulk-ported drillbits, laser crystals, turret ammo, satellite chips, and self-charging batteries ---
+    public static final DeferredItem<Item> DRILLBIT_STEEL = registerSimpleControlItem("drillbit_steel");
+    public static final DeferredItem<Item> DRILLBIT_STEEL_DIAMOND = registerSimpleControlItem("drillbit_steel_diamond");
+    public static final DeferredItem<Item> DRILLBIT_HSS = registerSimpleControlItem("drillbit_hss");
+    public static final DeferredItem<Item> DRILLBIT_HSS_DIAMOND = registerSimpleControlItem("drillbit_hss_diamond");
+    public static final DeferredItem<Item> DRILLBIT_DESH = registerSimpleControlItem("drillbit_desh");
+    public static final DeferredItem<Item> DRILLBIT_DESH_DIAMOND = registerSimpleControlItem("drillbit_desh_diamond");
+    public static final DeferredItem<Item> DRILLBIT_TCALLOY = registerSimpleControlItem("drillbit_tcalloy");
+    public static final DeferredItem<Item> DRILLBIT_TCALLOY_DIAMOND = registerSimpleControlItem("drillbit_tcalloy_diamond");
+    public static final DeferredItem<Item> DRILLBIT_FERRO = registerSimpleControlItem("drillbit_ferro");
+    public static final DeferredItem<Item> DRILLBIT_FERRO_DIAMOND = registerSimpleControlItem("drillbit_ferro_diamond");
+    public static final DeferredItem<Item> DRILLBIT_DNT = registerSimpleControlItem("drillbit_dnt");
+    public static final DeferredItem<Item> DRILLBIT_DNT_DIAMOND = registerSimpleControlItem("drillbit_dnt_diamond");
+    public static final DeferredItem<Item> LASER_CRYSTAL_NANO = registerSimpleControlItem("laser_crystal_nano");
+    public static final DeferredItem<Item> LASER_CRYSTAL_PENTACENE = registerSimpleControlItem("laser_crystal_pentacene");
+    public static final DeferredItem<Item> LASER_CRYSTAL_CO2 = registerSimpleControlItem("laser_crystal_co2");
+    public static final DeferredItem<Item> LASER_CRYSTAL_BISMUTH = registerSimpleControlItem("laser_crystal_bismuth");
+    public static final DeferredItem<Item> LASER_CRYSTAL_CMB = registerSimpleControlItem("laser_crystal_cmb");
+    public static final DeferredItem<Item> LASER_CRYSTAL_DEM = registerSimpleControlItem("laser_crystal_dem");
+    public static final DeferredItem<Item> LASER_CRYSTAL_BALE = registerSimpleControlItem("laser_crystal_bale");
+    public static final DeferredItem<Item> LASER_CRYSTAL_DIGAMMA = registerSimpleControlItem("laser_crystal_digamma");
+    public static final DeferredItem<Item> TURRET_LIGHT_AMMO = registerSimpleWeaponItem("turret_light_ammo");
+    public static final DeferredItem<Item> TURRET_HEAVY_AMMO = registerSimpleWeaponItem("turret_heavy_ammo");
+    public static final DeferredItem<Item> TURRET_ROCKET_AMMO = registerSimpleWeaponItem("turret_rocket_ammo");
+    public static final DeferredItem<Item> TURRET_FLAMER_AMMO = registerSimpleWeaponItem("turret_flamer_ammo");
+    public static final DeferredItem<Item> TURRET_TAU_AMMO = registerSimpleWeaponItem("turret_tau_ammo");
+    public static final DeferredItem<Item> TURRET_SPITFIRE_AMMO = registerSimpleWeaponItem("turret_spitfire_ammo");
+    public static final DeferredItem<Item> TURRET_CWIS_AMMO = registerSimpleWeaponItem("turret_cwis_ammo");
+    public static final DeferredItem<Item> TURRET_CHEAPO_AMMO = registerSimpleWeaponItem("turret_cheapo_ammo");
+    public static final DeferredItem<Item> SAT_MAPPER = registerSimpleControlItem("sat_mapper");
+    public static final DeferredItem<Item> SAT_SCANNER = registerSimpleControlItem("sat_scanner");
+    public static final DeferredItem<Item> SAT_RADAR = registerSimpleControlItem("sat_radar");
+    public static final DeferredItem<Item> SAT_LASER = registerSimpleControlItem("sat_laser");
+    public static final DeferredItem<Item> SAT_FOEQ = registerSimpleControlItem("sat_foeq");
+    public static final DeferredItem<Item> SAT_RESONATOR = registerSimpleControlItem("sat_resonator");
+    public static final DeferredItem<Item> SAT_MINER = registerSimpleControlItem("sat_miner");
+    public static final DeferredItem<Item> SAT_GERALD = registerSimpleControlItem("sat_gerald");
+    public static final DeferredItem<Item> SAT_CHIP = registerSimpleControlItem("sat_chip");
+    public static final DeferredItem<Item> BATTERY_SC_URANIUM = registerSimpleControlItem("battery_sc_uranium");
+    public static final DeferredItem<Item> BATTERY_SC_TECHNETIUM = registerSimpleControlItem("battery_sc_technetium");
+    public static final DeferredItem<Item> BATTERY_SC_PLUTONIUM = registerSimpleControlItem("battery_sc_plutonium");
+    public static final DeferredItem<Item> BATTERY_SC_POLONIUM = registerSimpleControlItem("battery_sc_polonium");
+    public static final DeferredItem<Item> BATTERY_SC_GOLD = registerSimpleControlItem("battery_sc_gold");
+    public static final DeferredItem<Item> BATTERY_SC_LEAD = registerSimpleControlItem("battery_sc_lead");
+    public static final DeferredItem<Item> BATTERY_SC_AMERICIUM = registerSimpleControlItem("battery_sc_americium");
+    public static final DeferredItem<Item> BATTERY_SC_BALEFIRE = registerSimpleControlItem("battery_sc_balefire");
+    public static final DeferredItem<Item> BATTERY_SC_SCHRABIDIUM = registerSimpleControlItem("battery_sc_schrabidium");
+    public static final DeferredItem<Item> BATTERY_SC_YHARONITE = registerSimpleControlItem("battery_sc_yharonite");
+    public static final DeferredItem<Item> BATTERY_SC_ELECTRONIUM = registerSimpleControlItem("battery_sc_electronium");
+    public static final DeferredItem<Item> BATTERY_CREATIVE = registerSimpleControlItem("battery_creative");
+
     private HbmItems() {
     }
 
