@@ -63,6 +63,7 @@ public final class HbmItems {
     private static final List<Supplier<? extends Item>> CONSUMABLE_TAB_DYNAMIC_ITEMS = new ArrayList<>();
     private static final List<Supplier<? extends Item>> WEAPON_TAB_DYNAMIC_ITEMS = new ArrayList<>();
     private static final List<Supplier<? extends Item>> NUKE_TAB_DYNAMIC_ITEMS = new ArrayList<>();
+    private static final List<Supplier<? extends Item>> MISSILE_TAB_DYNAMIC_ITEMS = new ArrayList<>();
     public static final DeferredItem<Item> INGOT_ADVANCED_ALLOY = ITEMS.registerSimpleItem("ingot_advanced_alloy");
     public static final DeferredItem<Item> INGOT_ALUMINIUM = ITEMS.registerSimpleItem("ingot_aluminium");
     public static final DeferredItem<Item> INGOT_BERYLLIUM = ITEMS.registerSimpleItem("ingot_beryllium");
@@ -2380,6 +2381,34 @@ public final class HbmItems {
     public static final DeferredItem<Item> GUN_FLAMER = registerDurableWeaponItem("gun_flamer", 0);
     public static final DeferredItem<Item> GUN_EMP = registerDurableWeaponItem("gun_emp", 0);
 
+    // --- Bulk-ported standard missile items (ItemMissileStandard) ---
+    public static final DeferredItem<Item> MISSILE_GENERIC = registerSimpleMissileItem("missile_generic");
+    public static final DeferredItem<Item> MISSILE_STRONG = registerSimpleMissileItem("missile_strong");
+    public static final DeferredItem<Item> MISSILE_BURST = registerSimpleMissileItem("missile_burst");
+    public static final DeferredItem<Item> MISSILE_INCENDIARY = registerSimpleMissileItem("missile_incendiary");
+    public static final DeferredItem<Item> MISSILE_INCENDIARY_STRONG = registerSimpleMissileItem("missile_incendiary_strong");
+    public static final DeferredItem<Item> MISSILE_INFERNO = registerSimpleMissileItem("missile_inferno");
+    public static final DeferredItem<Item> MISSILE_CLUSTER = registerSimpleMissileItem("missile_cluster");
+    public static final DeferredItem<Item> MISSILE_CLUSTER_STRONG = registerSimpleMissileItem("missile_cluster_strong");
+    public static final DeferredItem<Item> MISSILE_RAIN = registerSimpleMissileItem("missile_rain");
+    public static final DeferredItem<Item> MISSILE_BUSTER = registerSimpleMissileItem("missile_buster");
+    public static final DeferredItem<Item> MISSILE_BUSTER_STRONG = registerSimpleMissileItem("missile_buster_strong");
+    public static final DeferredItem<Item> MISSILE_DRILL = registerSimpleMissileItem("missile_drill");
+    public static final DeferredItem<Item> MISSILE_N2 = registerSimpleMissileItem("missile_n2");
+    public static final DeferredItem<Item> MISSILE_NUCLEAR_CLUSTER = registerSimpleMissileItem("missile_nuclear_cluster");
+    public static final DeferredItem<Item> MISSILE_VOLCANO = registerSimpleMissileItem("missile_volcano");
+    public static final DeferredItem<Item> MISSILE_ENDO = registerSimpleMissileItem("missile_endo");
+    public static final DeferredItem<Item> MISSILE_EXO = registerSimpleMissileItem("missile_exo");
+    public static final DeferredItem<Item> MISSILE_DOOMSDAY = registerSimpleMissileItem("missile_doomsday");
+    public static final DeferredItem<Item> MISSILE_TAINT = registerSimpleMissileItem("missile_taint");
+    public static final DeferredItem<Item> MISSILE_MICRO = registerSimpleMissileItem("missile_micro");
+    public static final DeferredItem<Item> MISSILE_BHOLE = registerSimpleMissileItem("missile_bhole");
+    public static final DeferredItem<Item> MISSILE_SCHRABIDIUM = registerSimpleMissileItem("missile_schrabidium");
+    public static final DeferredItem<Item> MISSILE_EMP = registerSimpleMissileItem("missile_emp");
+    public static final DeferredItem<Item> MISSILE_EMP_STRONG = registerSimpleMissileItem("missile_emp_strong");
+    public static final DeferredItem<Item> MISSILE_ANTI_BALLISTIC = registerSimpleMissileItem("missile_anti_ballistic");
+    public static final DeferredItem<Item> MISSILE_CARRIER = registerSimpleMissileItem("missile_carrier");
+
     private HbmItems() {
     }
 
@@ -2409,6 +2438,12 @@ public final class HbmItems {
 
     public static void addDynamicNukeTabItems(CreativeModeTab.Output output) {
         for (Supplier<? extends Item> item : NUKE_TAB_DYNAMIC_ITEMS) {
+            output.accept(item.get());
+        }
+    }
+
+    public static void addDynamicMissileTabItems(CreativeModeTab.Output output) {
+        for (Supplier<? extends Item> item : MISSILE_TAB_DYNAMIC_ITEMS) {
             output.accept(item.get());
         }
     }
@@ -2503,6 +2538,12 @@ public final class HbmItems {
     private static DeferredItem<Item> registerSimpleNukeItem(String name) {
         DeferredItem<Item> item = ITEMS.registerSimpleItem(name);
         NUKE_TAB_DYNAMIC_ITEMS.add(item);
+        return item;
+    }
+
+    private static DeferredItem<Item> registerSimpleMissileItem(String name) {
+        DeferredItem<Item> item = ITEMS.register(name, () -> new Item(new Item.Properties().stacksTo(1)));
+        MISSILE_TAB_DYNAMIC_ITEMS.add(item);
         return item;
     }
 

@@ -476,6 +476,7 @@ public final class HbmCreativeTabs {
         "missile",
         "itemGroup.tabMissile",
         () -> new ItemStack(HbmItems.MISSILE_NUCLEAR.get()),
+        (Consumer<CreativeModeTab.Output>) HbmItems::addDynamicMissileTabItems,
         HbmItems.MISSILE_NUCLEAR,
         HbmBlocks.STRUCT_LAUNCHER,
         HbmBlocks.STRUCT_SCAFFOLD,
