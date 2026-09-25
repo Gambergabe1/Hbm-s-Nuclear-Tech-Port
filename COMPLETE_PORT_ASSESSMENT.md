@@ -11,6 +11,30 @@ session and unverified here. To unblock: broaden this environment's network
 access or add those hosts to its allowlist (environment settings -> Edit ->
 Network access).
 
+**That claim turned out to be false, or at least stale.** Without a compiler,
+this session fell back to manual static auditing (grepping for dangling
+references, comparing every block's `newBlockEntity`/`getTicker` pair, etc)
+and found the mod's main entry point (`HbmNuclearTech.java`, the `@Mod`
+class NeoForge loads) referenced two classes that don't exist anywhere in
+the codebase (`com.hbm.attachment.HbmAttachments`,
+`com.hbm.config.RadiationConfig`) - a straightforward compile error that
+would have blocked the whole mod, contradicting the "0 compilation errors"
+claim in `RBMK_PORT_COMPLETE.md`. Both are fixed now (see commit
+`c4d1d0c5`). The RBMK reactor - the mod's signature feature, previously
+documented as fully ported - also had two separate bugs that would have
+made it silently non-functional even if the build had somehow succeeded:
+every RBMK block entity constructor passed `null` as its own
+`BlockEntityType` (commit `6702ad2b`), and every RBMK block's `getTicker()`
+compared against `null` instead of its real registered type, which means
+`createTickerHelper` could never return a ticker - the reactor simulation
+(`serverTick`) would never have run at all (commit `f6dafc2a`). A
+project-wide scan of every `com.hbm.*` import and fully-qualified reference
+against the actual file tree, plus a scan for duplicate registry names both
+within and across every `Hbm*Registry`/`Hbm*Types` file, turned up nothing
+else of the same severity. This doesn't prove the project compiles now -
+only a real `javac`/Gradle run can - but it means the specific, identifiable
+reasons it definitely wouldn't have are fixed.
+
 Work done this session (see git log on `claude/brave-carson-unvk0j`):
 - Bulk-registered 290 previously-missing simple items (the `ItemBase`/
   `ItemCustomLore` legacy classes - flavor items with no unique behavior),

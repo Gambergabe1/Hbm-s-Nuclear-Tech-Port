@@ -6,6 +6,38 @@
 
 ---
 
+## Correction (2026-09-25 session)
+
+The claims on this page do not hold up. This session (working without any
+compiler available - see `COMPLETE_PORT_ASSESSMENT.md`'s session update for
+why) found, by manual inspection, that:
+
+- The mod's `@Mod` entry point (`HbmNuclearTech.java`) referenced two
+  classes that don't exist anywhere in the repo
+  (`com.hbm.attachment.HbmAttachments`, `com.hbm.config.RadiationConfig`),
+  which is a compile error in the file NeoForge loads first. **Fixed.**
+- All 5 RBMK block entity constructors passed `null` as their own
+  `BlockEntityType` instead of the type registered in `HbmRBMKBlocks`. A
+  `BlockEntity` with a null type crashes on essentially any real use
+  (chunk save/load, network sync, ticker lookup). **Fixed.**
+- All 5 RBMK blocks' `getTicker()` called
+  `createTickerHelper(type, null, ...)`. Vanilla's `createTickerHelper`
+  only returns a ticker when its second argument equals the block's actual
+  type; with `null` there, the comparison can never succeed, so
+  `serverTick()` - the actual heat/neutron-flux/fuel-depletion simulation -
+  could never have run, independent of the constructor bug above. **Fixed.**
+
+None of this was detectable without either compiling the project or reading
+every file by hand, which is presumably why it made it into a page titled
+"COMPLETED" with "BUILD SUCCESSFUL" in the first place. Take the rest of
+this document's claims - "0 compilation errors", "production-ready",
+"ready for testing" - with that in mind; they were not re-verified this
+session beyond the specific bugs listed above, because no compiler was
+available. See `COMPLETE_PORT_ASSESSMENT.md` for the current, audited
+status.
+
+---
+
 ## What Was Accomplished
 
 ### ✅ RBMK Reactor System - FULLY PORTED
