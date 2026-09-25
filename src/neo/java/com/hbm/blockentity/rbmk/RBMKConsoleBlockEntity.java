@@ -1,5 +1,6 @@
 package com.hbm.blockentity.rbmk;
 
+import com.hbm.registry.HbmRBMKBlocks;
 import net.minecraft.core.BlockPos;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.world.level.Level;
@@ -26,7 +27,7 @@ public class RBMKConsoleBlockEntity extends AbstractRBMKBlockEntity {
     private GraphType currentGraph = GraphType.HEAT;
     
     public RBMKConsoleBlockEntity(BlockPos pos, BlockState state) {
-        super(null, pos, state);
+        super(HbmRBMKBlocks.RBMK_CONSOLE_BE.get(), pos, state);
     }
     
     @Override

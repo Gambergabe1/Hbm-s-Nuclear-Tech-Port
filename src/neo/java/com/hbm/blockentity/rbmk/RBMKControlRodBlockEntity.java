@@ -1,5 +1,6 @@
 package com.hbm.blockentity.rbmk;
 
+import com.hbm.registry.HbmRBMKBlocks;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.state.BlockState;
@@ -9,12 +10,12 @@ import net.minecraft.world.level.block.state.BlockState;
  * Absorbs neutrons to control the chain reaction.
  */
 public class RBMKControlRodBlockEntity extends AbstractRBMKBlockEntity {
-    
+
     private int insertionLevel = 0;
     private int targetInsertionLevel = 0;
-    
+
     public RBMKControlRodBlockEntity(BlockPos pos, BlockState state) {
-        super(null, pos, state);
+        super(HbmRBMKBlocks.RBMK_CONTROL_ROD_BE.get(), pos, state);
     }
     
     @Override

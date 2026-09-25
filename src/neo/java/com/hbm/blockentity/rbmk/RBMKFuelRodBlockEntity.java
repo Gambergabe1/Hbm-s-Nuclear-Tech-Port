@@ -2,6 +2,7 @@ package com.hbm.blockentity.rbmk;
 
 import com.hbm.api.radiation.IRadiationSource;
 import com.hbm.config.RadiationConfig;
+import com.hbm.registry.HbmRBMKBlocks;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.world.level.Level;
@@ -27,7 +28,7 @@ public class RBMKFuelRodBlockEntity extends AbstractRBMKBlockEntity implements I
     private double heatGeneration = 0.0;
     
     public RBMKFuelRodBlockEntity(BlockPos pos, BlockState state) {
-        super(null, pos, state);
+        super(HbmRBMKBlocks.RBMK_FUEL_ROD_BE.get(), pos, state);
     }
     
     @Override

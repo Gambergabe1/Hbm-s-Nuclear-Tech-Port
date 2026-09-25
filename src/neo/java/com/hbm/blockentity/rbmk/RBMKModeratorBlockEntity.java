@@ -1,5 +1,6 @@
 package com.hbm.blockentity.rbmk;
 
+import com.hbm.registry.HbmRBMKBlocks;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.level.block.state.BlockState;
 
@@ -8,9 +9,9 @@ import net.minecraft.world.level.block.state.BlockState;
  * Slows down neutrons to increase fission efficiency.
  */
 public class RBMKModeratorBlockEntity extends AbstractRBMKBlockEntity {
-    
+
     public RBMKModeratorBlockEntity(BlockPos pos, BlockState state) {
-        super(null, pos, state);
+        super(HbmRBMKBlocks.RBMK_MODERATOR_BE.get(), pos, state);
     }
     
     @Override

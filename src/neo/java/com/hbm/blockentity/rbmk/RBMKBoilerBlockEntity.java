@@ -1,5 +1,6 @@
 package com.hbm.blockentity.rbmk;
 
+import com.hbm.registry.HbmRBMKBlocks;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.state.BlockState;
@@ -9,9 +10,9 @@ import net.minecraft.world.level.block.state.BlockState;
  * Converts water to steam using reactor heat.
  */
 public class RBMKBoilerBlockEntity extends AbstractRBMKBlockEntity {
-    
+
     public RBMKBoilerBlockEntity(BlockPos pos, BlockState state) {
-        super(null, pos, state);
+        super(HbmRBMKBlocks.RBMK_BOILER_BE.get(), pos, state);
     }
     
     @Override
