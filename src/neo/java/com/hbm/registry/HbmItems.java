@@ -2084,6 +2084,18 @@ public final class HbmItems {
     public static final DeferredItem<Item> DISCHARGE = registerSimpleControlItem("discharge");
     public static final DeferredItem<Item> UNDEFINED = registerSimplePartItem("undefined");
 
+    // --- Bulk-ported food items (ItemFoodBase equivalents) ---
+    public static final DeferredItem<Item> INGOT_SMORE = registerFoodPartItem("ingot_smore", 10, 20.0F);
+    public static final DeferredItem<Item> BOMB_WAFFLE = registerFoodConsumableItem("bomb_waffle", 20, 0.0F);
+    public static final DeferredItem<Item> SCHNITZEL_VEGAN = registerFoodConsumableItem("schnitzel_vegan", 3, 6.0F);
+    public static final DeferredItem<Item> COTTON_CANDY = registerFoodConsumableItem("cotton_candy", 5, 0.0F);
+    public static final DeferredItem<Item> APPLE_LEAD = registerFoodConsumableItem("apple_lead", 3, 0.0F);
+    public static final DeferredItem<Item> APPLE_LEAD1 = registerFoodConsumableItem("apple_lead1", 5, 0.0F);
+    public static final DeferredItem<Item> APPLE_LEAD2 = registerFoodConsumableItem("apple_lead2", 10, 0.0F);
+    public static final DeferredItem<Item> APPLE_SCHRABIDIUM = registerFoodConsumableItem("apple_schrabidium", 5, 25.0F);
+    public static final DeferredItem<Item> APPLE_SCHRABIDIUM1 = registerFoodConsumableItem("apple_schrabidium1", 10, 50.0F);
+    public static final DeferredItem<Item> APPLE_SCHRABIDIUM2 = registerFoodConsumableItem("apple_schrabidium2", 20, 100.0F);
+
     private HbmItems() {
     }
 
