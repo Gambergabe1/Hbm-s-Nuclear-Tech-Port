@@ -24,6 +24,7 @@ import com.hbm.armor.HbmHazardClass;
 import net.minecraft.util.valueproviders.ConstantInt;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.DropExperienceBlock;
+import net.minecraft.world.level.block.LadderBlock;
 import net.minecraft.world.level.block.RotatedPillarBlock;
 import net.minecraft.world.level.block.SlabBlock;
 import net.minecraft.world.level.block.SoundType;
@@ -663,6 +664,18 @@ public final class HbmBlocks {
     public static final DeferredBlock<Block> ORE_VERTICIUM = registerOreBlock("ore_verticium", 100000);
     public static final DeferredBlock<Block> ORE_WEIDANIUM = registerOreBlock("ore_weidanium", 1000);
 
+    // --- Bulk-ported ladder blocks (BlockNTMLadder equivalents; vanilla LadderBlock) ---
+    public static final DeferredBlock<LadderBlock> LADDER_STURDY = registerLadderBlock("ladder_sturdy");
+    public static final DeferredBlock<LadderBlock> LADDER_IRON = registerLadderBlock("ladder_iron");
+    public static final DeferredBlock<LadderBlock> LADDER_GOLD = registerLadderBlock("ladder_gold");
+    public static final DeferredBlock<LadderBlock> LADDER_ALUMINIUM = registerLadderBlock("ladder_aluminium");
+    public static final DeferredBlock<LadderBlock> LADDER_COPPER = registerLadderBlock("ladder_copper");
+    public static final DeferredBlock<LadderBlock> LADDER_TITANIUM = registerLadderBlock("ladder_titanium");
+    public static final DeferredBlock<LadderBlock> LADDER_LEAD = registerLadderBlock("ladder_lead");
+    public static final DeferredBlock<LadderBlock> LADDER_COBALT = registerLadderBlock("ladder_cobalt");
+    public static final DeferredBlock<LadderBlock> LADDER_STEEL = registerLadderBlock("ladder_steel");
+    public static final DeferredBlock<LadderBlock> LADDER_TUNGSTEN = registerLadderBlock("ladder_tungsten");
+
     private HbmBlocks() {
     }
 
@@ -721,6 +734,19 @@ public final class HbmBlocks {
                     .requiresCorrectToolForDrops()
                     .strength(destroyTime, explosionResistance)
                     .sound(soundType)
+            )
+        );
+    }
+
+    private static DeferredBlock<LadderBlock> registerLadderBlock(String name) {
+        return BLOCKS.register(
+            name,
+            () -> new LadderBlock(
+                BlockBehaviour.Properties.of()
+                    .mapColor(MapColor.METAL)
+                    .strength(3.0F, 3.0F)
+                    .sound(SoundType.METAL)
+                    .noOcclusion()
             )
         );
     }

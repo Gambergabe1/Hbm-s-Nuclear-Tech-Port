@@ -2835,6 +2835,18 @@ public final class HbmItems {
     public static final DeferredItem<BlockItem> ORE_VERTICIUM = ITEMS.registerSimpleBlockItem("ore_verticium", HbmBlocks.ORE_VERTICIUM);
     public static final DeferredItem<BlockItem> ORE_WEIDANIUM = ITEMS.registerSimpleBlockItem("ore_weidanium", HbmBlocks.ORE_WEIDANIUM);
 
+    // --- Block items for bulk-ported ladder blocks ---
+    public static final DeferredItem<BlockItem> LADDER_STURDY = ITEMS.registerSimpleBlockItem("ladder_sturdy", HbmBlocks.LADDER_STURDY);
+    public static final DeferredItem<BlockItem> LADDER_IRON = ITEMS.registerSimpleBlockItem("ladder_iron", HbmBlocks.LADDER_IRON);
+    public static final DeferredItem<BlockItem> LADDER_GOLD = ITEMS.registerSimpleBlockItem("ladder_gold", HbmBlocks.LADDER_GOLD);
+    public static final DeferredItem<BlockItem> LADDER_ALUMINIUM = ITEMS.registerSimpleBlockItem("ladder_aluminium", HbmBlocks.LADDER_ALUMINIUM);
+    public static final DeferredItem<BlockItem> LADDER_COPPER = ITEMS.registerSimpleBlockItem("ladder_copper", HbmBlocks.LADDER_COPPER);
+    public static final DeferredItem<BlockItem> LADDER_TITANIUM = ITEMS.registerSimpleBlockItem("ladder_titanium", HbmBlocks.LADDER_TITANIUM);
+    public static final DeferredItem<BlockItem> LADDER_LEAD = ITEMS.registerSimpleBlockItem("ladder_lead", HbmBlocks.LADDER_LEAD);
+    public static final DeferredItem<BlockItem> LADDER_COBALT = ITEMS.registerSimpleBlockItem("ladder_cobalt", HbmBlocks.LADDER_COBALT);
+    public static final DeferredItem<BlockItem> LADDER_STEEL = ITEMS.registerSimpleBlockItem("ladder_steel", HbmBlocks.LADDER_STEEL);
+    public static final DeferredItem<BlockItem> LADDER_TUNGSTEN = ITEMS.registerSimpleBlockItem("ladder_tungsten", HbmBlocks.LADDER_TUNGSTEN);
+
     private HbmItems() {
     }
 
