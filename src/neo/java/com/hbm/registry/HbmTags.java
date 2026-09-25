@@ -63,6 +63,10 @@ public final class HbmTags {
         return modItem("mono_mask_attachments");
     }
 
+    public static TagKey<Item> pressStamps() {
+        return modItem("press_stamps");
+    }
+
     public static boolean itemMatches(ItemStack stack, TagKey<Item> tag) {
         return !stack.isEmpty() && stack.is(tag);
     }

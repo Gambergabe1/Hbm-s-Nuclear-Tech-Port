@@ -1,0 +1,10 @@
+{
+  "type": "hbm:pressing",
+  "ingredient": {
+    "item": "hbm:ingot_combine_steel"
+  },
+  "result": {
+    "id": "hbm:plate_combine_steel",
+    "count": 1
+  }
+}

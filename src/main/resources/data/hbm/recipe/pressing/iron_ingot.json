@@ -1,0 +1,10 @@
+{
+  "type": "hbm:pressing",
+  "ingredient": {
+    "item": "minecraft:iron_ingot"
+  },
+  "result": {
+    "id": "hbm:plate_iron",
+    "count": 1
+  }
+}

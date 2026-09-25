@@ -111,7 +111,7 @@ public final class BurnerPressBlockEntity extends AbstractMachineBlockEntity {
         return switch (slot) {
             case SLOT_FUEL -> stack.getBurnTime(RecipeType.SMELTING) > 0;
             case SLOT_STAMP -> PressRecipeRegistry.isStamp(stack);
-            case SLOT_INPUT -> !PressRecipeRegistry.isStamp(stack) && PressRecipeRegistry.hasAnyRecipeFor(stack);
+            case SLOT_INPUT -> !PressRecipeRegistry.isStamp(stack) && PressRecipeRegistry.hasAnyRecipeFor(level, stack);
             case SLOT_OUTPUT -> false;
             default -> false;
         };
@@ -217,7 +217,7 @@ public final class BurnerPressBlockEntity extends AbstractMachineBlockEntity {
     }
 
     private ItemStack getCurrentResult() {
-        return PressRecipeRegistry.getResult(items.get(SLOT_INPUT), items.get(SLOT_STAMP));
+        return PressRecipeRegistry.getResult(level, items.get(SLOT_INPUT), items.get(SLOT_STAMP));
     }
 
     private boolean canOutput(ItemStack result) {

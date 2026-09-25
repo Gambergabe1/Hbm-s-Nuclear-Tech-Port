@@ -29,25 +29,25 @@ also required just to build the base mod) to its allowed domains.
 2. Register a `RecipeSchema` for each HBM custom data-driven recipe type so
    pack/addon authors can add recipes for them from KubeJS scripts, not just
    via JSON:
-   - `hbm:shredding` (`com.hbm.recipe.ShredderRecipe`, registered in
-     `com.hbm.registry.HbmRecipeSerializers`) - one `Ingredient` in, one
-     `ItemStack` out. This is the first and currently only HBM machine with a
-     proper data-driven `Recipe`/`RecipeSerializer` implementation (converted
-     from a hardcoded `Map<Item, ItemStack>` in this same pass - see
-     `src/main/resources/data/hbm/recipe/shredding/*.json` for the 122
-     recipes that were preserved by the conversion).
+   - `hbm:shredding` (`com.hbm.recipe.ShredderRecipe`) and `hbm:pressing`
+     (`com.hbm.recipe.PressRecipe`), both registered in
+     `com.hbm.registry.HbmRecipeSerializers` - one `Ingredient` in, one
+     `ItemStack` out. Both were converted from a hardcoded
+     `Map<Item, ItemStack>` in this pass; see
+     `src/main/resources/data/hbm/recipe/shredding/*.json` (122 recipes) and
+     `src/main/resources/data/hbm/recipe/pressing/*.json` (10 recipes) for
+     what was preserved. Pressing's "stamp" requirement (any item in the
+     `#hbm:press_stamps` tag) is deliberately *not* part of the recipe match -
+     it's a non-consumed catalyst checked separately in the press block
+     entities/menus, the same way vanilla keeps furnace fuel out of the
+     smelting recipe JSON. These are now the only two HBM machines with
+     proper data-driven `Recipe`/`RecipeSerializer` implementations.
    - The API surface is `dev.latvian.mods.kubejs.recipe.schema` (roughly
      `RecipeSchemaRegistry` / `RecipeSchema` / `RecipeComponent`, exposed via
      an override on `KubeJSPlugin`) as of the KubeJS 2101.x line, but exact
      class/method names were **not** guessed into this codebase because
      nothing here could be compiled to check them - get this from the actual
      `kubejs-neoforge` jar/sources once it resolves.
-   - The Press machine (`com.hbm.machine.PressRecipeRegistry`) is still a
-     hardcoded Java lookup and should get the same data-driven treatment
-     before it's worth exposing to KubeJS - its current "any plate stamp +
-     recognized ingot" shape doesn't map cleanly onto a simple two-ingredient
-     recipe and needs a small design decision first (see the class for the
-     current behavior).
 3. Machines that already reuse a vanilla `RecipeType` need nothing extra:
    the electric furnace (`ElectricFurnaceBlockEntity`) already runs on
    `RecipeType.SMELTING`, which KubeJS supports out of the box.

@@ -33,7 +33,8 @@ public abstract class AbstractPressMenu extends AbstractMachineMenu {
             BurnerPressBlockEntity.SLOT_INPUT,
             80,
             53,
-            stack -> !PressRecipeRegistry.isStamp(stack) && PressRecipeRegistry.hasAnyRecipeFor(stack)
+            stack -> !PressRecipeRegistry.isStamp(stack)
+                && PressRecipeRegistry.hasAnyRecipeFor(playerInventory.player.level(), stack)
         ));
         addSlot(new OutputSlot(container, BurnerPressBlockEntity.SLOT_OUTPUT, 140, 35));
         addPlayerInventorySlots(8, 84);
@@ -63,7 +64,7 @@ public abstract class AbstractPressMenu extends AbstractMachineMenu {
         if (PressRecipeRegistry.isStamp(stack)) {
             return moveToSingleSlot(stack, BurnerPressBlockEntity.SLOT_STAMP);
         }
-        if (PressRecipeRegistry.hasAnyRecipeFor(stack)) {
+        if (PressRecipeRegistry.hasAnyRecipeFor(playerInventory.player.level(), stack)) {
             return moveToSingleSlot(stack, BurnerPressBlockEntity.SLOT_INPUT);
         }
         return moveWithinPlayerInventory(stack, index);

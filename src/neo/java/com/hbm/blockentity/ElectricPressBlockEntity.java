@@ -50,7 +50,7 @@ public final class ElectricPressBlockEntity extends AbstractProcessorMachineBloc
         return switch (slot) {
             case SLOT_BATTERY -> HbmEnergyHelper.canDischargeIntoMachine(stack);
             case SLOT_STAMP -> PressRecipeRegistry.isStamp(stack);
-            case SLOT_INPUT -> !PressRecipeRegistry.isStamp(stack) && PressRecipeRegistry.hasAnyRecipeFor(stack);
+            case SLOT_INPUT -> !PressRecipeRegistry.isStamp(stack) && PressRecipeRegistry.hasAnyRecipeFor(level, stack);
             case SLOT_OUTPUT -> false;
             default -> false;
         };
@@ -93,7 +93,7 @@ public final class ElectricPressBlockEntity extends AbstractProcessorMachineBloc
 
     @Override
     protected ItemStack getCurrentResult() {
-        return PressRecipeRegistry.getResult(items.get(SLOT_INPUT), items.get(SLOT_STAMP));
+        return PressRecipeRegistry.getResult(level, items.get(SLOT_INPUT), items.get(SLOT_STAMP));
     }
 
     @Override

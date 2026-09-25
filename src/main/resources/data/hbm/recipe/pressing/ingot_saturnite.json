@@ -1,0 +1,10 @@
+{
+  "type": "hbm:pressing",
+  "ingredient": {
+    "item": "hbm:ingot_saturnite"
+  },
+  "result": {
+    "id": "hbm:plate_saturnite",
+    "count": 1
+  }
+}

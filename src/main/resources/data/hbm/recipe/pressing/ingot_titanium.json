@@ -1,0 +1,10 @@
+{
+  "type": "hbm:pressing",
+  "ingredient": {
+    "item": "hbm:ingot_titanium"
+  },
+  "result": {
+    "id": "hbm:plate_titanium",
+    "count": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "hbm:pressing",
+  "ingredient": {
+    "item": "hbm:ingot_lead"
+  },
+  "result": {
+    "id": "hbm:plate_lead",
+    "count": 1
+  }
+}

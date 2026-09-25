@@ -1,6 +1,7 @@
 package com.hbm.registry;
 
 import com.hbm.HbmNuclearTech;
+import com.hbm.recipe.PressRecipe;
 import com.hbm.recipe.ShredderRecipe;
 
 import net.minecraft.core.registries.Registries;
@@ -19,6 +20,13 @@ public final class HbmRecipeSerializers {
 
     public static final DeferredHolder<net.minecraft.world.item.crafting.RecipeSerializer<?>, ShredderRecipe.Serializer> SHREDDER_SERIALIZER =
         RECIPE_SERIALIZERS.register("shredding", ShredderRecipe.Serializer::new);
+
+    public static final DeferredHolder<net.minecraft.world.item.crafting.RecipeType<?>, net.minecraft.world.item.crafting.RecipeType<PressRecipe>> PRESSING_TYPE =
+        RECIPE_TYPES.register("pressing", () -> net.minecraft.world.item.crafting.RecipeType.simple(
+            net.minecraft.resources.ResourceLocation.fromNamespaceAndPath(HbmNuclearTech.MODID, "pressing")));
+
+    public static final DeferredHolder<net.minecraft.world.item.crafting.RecipeSerializer<?>, PressRecipe.Serializer> PRESSING_SERIALIZER =
+        RECIPE_SERIALIZERS.register("pressing", PressRecipe.Serializer::new);
 
     private HbmRecipeSerializers() {
     }

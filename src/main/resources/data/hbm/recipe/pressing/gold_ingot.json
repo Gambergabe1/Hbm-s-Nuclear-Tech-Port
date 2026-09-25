@@ -1,0 +1,10 @@
+{
+  "type": "hbm:pressing",
+  "ingredient": {
+    "item": "minecraft:gold_ingot"
+  },
+  "result": {
+    "id": "hbm:plate_gold",
+    "count": 1
+  }
+}

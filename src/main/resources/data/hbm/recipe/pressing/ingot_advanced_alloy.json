@@ -1,0 +1,10 @@
+{
+  "type": "hbm:pressing",
+  "ingredient": {
+    "item": "hbm:ingot_advanced_alloy"
+  },
+  "result": {
+    "id": "hbm:plate_advanced_alloy",
+    "count": 1
+  }
+}

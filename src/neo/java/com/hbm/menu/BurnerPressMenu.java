@@ -1,7 +1,6 @@
 package com.hbm.menu;
 
 import com.hbm.blockentity.BurnerPressBlockEntity;
-import com.hbm.machine.PressRecipeRegistry;
 import com.hbm.menu.slot.FuelSlot;
 import com.hbm.registry.HbmBlocks;
 import com.hbm.registry.HbmMenuTypes;
