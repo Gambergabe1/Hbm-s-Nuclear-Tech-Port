@@ -476,6 +476,14 @@ public final class HbmBlocks {
     public static final DeferredBlock<RotatedPillarBlock> BLOCK_CAP_FRITZ = registerMetalPillarBlock("block_cap_fritz", 5.0F, 10.0F);
     public static final DeferredBlock<RotatedPillarBlock> BLOCK_CAP_SUNSET = registerMetalPillarBlock("block_cap_sunset", 5.0F, 10.0F);
     public static final DeferredBlock<RotatedPillarBlock> BLOCK_CAP_STAR = registerMetalPillarBlock("block_cap_star", 5.0F, 10.0F);
+    // --- Bulk-ported simple pillar blocks (BlockRotatablePillar equivalents) ---
+    public static final DeferredBlock<RotatedPillarBlock> CONCRETE_PILLAR = registerPillarBlock("concrete_pillar", MapColor.STONE, 15.0F, 4000.0F, SoundType.STONE);
+    public static final DeferredBlock<RotatedPillarBlock> METEOR_PILLAR = registerPillarBlock("meteor_pillar", MapColor.STONE, 15.0F, 900.0F, SoundType.STONE);
+    public static final DeferredBlock<RotatedPillarBlock> BLOCK_SCHRABIDIUM_CLUSTER = registerPillarBlock("block_schrabidium_cluster", MapColor.STONE, 5.0F, 60000.0F, SoundType.STONE);
+    public static final DeferredBlock<RotatedPillarBlock> BLOCK_EUPHEMIUM_CLUSTER = registerPillarBlock("block_euphemium_cluster", MapColor.STONE, 5.0F, 60000.0F, SoundType.STONE);
+    public static final DeferredBlock<RotatedPillarBlock> BLOCK_TRITIUM = registerPillarBlock("block_tritium", MapColor.NONE, 3.0F, 2.0F, SoundType.GLASS);
+    public static final DeferredBlock<RotatedPillarBlock> BLOCK_INSULATOR = registerPillarBlock("block_insulator", MapColor.COLOR_LIGHT_GRAY, 5.0F, 10.0F, SoundType.WOOL);
+    public static final DeferredBlock<RotatedPillarBlock> BLOCK_FIBERGLASS = registerPillarBlock("block_fiberglass", MapColor.COLOR_LIGHT_GRAY, 5.0F, 10.0F, SoundType.WOOL);
     public static final DeferredBlock<Block> ORE_ALUMINIUM = registerOreBlock("ore_aluminium", 1);
     public static final DeferredBlock<Block> ORE_BERYLLIUM = registerOreBlock("ore_beryllium", 2, 15.0F);
     public static final DeferredBlock<Block> ORE_CINNEBAR = registerOreBlock("ore_cinnebar", 1);
@@ -647,14 +655,24 @@ public final class HbmBlocks {
     }
 
     private static DeferredBlock<RotatedPillarBlock> registerMetalPillarBlock(String name, float destroyTime, float explosionResistance) {
+        return registerPillarBlock(name, MapColor.METAL, destroyTime, explosionResistance, SoundType.METAL);
+    }
+
+    private static DeferredBlock<RotatedPillarBlock> registerPillarBlock(
+        String name,
+        MapColor mapColor,
+        float destroyTime,
+        float explosionResistance,
+        SoundType soundType
+    ) {
         return BLOCKS.register(
             name,
             () -> new RotatedPillarBlock(
                 BlockBehaviour.Properties.of()
-                    .mapColor(MapColor.METAL)
+                    .mapColor(mapColor)
                     .requiresCorrectToolForDrops()
                     .strength(destroyTime, explosionResistance)
-                    .sound(SoundType.METAL)
+                    .sound(soundType)
             )
         );
     }

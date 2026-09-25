@@ -1587,6 +1587,14 @@ public final class HbmItems {
     public static final DeferredItem<BlockItem> BLOCK_CAP_FRITZ = ITEMS.registerSimpleBlockItem("block_cap_fritz", HbmBlocks.BLOCK_CAP_FRITZ);
     public static final DeferredItem<BlockItem> BLOCK_CAP_SUNSET = ITEMS.registerSimpleBlockItem("block_cap_sunset", HbmBlocks.BLOCK_CAP_SUNSET);
     public static final DeferredItem<BlockItem> BLOCK_CAP_STAR = ITEMS.registerSimpleBlockItem("block_cap_star", HbmBlocks.BLOCK_CAP_STAR);
+    // --- Block items for bulk-ported pillar blocks ---
+    public static final DeferredItem<BlockItem> CONCRETE_PILLAR = ITEMS.registerSimpleBlockItem("concrete_pillar", HbmBlocks.CONCRETE_PILLAR);
+    public static final DeferredItem<BlockItem> METEOR_PILLAR = ITEMS.registerSimpleBlockItem("meteor_pillar", HbmBlocks.METEOR_PILLAR);
+    public static final DeferredItem<BlockItem> BLOCK_SCHRABIDIUM_CLUSTER = ITEMS.registerSimpleBlockItem("block_schrabidium_cluster", HbmBlocks.BLOCK_SCHRABIDIUM_CLUSTER);
+    public static final DeferredItem<BlockItem> BLOCK_EUPHEMIUM_CLUSTER = ITEMS.registerSimpleBlockItem("block_euphemium_cluster", HbmBlocks.BLOCK_EUPHEMIUM_CLUSTER);
+    public static final DeferredItem<BlockItem> BLOCK_TRITIUM = ITEMS.registerSimpleBlockItem("block_tritium", HbmBlocks.BLOCK_TRITIUM);
+    public static final DeferredItem<BlockItem> BLOCK_INSULATOR = ITEMS.registerSimpleBlockItem("block_insulator", HbmBlocks.BLOCK_INSULATOR);
+    public static final DeferredItem<BlockItem> BLOCK_FIBERGLASS = ITEMS.registerSimpleBlockItem("block_fiberglass", HbmBlocks.BLOCK_FIBERGLASS);
     public static final DeferredItem<BlockItem> REINFORCED_STONE = ITEMS.registerSimpleBlockItem("reinforced_stone", HbmBlocks.REINFORCED_STONE);
     public static final DeferredItem<BlockItem> REINFORCED_STONE_STAIRS = ITEMS.registerSimpleBlockItem("reinforced_stone_stairs", HbmBlocks.REINFORCED_STONE_STAIRS);
     public static final DeferredItem<BlockItem> REINFORCED_STONE_SLAB = ITEMS.registerSimpleBlockItem("reinforced_stone_slab", HbmBlocks.REINFORCED_STONE_SLAB);
