@@ -94,12 +94,34 @@ Work done this session (see git log on `claude/brave-carson-unvk0j`):
   fits in a 32-bit int - NeoForge's `IEnergyStorage` and this port's
   `BatteryItem` are both int-backed, so the 7 that don't (up to ~9.2*10^16)
   are left for whenever an item-held long-capacity battery gets built.
-- **End-of-session tally: 1,177/2,199 items ported (~53.5%) by this specific
-  legacy-class audit, 675 blocks still missing.** The remaining item gap is
-  now dominated by ammo/guns/missiles/grenades (no weapon system exists at
-  all) and other items tied to unbuilt systems (tool tiers, jetpacks,
-  satellites); the remaining block gap by ore worldgen, multiblock doors,
-  pipes, and the old-style reactor.
+- Further passes registered 136 ammo items, 33 grenades, 46 guns, 26
+  standard missiles, 22 starter kits, and 8 multitool items - all as
+  existing-but-inert placeholders (weapon/reload/throw behavior lives in
+  systems this port doesn't have yet), plus a new `MISSILE` dynamic
+  creative-tab list. `ItemMissile` proper (62 items) was deliberately
+  skipped: 57 of them have no item texture because they were originally
+  rendered as 3D OBJ models (473 `.obj` files are still present under
+  `assets/hbm/models/`), and this port has no OBJ rendering pipeline wired
+  up, so registering them now would just show the broken-texture
+  placeholder.
+- Added `HbmToolTiers.java` - a real `Tier` implementation for the 13
+  legacy `EnumHelper.addToolMaterial(...)` definitions HBM's swords/hoes
+  need - and ported all 16 `ModSword`/`ModHoe` items with working
+  durability/mining speed/attack damage/enchantment value. This is the
+  first tool-tier work in the port and, unlike everything else in this
+  list, has no existing pattern in the codebase to mirror; the
+  `SwordItem`/`HoeItem` constructor shape and `Tier` interface are from
+  general API knowledge, not verified here. Opens the door to the same
+  treatment for `ArmorFSB` (40 items, needs an `ArmorMaterial` per set)
+  and `ItemSwordMeteorite` (14 items, needs the extra `ItemSwordAbility`
+  layer) as follow-up work.
+- **End-of-session tally: 1,464/2,199 items ported (~66.6%) by this
+  specific legacy-class audit, 675 blocks still missing** (block work
+  this session focused on fixing the 622-file blockstate bug and a handful
+  of registration batches, not closing the remaining block gap). The
+  remaining item gap is now concentrated in armor materials, jetpacks,
+  satellites, and OBJ-rendered parts; the remaining block gap in ore
+  worldgen, multiblock doors, pipes, and the old-style reactor.
 
 ## Current Status: Infrastructure Complete, Content Port ~10%
 
