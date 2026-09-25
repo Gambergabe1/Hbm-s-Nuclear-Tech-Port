@@ -44,6 +44,20 @@ Work done this session (see git log on `claude/brave-carson-unvk0j`):
   shape of what's left; the original percentage estimates below likely
   undercount it in the opposite direction depending on which snapshot they're
   from.
+- Two more passes went past pure registry backfill: the `iv_empty`/
+  `iv_blood`/`iv_xp_empty`/`iv_xp` item chain was ported with its actual
+  gameplay behavior intact (damage/heal/xp bank-and-withdraw, mirroring the
+  existing radaway pattern), not just registered as inert. 13 more
+  `ItemBattery` items were added, limited to the ones whose legacy capacity
+  fits in a 32-bit int - NeoForge's `IEnergyStorage` and this port's
+  `BatteryItem` are both int-backed, so the 7 that don't (up to ~9.2*10^16)
+  are left for whenever an item-held long-capacity battery gets built.
+- **End-of-session tally: 1,177/2,199 items ported (~53.5%) by this specific
+  legacy-class audit, 675 blocks still missing.** The remaining item gap is
+  now dominated by ammo/guns/missiles/grenades (no weapon system exists at
+  all) and other items tied to unbuilt systems (tool tiers, jetpacks,
+  satellites); the remaining block gap by ore worldgen, multiblock doors,
+  pipes, and the old-style reactor.
 
 ## Current Status: Infrastructure Complete, Content Port ~10%
 
