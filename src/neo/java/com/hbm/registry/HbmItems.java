@@ -2913,6 +2913,17 @@ public final class HbmItems {
     public static final DeferredItem<Item> BATTERY_SC_ELECTRONIUM = registerSimpleControlItem("battery_sc_electronium");
     public static final DeferredItem<Item> BATTERY_CREATIVE = registerSimpleControlItem("battery_creative");
 
+    // --- Bulk-ported shields (ModShield) using HbmToolTiers durability values ---
+    public static final DeferredItem<Item> TITANIUM_SHIELD = registerShieldItem("titanium_shield", HbmToolTiers.TITANIUM.getUses());
+    public static final DeferredItem<Item> STEEL_SHIELD = registerShieldItem("steel_shield", HbmToolTiers.STEEL.getUses());
+    public static final DeferredItem<Item> ALLOY_SHIELD = registerShieldItem("alloy_shield", HbmToolTiers.ALLOY.getUses());
+    public static final DeferredItem<Item> ELEC_SHIELD = registerShieldItem("elec_shield", 450);
+    public static final DeferredItem<Item> DESH_SHIELD = registerShieldItem("desh_shield", HbmToolTiers.DESH.getUses());
+    public static final DeferredItem<Item> COBALT_SHIELD = registerShieldItem("cobalt_shield", HbmToolTiers.COBALT.getUses());
+    public static final DeferredItem<Item> STARMETAL_SHIELD = registerShieldItem("starmetal_shield", HbmToolTiers.STARMETAL.getUses());
+    public static final DeferredItem<Item> CMB_SHIELD = registerShieldItem("cmb_shield", HbmToolTiers.CMB.getUses());
+    public static final DeferredItem<Item> SCHRABIDIUM_SHIELD = registerShieldItem("schrabidium_shield", HbmToolTiers.SCHRABIDIUM.getUses());
+
     private HbmItems() {
     }
 
@@ -3036,6 +3047,15 @@ public final class HbmItems {
     private static DeferredItem<Item> registerHoeItem(String name, net.minecraft.world.item.Tier tier) {
         DeferredItem<Item> item = ITEMS.register(name, () -> new net.minecraft.world.item.HoeItem(tier, new Item.Properties()));
         CONTROL_TAB_DYNAMIC_ITEMS.add(item);
+        return item;
+    }
+
+    private static DeferredItem<Item> registerShieldItem(String name, int durability) {
+        DeferredItem<Item> item = ITEMS.register(
+            name,
+            () -> new net.minecraft.world.item.ShieldItem(new Item.Properties().durability(durability))
+        );
+        WEAPON_TAB_DYNAMIC_ITEMS.add(item);
         return item;
     }
 
