@@ -26,15 +26,24 @@ Work done this session (see git log on `claude/brave-carson-unvk0j`):
   what's verified vs. still a documented TODO (recipe schema registration
   for the two custom recipe types above).
 - A registry-level audit (comparing every `new <ItemClass>("id", ...)` in
-  the legacy `ModItems.java` against what's registered in
-  `HbmItems`/`HbmBlocks`) found **1,093 items still missing**, heavily
-  concentrated in systems that don't exist in the port yet at all: ammo/guns
-  (136+46+32), missiles (62+26), grenades (41), armor sets (40), and various
-  machine-specific items (upgrades, fuel rods, satellite parts, RTG
-  pellets, tool abilities) that need their owning systems built first rather
-  than being safe to bulk-register as inert items. That's the honest shape
-  of what's left - the original percentage estimates below likely undercount
-  it in the opposite direction depending on which snapshot they're from.
+  the legacy `ModItems.java`/`ModBlocks.java` against what's registered in
+  `HbmItems`/`HbmBlocks`) found 1,093 items and 726 blocks missing at the
+  start of this session. Follow-up bulk-registration passes (same treatment:
+  existing block/item resources carried over, behavior tied to a not-yet-built
+  system - radiation, fuel/energy mechanics - intentionally dropped and
+  noted) cleared: 41 `BlockHazard` blocks, 3 `BlockRadResistant` blocks, 7
+  `BlockRotatablePillar` blocks, 44 `ItemLemon` food items, and 10
+  `ItemFoodBase` food items. **Current gap: 1,039 items / 675 blocks
+  missing.** What's left is concentrated in systems that don't exist in the
+  port yet at all: ammo/guns (136+46+32), missiles (62+26), grenades (41),
+  armor sets (40), tools/weapons needing a custom `Tier` implementation
+  (swords/hoes/shields), ore blocks needing loot tables *and* worldgen
+  wiring, and multiblock structures (doors, centrifuge-style machines,
+  pipes) - none of which are safe to bulk-register as inert placeholders the
+  way the flavor/storage items and blocks above were. That's the honest
+  shape of what's left; the original percentage estimates below likely
+  undercount it in the opposite direction depending on which snapshot they're
+  from.
 
 ## Current Status: Infrastructure Complete, Content Port ~10%
 
