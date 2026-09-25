@@ -1,16 +1,21 @@
 package com.hbm.blockentity;
 
+import java.util.Optional;
+
 import com.hbm.api.energy.HbmEnergyHelper;
 import com.hbm.menu.ShredderMenu;
-import com.hbm.machine.ShredderRecipeRegistry;
+import com.hbm.recipe.ShredderRecipe;
 import com.hbm.registry.HbmBlockEntityTypes;
 import com.hbm.registry.HbmItems;
+import com.hbm.registry.HbmRecipeSerializers;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.world.inventory.AbstractContainerMenu;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.crafting.RecipeHolder;
+import net.minecraft.world.item.crafting.SingleRecipeInput;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.state.BlockState;
 
@@ -43,7 +48,7 @@ public final class ShredderBlockEntity extends AbstractProcessorMachineBlockEnti
     @Override
     public boolean canPlaceItem(int slot, ItemStack stack) {
         if (slot >= INPUT_START && slot < INPUT_END) {
-            return ShredderRecipeRegistry.hasRecipe(stack);
+            return findRecipe(stack).isPresent();
         }
         if (slot == LEFT_BLADE_SLOT || slot == RIGHT_BLADE_SLOT) {
             return isBlade(stack);
@@ -103,7 +108,7 @@ public final class ShredderBlockEntity extends AbstractProcessorMachineBlockEnti
                 continue;
             }
 
-            ItemStack result = ShredderRecipeRegistry.getResult(input);
+            ItemStack result = getResult(input);
             if (!result.isEmpty() && canMergeResultIntoRange(OUTPUT_START, OUTPUT_END, result)) {
                 return result;
             }
@@ -131,7 +136,7 @@ public final class ShredderBlockEntity extends AbstractProcessorMachineBlockEnti
                 continue;
             }
 
-            ItemStack result = ShredderRecipeRegistry.getResult(input);
+            ItemStack result = getResult(input);
             if (result.isEmpty() || !canMergeResultIntoRange(OUTPUT_START, OUTPUT_END, result)) {
                 continue;
             }
@@ -161,6 +166,32 @@ public final class ShredderBlockEntity extends AbstractProcessorMachineBlockEnti
             return;
         }
         blade.setDamageValue(Math.min(blade.getMaxDamage(), blade.getDamageValue() + 1));
+    }
+
+    private Optional<RecipeHolder<ShredderRecipe>> findRecipe(ItemStack input) {
+        return findRecipe(getLevel(), input);
+    }
+
+    private static Optional<RecipeHolder<ShredderRecipe>> findRecipe(Level level, ItemStack input) {
+        if (level == null || input.isEmpty()) {
+            return Optional.empty();
+        }
+        return level.getRecipeManager()
+            .getRecipeFor(HbmRecipeSerializers.SHREDDER_TYPE.get(), new SingleRecipeInput(input), level);
+    }
+
+    public static boolean hasRecipe(Level level, ItemStack stack) {
+        return findRecipe(level, stack).isPresent();
+    }
+
+    private ItemStack getResult(ItemStack input) {
+        Level currentLevel = getLevel();
+        if (currentLevel == null) {
+            return ItemStack.EMPTY;
+        }
+        return findRecipe(input)
+            .map(holder -> holder.value().assemble(new SingleRecipeInput(input), currentLevel.registryAccess()))
+            .orElse(ItemStack.EMPTY);
     }
 
     public static boolean isBlade(ItemStack stack) {

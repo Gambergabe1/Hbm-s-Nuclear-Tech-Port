@@ -1,0 +1,10 @@
+{
+  "type": "hbm:shredding",
+  "ingredient": {
+    "item": "hbm:crystal_tungsten"
+  },
+  "result": {
+    "id": "hbm:powder_tungsten",
+    "count": 3
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "hbm:shredding",
+  "ingredient": {
+    "item": "hbm:brick_light"
+  },
+  "result": {
+    "id": "minecraft:clay_ball",
+    "count": 4
+  }
+}

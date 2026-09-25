@@ -1,0 +1,10 @@
+{
+  "type": "hbm:shredding",
+  "ingredient": {
+    "item": "hbm:ingot_zirconium"
+  },
+  "result": {
+    "id": "hbm:powder_zirconium",
+    "count": 1
+  }
+}

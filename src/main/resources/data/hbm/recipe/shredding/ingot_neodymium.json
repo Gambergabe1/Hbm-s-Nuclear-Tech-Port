@@ -1,0 +1,10 @@
+{
+  "type": "hbm:shredding",
+  "ingredient": {
+    "item": "hbm:ingot_neodymium"
+  },
+  "result": {
+    "id": "hbm:powder_neodymium",
+    "count": 1
+  }
+}

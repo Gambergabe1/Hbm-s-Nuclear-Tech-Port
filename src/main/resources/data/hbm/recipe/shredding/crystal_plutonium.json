@@ -1,0 +1,10 @@
+{
+  "type": "hbm:shredding",
+  "ingredient": {
+    "item": "hbm:crystal_plutonium"
+  },
+  "result": {
+    "id": "hbm:powder_plutonium",
+    "count": 3
+  }
+}

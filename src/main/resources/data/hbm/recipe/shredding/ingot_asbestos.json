@@ -1,0 +1,10 @@
+{
+  "type": "hbm:shredding",
+  "ingredient": {
+    "item": "hbm:ingot_asbestos"
+  },
+  "result": {
+    "id": "hbm:powder_asbestos",
+    "count": 1
+  }
+}

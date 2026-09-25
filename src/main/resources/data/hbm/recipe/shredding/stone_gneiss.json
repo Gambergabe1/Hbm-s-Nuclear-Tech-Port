@@ -1,0 +1,10 @@
+{
+  "type": "hbm:shredding",
+  "ingredient": {
+    "item": "hbm:stone_gneiss"
+  },
+  "result": {
+    "id": "hbm:powder_lithium_tiny",
+    "count": 1
+  }
+}

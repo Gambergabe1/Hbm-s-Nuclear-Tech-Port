@@ -22,5 +22,6 @@ public final class HbmRegistries {
         HbmEntityTypes.ENTITY_TYPES.register(modEventBus);
         HbmCreativeTabs.CREATIVE_MODE_TABS.register(modEventBus);
         HbmFeatures.FEATURES.register(modEventBus);
+        HbmRecipeSerializers.register(modEventBus);
     }
 }

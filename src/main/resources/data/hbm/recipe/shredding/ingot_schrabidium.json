@@ -1,0 +1,10 @@
+{
+  "type": "hbm:shredding",
+  "ingredient": {
+    "item": "hbm:ingot_schrabidium"
+  },
+  "result": {
+    "id": "hbm:powder_schrabidium",
+    "count": 1
+  }
+}

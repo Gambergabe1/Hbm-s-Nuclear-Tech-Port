@@ -1,0 +1,10 @@
+{
+  "type": "hbm:shredding",
+  "ingredient": {
+    "item": "hbm:ingot_radspice"
+  },
+  "result": {
+    "id": "hbm:powder_radspice",
+    "count": 1
+  }
+}

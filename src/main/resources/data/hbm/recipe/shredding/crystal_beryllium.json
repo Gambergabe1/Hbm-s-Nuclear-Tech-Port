@@ -1,0 +1,10 @@
+{
+  "type": "hbm:shredding",
+  "ingredient": {
+    "item": "hbm:crystal_beryllium"
+  },
+  "result": {
+    "id": "hbm:powder_beryllium",
+    "count": 3
+  }
+}

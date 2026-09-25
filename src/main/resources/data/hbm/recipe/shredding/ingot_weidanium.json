@@ -1,0 +1,10 @@
+{
+  "type": "hbm:shredding",
+  "ingredient": {
+    "item": "hbm:ingot_weidanium"
+  },
+  "result": {
+    "id": "hbm:powder_weidanium",
+    "count": 1
+  }
+}

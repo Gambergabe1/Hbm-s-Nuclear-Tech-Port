@@ -1,0 +1,10 @@
+{
+  "type": "hbm:shredding",
+  "ingredient": {
+    "item": "hbm:block_unobtainium"
+  },
+  "result": {
+    "id": "hbm:powder_unobtainium",
+    "count": 9
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "hbm:shredding",
+  "ingredient": {
+    "item": "hbm:ingot_strontium"
+  },
+  "result": {
+    "id": "hbm:powder_strontium",
+    "count": 1
+  }
+}

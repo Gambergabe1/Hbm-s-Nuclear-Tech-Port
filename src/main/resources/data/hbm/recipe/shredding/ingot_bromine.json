@@ -1,0 +1,10 @@
+{
+  "type": "hbm:shredding",
+  "ingredient": {
+    "item": "hbm:ingot_bromine"
+  },
+  "result": {
+    "id": "hbm:powder_bromine",
+    "count": 1
+  }
+}

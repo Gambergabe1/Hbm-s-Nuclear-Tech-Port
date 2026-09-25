@@ -1,0 +1,10 @@
+{
+  "type": "hbm:shredding",
+  "ingredient": {
+    "item": "hbm:ingot_red_copper"
+  },
+  "result": {
+    "id": "hbm:powder_red_copper",
+    "count": 1
+  }
+}

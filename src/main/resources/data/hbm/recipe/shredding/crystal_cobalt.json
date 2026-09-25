@@ -1,0 +1,10 @@
+{
+  "type": "hbm:shredding",
+  "ingredient": {
+    "item": "hbm:crystal_cobalt"
+  },
+  "result": {
+    "id": "hbm:powder_cobalt",
+    "count": 3
+  }
+}

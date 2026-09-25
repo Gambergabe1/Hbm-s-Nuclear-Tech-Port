@@ -1,0 +1,10 @@
+{
+  "type": "hbm:shredding",
+  "ingredient": {
+    "item": "hbm:ingot_actinium"
+  },
+  "result": {
+    "id": "hbm:powder_actinium",
+    "count": 1
+  }
+}

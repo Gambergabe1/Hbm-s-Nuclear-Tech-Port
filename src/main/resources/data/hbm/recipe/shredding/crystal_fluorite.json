@@ -1,0 +1,10 @@
+{
+  "type": "hbm:shredding",
+  "ingredient": {
+    "item": "hbm:crystal_fluorite"
+  },
+  "result": {
+    "id": "hbm:fluorite",
+    "count": 8
+  }
+}

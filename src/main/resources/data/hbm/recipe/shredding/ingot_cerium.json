@@ -1,0 +1,10 @@
+{
+  "type": "hbm:shredding",
+  "ingredient": {
+    "item": "hbm:ingot_cerium"
+  },
+  "result": {
+    "id": "hbm:powder_cerium",
+    "count": 1
+  }
+}

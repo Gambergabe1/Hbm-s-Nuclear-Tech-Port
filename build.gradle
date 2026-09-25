@@ -36,6 +36,12 @@ sourceSets {
 
 repositories {
     mavenCentral()
+    maven {
+        // KubeJS + dependencies (Rhino, etc). See gradle.properties for a note
+        // on verifying this host/coordinate once network access allows it.
+        name = "KubeJS Maven"
+        url = "https://maven.latvian.dev/releases"
+    }
 }
 
 runs {
@@ -69,6 +75,16 @@ configurations {
 
 dependencies {
     implementation "net.neoforged:neoforge:${neo_version}"
+
+    // Native KubeJS support: compileOnly so the mod remains fully functional
+    // without KubeJS installed. The integration plugin (com.hbm.integration.kubejs)
+    // is only ever instantiated by KubeJS's own ServiceLoader lookup, so it never
+    // loads (and never throws NoClassDefFoundError) when KubeJS is absent.
+    // TODO once network access allows verifying the dependency resolves: add it
+    // to the `client`/`server` run configurations' mod list (runtimeOnly here
+    // would make KubeJS mandatory for every consumer of this mod, which we don't
+    // want) so the integration can be exercised directly in a dev instance.
+    compileOnly "dev.latvian.mods:kubejs-neoforge:${kubejs_version}"
 }
 
 tasks.withType(ProcessResources).configureEach {

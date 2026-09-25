@@ -1,0 +1,10 @@
+{
+  "type": "hbm:shredding",
+  "ingredient": {
+    "item": "hbm:block_bakelite"
+  },
+  "result": {
+    "id": "hbm:powder_bakelite",
+    "count": 9
+  }
+}

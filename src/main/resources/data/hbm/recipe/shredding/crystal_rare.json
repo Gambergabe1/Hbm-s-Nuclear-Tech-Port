@@ -1,0 +1,10 @@
+{
+  "type": "hbm:shredding",
+  "ingredient": {
+    "item": "hbm:crystal_rare"
+  },
+  "result": {
+    "id": "hbm:powder_desh_mix",
+    "count": 2
+  }
+}

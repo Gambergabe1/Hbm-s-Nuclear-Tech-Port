@@ -1,0 +1,10 @@
+{
+  "type": "hbm:shredding",
+  "ingredient": {
+    "item": "hbm:crystal_lead"
+  },
+  "result": {
+    "id": "hbm:powder_lead",
+    "count": 3
+  }
+}

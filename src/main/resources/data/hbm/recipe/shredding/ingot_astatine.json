@@ -1,0 +1,10 @@
+{
+  "type": "hbm:shredding",
+  "ingredient": {
+    "item": "hbm:ingot_astatine"
+  },
+  "result": {
+    "id": "hbm:powder_astatine",
+    "count": 1
+  }
+}

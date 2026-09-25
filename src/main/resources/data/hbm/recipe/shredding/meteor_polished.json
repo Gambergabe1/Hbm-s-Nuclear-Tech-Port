@@ -1,0 +1,10 @@
+{
+  "type": "hbm:shredding",
+  "ingredient": {
+    "item": "hbm:meteor_polished"
+  },
+  "result": {
+    "id": "hbm:powder_meteorite",
+    "count": 1
+  }
+}

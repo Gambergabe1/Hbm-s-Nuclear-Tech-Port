@@ -1,0 +1,10 @@
+{
+  "type": "hbm:shredding",
+  "ingredient": {
+    "item": "hbm:crystal_redstone"
+  },
+  "result": {
+    "id": "minecraft:redstone",
+    "count": 8
+  }
+}

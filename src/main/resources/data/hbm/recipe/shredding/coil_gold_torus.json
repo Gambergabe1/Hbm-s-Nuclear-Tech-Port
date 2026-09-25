@@ -1,0 +1,10 @@
+{
+  "type": "hbm:shredding",
+  "ingredient": {
+    "item": "hbm:coil_gold_torus"
+  },
+  "result": {
+    "id": "hbm:powder_gold",
+    "count": 2
+  }
+}

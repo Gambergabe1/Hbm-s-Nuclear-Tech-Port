@@ -1,0 +1,10 @@
+{
+  "type": "hbm:shredding",
+  "ingredient": {
+    "item": "hbm:ingot_dineutronium"
+  },
+  "result": {
+    "id": "hbm:powder_dineutronium",
+    "count": 1
+  }
+}

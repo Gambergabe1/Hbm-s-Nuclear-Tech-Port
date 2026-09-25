@@ -1,0 +1,10 @@
+{
+  "type": "hbm:shredding",
+  "ingredient": {
+    "item": "hbm:crystal_diamond"
+  },
+  "result": {
+    "id": "hbm:powder_diamond",
+    "count": 3
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "hbm:shredding",
+  "ingredient": {
+    "item": "hbm:ingot_ra226"
+  },
+  "result": {
+    "id": "hbm:powder_ra226",
+    "count": 1
+  }
+}

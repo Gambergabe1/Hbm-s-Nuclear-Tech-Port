@@ -1,0 +1,10 @@
+{
+  "type": "hbm:shredding",
+  "ingredient": {
+    "item": "hbm:block_verticium"
+  },
+  "result": {
+    "id": "hbm:powder_verticium",
+    "count": 9
+  }
+}

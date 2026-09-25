@@ -1,0 +1,10 @@
+{
+  "type": "hbm:shredding",
+  "ingredient": {
+    "item": "hbm:block_red_copper"
+  },
+  "result": {
+    "id": "hbm:powder_red_copper",
+    "count": 9
+  }
+}

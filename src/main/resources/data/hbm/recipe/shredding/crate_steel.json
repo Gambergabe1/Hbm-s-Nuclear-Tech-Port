@@ -1,0 +1,10 @@
+{
+  "type": "hbm:shredding",
+  "ingredient": {
+    "item": "hbm:crate_steel"
+  },
+  "result": {
+    "id": "hbm:powder_steel",
+    "count": 8
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "hbm:shredding",
+  "ingredient": {
+    "item": "hbm:block_weidanium"
+  },
+  "result": {
+    "id": "hbm:powder_weidanium",
+    "count": 9
+  }
+}

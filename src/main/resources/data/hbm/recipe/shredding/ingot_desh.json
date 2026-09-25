@@ -1,0 +1,10 @@
+{
+  "type": "hbm:shredding",
+  "ingredient": {
+    "item": "hbm:ingot_desh"
+  },
+  "result": {
+    "id": "hbm:powder_desh",
+    "count": 1
+  }
+}

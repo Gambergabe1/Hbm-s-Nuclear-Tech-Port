@@ -1,0 +1,10 @@
+{
+  "type": "hbm:shredding",
+  "ingredient": {
+    "item": "hbm:crystal_sulfur"
+  },
+  "result": {
+    "id": "hbm:sulfur",
+    "count": 8
+  }
+}

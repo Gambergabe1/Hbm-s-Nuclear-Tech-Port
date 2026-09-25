@@ -1,0 +1,10 @@
+{
+  "type": "hbm:shredding",
+  "ingredient": {
+    "item": "hbm:ingot_tennessine"
+  },
+  "result": {
+    "id": "hbm:powder_tennessine",
+    "count": 1
+  }
+}

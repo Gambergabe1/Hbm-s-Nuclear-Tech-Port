@@ -1,0 +1,10 @@
+{
+  "type": "hbm:shredding",
+  "ingredient": {
+    "item": "hbm:meteor_brick_mossy"
+  },
+  "result": {
+    "id": "hbm:powder_meteorite",
+    "count": 1
+  }
+}

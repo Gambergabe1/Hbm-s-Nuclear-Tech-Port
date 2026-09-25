@@ -1,0 +1,10 @@
+{
+  "type": "hbm:shredding",
+  "ingredient": {
+    "item": "hbm:crystal_niter"
+  },
+  "result": {
+    "id": "hbm:niter",
+    "count": 8
+  }
+}

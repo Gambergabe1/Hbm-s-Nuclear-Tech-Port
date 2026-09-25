@@ -2,7 +2,6 @@ package com.hbm.menu;
 
 import com.hbm.api.energy.HbmEnergyHelper;
 import com.hbm.blockentity.ShredderBlockEntity;
-import com.hbm.machine.ShredderRecipeRegistry;
 import com.hbm.menu.slot.BatteryInputSlot;
 import com.hbm.menu.slot.FilteredSlot;
 import com.hbm.menu.slot.OutputSlot;
@@ -83,7 +82,7 @@ public final class ShredderMenu extends AbstractMachineMenu {
             addSlot(new BatteryInputSlot(container, slot, x, y));
             return;
         }
-        addSlot(new FilteredSlot(container, slot, x, y, ShredderRecipeRegistry::hasRecipe));
+        addSlot(new FilteredSlot(container, slot, x, y, stack -> ShredderBlockEntity.hasRecipe(playerInventory.player.level(), stack)));
     }
 
     @Override
@@ -99,7 +98,7 @@ public final class ShredderMenu extends AbstractMachineMenu {
         if (ShredderBlockEntity.isBlade(stack)) {
             return moveToRange(stack, ShredderBlockEntity.LEFT_BLADE_SLOT, ShredderBlockEntity.BATTERY_SLOT);
         }
-        if (ShredderRecipeRegistry.hasRecipe(stack)) {
+        if (ShredderBlockEntity.hasRecipe(playerInventory.player.level(), stack)) {
             return moveToRange(stack, ShredderBlockEntity.INPUT_START, ShredderBlockEntity.INPUT_END);
         }
         return moveWithinPlayerInventory(stack, index);

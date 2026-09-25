@@ -1,0 +1,10 @@
+{
+  "type": "hbm:shredding",
+  "ingredient": {
+    "item": "hbm:crystal_aluminium"
+  },
+  "result": {
+    "id": "hbm:powder_aluminium",
+    "count": 3
+  }
+}

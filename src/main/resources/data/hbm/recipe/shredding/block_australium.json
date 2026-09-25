@@ -1,0 +1,10 @@
+{
+  "type": "hbm:shredding",
+  "ingredient": {
+    "item": "hbm:block_australium"
+  },
+  "result": {
+    "id": "hbm:powder_australium",
+    "count": 9
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "hbm:shredding",
+  "ingredient": {
+    "item": "hbm:block_niobium"
+  },
+  "result": {
+    "id": "hbm:powder_niobium",
+    "count": 9
+  }
+}

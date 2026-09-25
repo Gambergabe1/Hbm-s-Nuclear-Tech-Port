@@ -1,0 +1,10 @@
+{
+  "type": "hbm:shredding",
+  "ingredient": {
+    "item": "hbm:crystal_thorium"
+  },
+  "result": {
+    "id": "hbm:powder_thorium",
+    "count": 3
+  }
+}

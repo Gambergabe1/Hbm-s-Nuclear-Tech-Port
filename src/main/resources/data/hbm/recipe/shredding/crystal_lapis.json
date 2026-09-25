@@ -1,0 +1,10 @@
+{
+  "type": "hbm:shredding",
+  "ingredient": {
+    "item": "hbm:crystal_lapis"
+  },
+  "result": {
+    "id": "hbm:powder_lapis",
+    "count": 12
+  }
+}

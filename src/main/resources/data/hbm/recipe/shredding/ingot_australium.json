@@ -1,0 +1,10 @@
+{
+  "type": "hbm:shredding",
+  "ingredient": {
+    "item": "hbm:ingot_australium"
+  },
+  "result": {
+    "id": "hbm:powder_australium",
+    "count": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "hbm:shredding",
+  "ingredient": {
+    "item": "hbm:ingot_reiium"
+  },
+  "result": {
+    "id": "hbm:powder_reiium",
+    "count": 1
+  }
+}

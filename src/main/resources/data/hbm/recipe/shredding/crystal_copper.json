@@ -1,0 +1,10 @@
+{
+  "type": "hbm:shredding",
+  "ingredient": {
+    "item": "hbm:crystal_copper"
+  },
+  "result": {
+    "id": "hbm:powder_copper",
+    "count": 3
+  }
+}

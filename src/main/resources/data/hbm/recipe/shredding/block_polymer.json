@@ -1,0 +1,10 @@
+{
+  "type": "hbm:shredding",
+  "ingredient": {
+    "item": "hbm:block_polymer"
+  },
+  "result": {
+    "id": "hbm:powder_polymer",
+    "count": 9
+  }
+}

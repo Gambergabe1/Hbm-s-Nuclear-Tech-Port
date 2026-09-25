@@ -1,0 +1,10 @@
+{
+  "type": "hbm:shredding",
+  "ingredient": {
+    "item": "hbm:block_cadmium"
+  },
+  "result": {
+    "id": "hbm:powder_cadmium",
+    "count": 9
+  }
+}

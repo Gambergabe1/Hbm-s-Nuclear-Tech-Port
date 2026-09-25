@@ -1,0 +1,10 @@
+{
+  "type": "hbm:shredding",
+  "ingredient": {
+    "item": "minecraft:quartz_pillar"
+  },
+  "result": {
+    "id": "hbm:powder_quartz",
+    "count": 4
+  }
+}

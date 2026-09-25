@@ -1,0 +1,10 @@
+{
+  "type": "hbm:shredding",
+  "ingredient": {
+    "item": "hbm:ingot_magnetized_tungsten"
+  },
+  "result": {
+    "id": "hbm:powder_magnetized_tungsten",
+    "count": 1
+  }
+}

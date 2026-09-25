@@ -1,0 +1,10 @@
+{
+  "type": "hbm:shredding",
+  "ingredient": {
+    "item": "hbm:coil_gold"
+  },
+  "result": {
+    "id": "hbm:powder_gold",
+    "count": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "hbm:shredding",
+  "ingredient": {
+    "item": "hbm:block_daffergon"
+  },
+  "result": {
+    "id": "hbm:powder_daffergon",
+    "count": 9
+  }
+}

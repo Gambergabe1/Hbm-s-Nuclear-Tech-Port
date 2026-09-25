@@ -1,0 +1,10 @@
+{
+  "type": "hbm:shredding",
+  "ingredient": {
+    "item": "hbm:block_euphemium"
+  },
+  "result": {
+    "id": "hbm:powder_euphemium",
+    "count": 9
+  }
+}

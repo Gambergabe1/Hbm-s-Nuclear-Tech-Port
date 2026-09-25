@@ -1,0 +1,10 @@
+{
+  "type": "hbm:shredding",
+  "ingredient": {
+    "item": "minecraft:chiseled_quartz_block"
+  },
+  "result": {
+    "id": "hbm:powder_quartz",
+    "count": 4
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "hbm:shredding",
+  "ingredient": {
+    "item": "hbm:block_bismuth"
+  },
+  "result": {
+    "id": "hbm:powder_bismuth",
+    "count": 9
+  }
+}

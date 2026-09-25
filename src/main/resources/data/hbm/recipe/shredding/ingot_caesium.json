@@ -1,0 +1,10 @@
+{
+  "type": "hbm:shredding",
+  "ingredient": {
+    "item": "hbm:ingot_caesium"
+  },
+  "result": {
+    "id": "hbm:powder_caesium",
+    "count": 1
+  }
+}

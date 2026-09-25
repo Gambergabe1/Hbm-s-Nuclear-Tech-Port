@@ -1,0 +1,10 @@
+{
+  "type": "hbm:shredding",
+  "ingredient": {
+    "item": "hbm:ingot_boron"
+  },
+  "result": {
+    "id": "hbm:powder_boron",
+    "count": 1
+  }
+}

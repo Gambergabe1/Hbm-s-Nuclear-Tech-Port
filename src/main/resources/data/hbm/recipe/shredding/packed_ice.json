@@ -1,0 +1,10 @@
+{
+  "type": "hbm:shredding",
+  "ingredient": {
+    "item": "minecraft:packed_ice"
+  },
+  "result": {
+    "id": "hbm:powder_ice",
+    "count": 1
+  }
+}

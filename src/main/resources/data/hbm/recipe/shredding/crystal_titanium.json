@@ -1,0 +1,10 @@
+{
+  "type": "hbm:shredding",
+  "ingredient": {
+    "item": "hbm:crystal_titanium"
+  },
+  "result": {
+    "id": "hbm:powder_titanium",
+    "count": 3
+  }
+}
