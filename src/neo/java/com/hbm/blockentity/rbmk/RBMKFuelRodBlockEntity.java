@@ -65,9 +65,10 @@ public class RBMKFuelRodBlockEntity extends AbstractRBMKBlockEntity implements I
         // Moderator bonus
         double moderatorBonus = countAdjacentModerators() * 2.0;
         
-        // Control rod absorption
-        double controlRodAbsorption = countAdjacentControlRods() * 0.5;
-        
+        // Control rod absorption (clamped so 2+ adjacent rods can fully suppress
+        // the reaction without driving flux negative)
+        double controlRodAbsorption = Math.min(1.0, countAdjacentControlRods() * 0.5);
+
         // Calculate target flux
         targetNeutronFlux = (selfFlux + neighborFlux + moderatorBonus) * (1.0 - controlRodAbsorption);
         
