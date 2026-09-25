@@ -2953,6 +2953,37 @@ public final class HbmItems {
     public static final DeferredItem<Item> SCHRABIDIUM_SWORD = registerSwordItem("schrabidium_sword", HbmToolTiers.SCHRABIDIUM);
     public static final DeferredItem<Item> MESE_GAVEL = registerSwordItem("mese_gavel", HbmToolTiers.MESE_GAVEL);
 
+    // --- Bulk-ported ItemToolAbility items (tiered pickaxes/axes/shovels; break
+    //     abilities like RecursionAbility from ToolAbility not ported yet, same
+    //     caveat as ItemSwordAbility above) ---
+    public static final DeferredItem<Item> TITANIUM_PICKAXE = registerPickaxeItem("titanium_pickaxe", HbmToolTiers.TITANIUM);
+    public static final DeferredItem<Item> TITANIUM_AXE = registerAxeItem("titanium_axe", HbmToolTiers.TITANIUM);
+    public static final DeferredItem<Item> TITANIUM_SHOVEL = registerShovelItem("titanium_shovel", HbmToolTiers.TITANIUM);
+    public static final DeferredItem<Item> STEEL_PICKAXE = registerPickaxeItem("steel_pickaxe", HbmToolTiers.STEEL);
+    public static final DeferredItem<Item> STEEL_AXE = registerAxeItem("steel_axe", HbmToolTiers.STEEL);
+    public static final DeferredItem<Item> STEEL_SHOVEL = registerShovelItem("steel_shovel", HbmToolTiers.STEEL);
+    public static final DeferredItem<Item> ALLOY_PICKAXE = registerPickaxeItem("alloy_pickaxe", HbmToolTiers.ALLOY);
+    public static final DeferredItem<Item> ALLOY_AXE = registerAxeItem("alloy_axe", HbmToolTiers.ALLOY);
+    public static final DeferredItem<Item> ALLOY_SHOVEL = registerShovelItem("alloy_shovel", HbmToolTiers.ALLOY);
+    public static final DeferredItem<Item> DESH_PICKAXE = registerPickaxeItem("desh_pickaxe", HbmToolTiers.DESH);
+    public static final DeferredItem<Item> DESH_AXE = registerAxeItem("desh_axe", HbmToolTiers.DESH);
+    public static final DeferredItem<Item> DESH_SHOVEL = registerShovelItem("desh_shovel", HbmToolTiers.DESH);
+    public static final DeferredItem<Item> COBALT_PICKAXE = registerPickaxeItem("cobalt_pickaxe", HbmToolTiers.COBALT);
+    public static final DeferredItem<Item> COBALT_AXE = registerAxeItem("cobalt_axe", HbmToolTiers.COBALT);
+    public static final DeferredItem<Item> COBALT_SHOVEL = registerShovelItem("cobalt_shovel", HbmToolTiers.COBALT);
+    public static final DeferredItem<Item> COBALT_DECORATED_PICKAXE = registerPickaxeItem("cobalt_decorated_pickaxe", HbmToolTiers.COBALT_DECORATED);
+    public static final DeferredItem<Item> COBALT_DECORATED_AXE = registerAxeItem("cobalt_decorated_axe", HbmToolTiers.COBALT_DECORATED);
+    public static final DeferredItem<Item> COBALT_DECORATED_SHOVEL = registerShovelItem("cobalt_decorated_shovel", HbmToolTiers.COBALT_DECORATED);
+    public static final DeferredItem<Item> STARMETAL_PICKAXE = registerPickaxeItem("starmetal_pickaxe", HbmToolTiers.STARMETAL);
+    public static final DeferredItem<Item> STARMETAL_AXE = registerAxeItem("starmetal_axe", HbmToolTiers.STARMETAL);
+    public static final DeferredItem<Item> STARMETAL_SHOVEL = registerShovelItem("starmetal_shovel", HbmToolTiers.STARMETAL);
+    public static final DeferredItem<Item> CMB_PICKAXE = registerPickaxeItem("cmb_pickaxe", HbmToolTiers.CMB);
+    public static final DeferredItem<Item> CMB_AXE = registerAxeItem("cmb_axe", HbmToolTiers.CMB);
+    public static final DeferredItem<Item> CMB_SHOVEL = registerShovelItem("cmb_shovel", HbmToolTiers.CMB);
+    public static final DeferredItem<Item> SCHRABIDIUM_PICKAXE = registerPickaxeItem("schrabidium_pickaxe", HbmToolTiers.SCHRABIDIUM);
+    public static final DeferredItem<Item> SCHRABIDIUM_AXE = registerAxeItem("schrabidium_axe", HbmToolTiers.SCHRABIDIUM);
+    public static final DeferredItem<Item> SCHRABIDIUM_SHOVEL = registerShovelItem("schrabidium_shovel", HbmToolTiers.SCHRABIDIUM);
+
     private HbmItems() {
     }
 
@@ -3084,6 +3115,24 @@ public final class HbmItems {
             name,
             () -> new net.minecraft.world.item.ShieldItem(new Item.Properties().durability(durability))
         );
+        WEAPON_TAB_DYNAMIC_ITEMS.add(item);
+        return item;
+    }
+
+    private static DeferredItem<Item> registerPickaxeItem(String name, net.minecraft.world.item.Tier tier) {
+        DeferredItem<Item> item = ITEMS.register(name, () -> new net.minecraft.world.item.PickaxeItem(tier, new Item.Properties()));
+        WEAPON_TAB_DYNAMIC_ITEMS.add(item);
+        return item;
+    }
+
+    private static DeferredItem<Item> registerAxeItem(String name, net.minecraft.world.item.Tier tier) {
+        DeferredItem<Item> item = ITEMS.register(name, () -> new net.minecraft.world.item.AxeItem(tier, new Item.Properties()));
+        WEAPON_TAB_DYNAMIC_ITEMS.add(item);
+        return item;
+    }
+
+    private static DeferredItem<Item> registerShovelItem(String name, net.minecraft.world.item.Tier tier) {
+        DeferredItem<Item> item = ITEMS.register(name, () -> new net.minecraft.world.item.ShovelItem(tier, new Item.Properties()));
         WEAPON_TAB_DYNAMIC_ITEMS.add(item);
         return item;
     }
