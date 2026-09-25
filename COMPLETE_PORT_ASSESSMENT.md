@@ -35,6 +35,24 @@ else of the same severity. This doesn't prove the project compiles now -
 only a real `javac`/Gradle run can - but it means the specific, identifiable
 reasons it definitely wouldn't have are fixed.
 
+**Bigger find, same audit:** 622 of the ~989 hand-migrated blockstate JSON
+files under `assets/hbm/blockstates/` used `"normal"` as their sole variant
+key - the pre-1.13 ("flattening") format. Since 1.13 a property-less block
+state resolves to the empty-string key `""` (confirmed against this repo's
+own datagen output as ground truth: generated blockstates all use `{"":
+{...}}`). A blockstate with no `""` entry has no model for its only
+possible state, so every one of those 622 blocks - spanning both
+already-registered blocks and ones nobody's ported to Java yet - would have
+rendered as the missing/checkerboard placeholder in a real client no matter
+how correct the Java side was. Fixed by renaming the key in every file
+whose `variants` map was exactly `{"normal": {...}}` (commit `52f90af8`).
+45 more files mix `"normal"` with real property keys (`meta=N` from the old
+metadata-block era, `tooled=true/false`, a legacy `"inventory"` variant) and
+need individual attention rather than a mechanical rename - not yet done.
+Two RBMK blocks (`rbmk_fuel_rod`, `rbmk_control_rod`) had no blockstate/model
+files at all despite being registered blocks; added those too (commit
+`7a270dc8`).
+
 Work done this session (see git log on `claude/brave-carson-unvk0j`):
 - Bulk-registered 290 previously-missing simple items (the `ItemBase`/
   `ItemCustomLore` legacy classes - flavor items with no unique behavior),
