@@ -2143,6 +2143,22 @@ public final class HbmItems {
         SoundEvents.EXPERIENCE_ORB_PICKUP
     );
 
+    // --- Bulk-ported ItemBattery stragglers (int-safe capacities only; spark_cell_25/100/1000/2500/10000/power and memory
+    //     exceed Integer.MAX_VALUE and need a long-backed energy storage before they can be ported) ---
+    public static final DeferredItem<Item> BATTERY_SCHRABIDIUM = registerBatteryItem("battery_schrabidium", 1000000, 5000, 5000);
+    public static final DeferredItem<Item> BATTERY_SCHRABIDIUM_CELL = registerBatteryItem("battery_schrabidium_cell", 3000000, 15000, 15000);
+    public static final DeferredItem<Item> BATTERY_SCHRABIDIUM_CELL_2 = registerBatteryItem("battery_schrabidium_cell_2", 6000000, 30000, 30000);
+    public static final DeferredItem<Item> BATTERY_SCHRABIDIUM_CELL_4 = registerBatteryItem("battery_schrabidium_cell_4", 12000000, 60000, 60000);
+    public static final DeferredItem<Item> BATTERY_TRIXITE = registerBatteryItem("battery_trixite", 5000000, 40000, 200000);
+    public static final DeferredItem<Item> BATTERY_SPARK = registerBatteryItem("battery_spark", 100000000, 2000000, 2000000);
+    public static final DeferredItem<Item> BATTERY_SPARK_CELL_6 = registerBatteryItem("battery_spark_cell_6", 600000000, 2000000, 2000000);
+    public static final DeferredItem<Item> BATTERY_POTATO = registerBatteryItem("battery_potato", 100, 0, 100);
+    public static final DeferredItem<Item> BATTERY_SU = registerBatteryItem("battery_su", 1500, 0, 100);
+    public static final DeferredItem<Item> BATTERY_SU_L = registerBatteryItem("battery_su_l", 3500, 0, 100);
+    public static final DeferredItem<Item> BATTERY_STEAM = registerBatteryItem("battery_steam", 60000, 3, 6000);
+    public static final DeferredItem<Item> BATTERY_STEAM_LARGE = registerBatteryItem("battery_steam_large", 100000, 5, 10000);
+    public static final DeferredItem<Item> ENERGY_CORE = registerBatteryItem("energy_core", 10000000, 0, 1000);
+
     private HbmItems() {
     }
 
