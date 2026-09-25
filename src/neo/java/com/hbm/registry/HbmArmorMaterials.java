@@ -36,6 +36,49 @@ public final class HbmArmorMaterials {
         () -> createMaterial("hazmat_paa", 3, 8, 6, 3, 25, 2.0F, () -> Ingredient.of(HbmItems.PLATE_ADVANCED_ALLOY.get()))
     );
 
+    // --- ArmorFSB materials (legacy EnumHelper.addArmorMaterial defense arrays were
+    //     [boots, legs, chest, helmet]) ---
+    public static final DeferredHolder<ArmorMaterial, ArmorMaterial> PAA = ARMOR_MATERIALS.register(
+        "paa",
+        () -> createMaterial("paa", 3, 8, 6, 3, 25, 2.0F, () -> Ingredient.of(HbmItems.PLATE_PAA.get()))
+    );
+    public static final DeferredHolder<ArmorMaterial, ArmorMaterial> SCHRABIDIUM = ARMOR_MATERIALS.register(
+        "schrabidium",
+        () -> createMaterial("schrabidium", 3, 8, 6, 3, 50, 2.0F, () -> Ingredient.of(HbmItems.INGOT_SCHRABIDIUM.get()))
+    );
+    public static final DeferredHolder<ArmorMaterial, ArmorMaterial> ARMOR_STEEL = ARMOR_MATERIALS.register(
+        "armor_steel",
+        () -> createMaterial("armor_steel", 2, 6, 5, 2, 5, 0.0F, () -> Ingredient.of(HbmItems.INGOT_STEEL.get()))
+    );
+    public static final DeferredHolder<ArmorMaterial, ArmorMaterial> ARMOR_ALLOY = ARMOR_MATERIALS.register(
+        "armor_alloy",
+        () -> createMaterial("armor_alloy", 3, 8, 6, 3, 12, 0.0F, () -> Ingredient.of(HbmItems.INGOT_ADVANCED_ALLOY.get()))
+    );
+    public static final DeferredHolder<ArmorMaterial, ArmorMaterial> ARMOR_TITANIUM = ARMOR_MATERIALS.register(
+        "armor_titanium",
+        () -> createMaterial("armor_titanium", 3, 8, 6, 3, 9, 2.0F, () -> Ingredient.of(HbmItems.INGOT_TITANIUM.get()))
+    );
+    public static final DeferredHolder<ArmorMaterial, ArmorMaterial> CMB = ARMOR_MATERIALS.register(
+        "cmb",
+        () -> createMaterial("cmb", 3, 8, 6, 3, 50, 2.0F, () -> Ingredient.of(HbmItems.INGOT_COMBINE_STEEL.get()))
+    );
+    public static final DeferredHolder<ArmorMaterial, ArmorMaterial> SECURITY = ARMOR_MATERIALS.register(
+        "security",
+        () -> createMaterial("security", 3, 8, 6, 3, 15, 2.0F, () -> Ingredient.of(HbmItems.PLATE_KEVLAR.get()))
+    );
+    public static final DeferredHolder<ArmorMaterial, ArmorMaterial> ASBESTOS = ARMOR_MATERIALS.register(
+        "asbestos",
+        () -> createMaterial("asbestos", 1, 4, 3, 1, 5, 0.0F, () -> Ingredient.of(HbmItems.ASBESTOS_CLOTH.get()))
+    );
+    public static final DeferredHolder<ArmorMaterial, ArmorMaterial> COBALT = ARMOR_MATERIALS.register(
+        "cobalt",
+        () -> createMaterial("cobalt", 3, 8, 6, 3, 25, 2.0F, () -> Ingredient.of(HbmItems.INGOT_COBALT.get()))
+    );
+    public static final DeferredHolder<ArmorMaterial, ArmorMaterial> STARMETAL = ARMOR_MATERIALS.register(
+        "starmetal",
+        () -> createMaterial("starmetal", 3, 8, 6, 3, 100, 2.0F, () -> Ingredient.of(HbmItems.INGOT_STARMETAL.get()))
+    );
+
     private HbmArmorMaterials() {
     }
 

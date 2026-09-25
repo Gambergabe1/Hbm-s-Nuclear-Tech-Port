@@ -2461,6 +2461,328 @@ public final class HbmItems {
     public static final DeferredItem<Item> STARMETAL_HOE = registerHoeItem("starmetal_hoe", HbmToolTiers.STARMETAL);
     public static final DeferredItem<Item> CMB_HOE = registerHoeItem("cmb_hoe", HbmToolTiers.CMB);
 
+    // --- Bulk-ported ArmorFSB armor sets using new HbmArmorMaterials entries (flashlight/VATS/thermal/resistance-map behavior not carried over) ---
+    public static final DeferredItem<Item> PAA_HELMET = registerArmorItem(
+        "paa_helmet",
+        HbmArmorMaterials.PAA,
+        ArmorItem.Type.HELMET,
+        armorTexture("paa_1.png"),
+        armorTexture("paa_2.png"),
+        0.0F
+    );
+    public static final DeferredItem<Item> PAA_PLATE = registerArmorItem(
+        "paa_plate",
+        HbmArmorMaterials.PAA,
+        ArmorItem.Type.CHESTPLATE,
+        armorTexture("paa_1.png"),
+        armorTexture("paa_2.png"),
+        0.0F
+    );
+    public static final DeferredItem<Item> PAA_LEGS = registerArmorItem(
+        "paa_legs",
+        HbmArmorMaterials.PAA,
+        ArmorItem.Type.LEGGINGS,
+        armorTexture("paa_1.png"),
+        armorTexture("paa_2.png"),
+        0.0F
+    );
+    public static final DeferredItem<Item> PAA_BOOTS = registerArmorItem(
+        "paa_boots",
+        HbmArmorMaterials.PAA,
+        ArmorItem.Type.BOOTS,
+        armorTexture("paa_1.png"),
+        armorTexture("paa_2.png"),
+        0.0F
+    );
+    public static final DeferredItem<Item> ASBESTOS_HELMET = registerArmorItem(
+        "asbestos_helmet",
+        HbmArmorMaterials.ASBESTOS,
+        ArmorItem.Type.HELMET,
+        armorTexture("asbestos_1.png"),
+        armorTexture("asbestos_2.png"),
+        0.0F
+    );
+    public static final DeferredItem<Item> ASBESTOS_PLATE = registerArmorItem(
+        "asbestos_plate",
+        HbmArmorMaterials.ASBESTOS,
+        ArmorItem.Type.CHESTPLATE,
+        armorTexture("asbestos_1.png"),
+        armorTexture("asbestos_2.png"),
+        0.0F
+    );
+    public static final DeferredItem<Item> ASBESTOS_LEGS = registerArmorItem(
+        "asbestos_legs",
+        HbmArmorMaterials.ASBESTOS,
+        ArmorItem.Type.LEGGINGS,
+        armorTexture("asbestos_1.png"),
+        armorTexture("asbestos_2.png"),
+        0.0F
+    );
+    public static final DeferredItem<Item> ASBESTOS_BOOTS = registerArmorItem(
+        "asbestos_boots",
+        HbmArmorMaterials.ASBESTOS,
+        ArmorItem.Type.BOOTS,
+        armorTexture("asbestos_1.png"),
+        armorTexture("asbestos_2.png"),
+        0.0F
+    );
+    public static final DeferredItem<Item> STEEL_HELMET = registerArmorItem(
+        "steel_helmet",
+        HbmArmorMaterials.ARMOR_STEEL,
+        ArmorItem.Type.HELMET,
+        armorTexture("steel_1.png"),
+        armorTexture("steel_2.png"),
+        0.0F
+    );
+    public static final DeferredItem<Item> STEEL_PLATE = registerArmorItem(
+        "steel_plate",
+        HbmArmorMaterials.ARMOR_STEEL,
+        ArmorItem.Type.CHESTPLATE,
+        armorTexture("steel_1.png"),
+        armorTexture("steel_2.png"),
+        0.0F
+    );
+    public static final DeferredItem<Item> STEEL_LEGS = registerArmorItem(
+        "steel_legs",
+        HbmArmorMaterials.ARMOR_STEEL,
+        ArmorItem.Type.LEGGINGS,
+        armorTexture("steel_1.png"),
+        armorTexture("steel_2.png"),
+        0.0F
+    );
+    public static final DeferredItem<Item> STEEL_BOOTS = registerArmorItem(
+        "steel_boots",
+        HbmArmorMaterials.ARMOR_STEEL,
+        ArmorItem.Type.BOOTS,
+        armorTexture("steel_1.png"),
+        armorTexture("steel_2.png"),
+        0.0F
+    );
+    public static final DeferredItem<Item> TITANIUM_HELMET = registerArmorItem(
+        "titanium_helmet",
+        HbmArmorMaterials.ARMOR_TITANIUM,
+        ArmorItem.Type.HELMET,
+        armorTexture("titanium_1.png"),
+        armorTexture("titanium_2.png"),
+        0.0F
+    );
+    public static final DeferredItem<Item> TITANIUM_PLATE = registerArmorItem(
+        "titanium_plate",
+        HbmArmorMaterials.ARMOR_TITANIUM,
+        ArmorItem.Type.CHESTPLATE,
+        armorTexture("titanium_1.png"),
+        armorTexture("titanium_2.png"),
+        0.0F
+    );
+    public static final DeferredItem<Item> TITANIUM_LEGS = registerArmorItem(
+        "titanium_legs",
+        HbmArmorMaterials.ARMOR_TITANIUM,
+        ArmorItem.Type.LEGGINGS,
+        armorTexture("titanium_1.png"),
+        armorTexture("titanium_2.png"),
+        0.0F
+    );
+    public static final DeferredItem<Item> TITANIUM_BOOTS = registerArmorItem(
+        "titanium_boots",
+        HbmArmorMaterials.ARMOR_TITANIUM,
+        ArmorItem.Type.BOOTS,
+        armorTexture("titanium_1.png"),
+        armorTexture("titanium_2.png"),
+        0.0F
+    );
+    public static final DeferredItem<Item> ALLOY_HELMET = registerArmorItem(
+        "alloy_helmet",
+        HbmArmorMaterials.ARMOR_ALLOY,
+        ArmorItem.Type.HELMET,
+        armorTexture("alloy_1.png"),
+        armorTexture("alloy_2.png"),
+        0.0F
+    );
+    public static final DeferredItem<Item> ALLOY_PLATE = registerArmorItem(
+        "alloy_plate",
+        HbmArmorMaterials.ARMOR_ALLOY,
+        ArmorItem.Type.CHESTPLATE,
+        armorTexture("alloy_1.png"),
+        armorTexture("alloy_2.png"),
+        0.0F
+    );
+    public static final DeferredItem<Item> ALLOY_LEGS = registerArmorItem(
+        "alloy_legs",
+        HbmArmorMaterials.ARMOR_ALLOY,
+        ArmorItem.Type.LEGGINGS,
+        armorTexture("alloy_1.png"),
+        armorTexture("alloy_2.png"),
+        0.0F
+    );
+    public static final DeferredItem<Item> ALLOY_BOOTS = registerArmorItem(
+        "alloy_boots",
+        HbmArmorMaterials.ARMOR_ALLOY,
+        ArmorItem.Type.BOOTS,
+        armorTexture("alloy_1.png"),
+        armorTexture("alloy_2.png"),
+        0.0F
+    );
+    public static final DeferredItem<Item> COBALT_HELMET = registerArmorItem(
+        "cobalt_helmet",
+        HbmArmorMaterials.COBALT,
+        ArmorItem.Type.HELMET,
+        armorTexture("cobalt_1.png"),
+        armorTexture("cobalt_2.png"),
+        0.0F
+    );
+    public static final DeferredItem<Item> COBALT_PLATE = registerArmorItem(
+        "cobalt_plate",
+        HbmArmorMaterials.COBALT,
+        ArmorItem.Type.CHESTPLATE,
+        armorTexture("cobalt_1.png"),
+        armorTexture("cobalt_2.png"),
+        0.0F
+    );
+    public static final DeferredItem<Item> COBALT_LEGS = registerArmorItem(
+        "cobalt_legs",
+        HbmArmorMaterials.COBALT,
+        ArmorItem.Type.LEGGINGS,
+        armorTexture("cobalt_1.png"),
+        armorTexture("cobalt_2.png"),
+        0.0F
+    );
+    public static final DeferredItem<Item> COBALT_BOOTS = registerArmorItem(
+        "cobalt_boots",
+        HbmArmorMaterials.COBALT,
+        ArmorItem.Type.BOOTS,
+        armorTexture("cobalt_1.png"),
+        armorTexture("cobalt_2.png"),
+        0.0F
+    );
+    public static final DeferredItem<Item> SECURITY_HELMET = registerArmorItem(
+        "security_helmet",
+        HbmArmorMaterials.SECURITY,
+        ArmorItem.Type.HELMET,
+        armorTexture("security_1.png"),
+        armorTexture("security_2.png"),
+        0.0F
+    );
+    public static final DeferredItem<Item> SECURITY_PLATE = registerArmorItem(
+        "security_plate",
+        HbmArmorMaterials.SECURITY,
+        ArmorItem.Type.CHESTPLATE,
+        armorTexture("security_1.png"),
+        armorTexture("security_2.png"),
+        0.0F
+    );
+    public static final DeferredItem<Item> SECURITY_LEGS = registerArmorItem(
+        "security_legs",
+        HbmArmorMaterials.SECURITY,
+        ArmorItem.Type.LEGGINGS,
+        armorTexture("security_1.png"),
+        armorTexture("security_2.png"),
+        0.0F
+    );
+    public static final DeferredItem<Item> SECURITY_BOOTS = registerArmorItem(
+        "security_boots",
+        HbmArmorMaterials.SECURITY,
+        ArmorItem.Type.BOOTS,
+        armorTexture("security_1.png"),
+        armorTexture("security_2.png"),
+        0.0F
+    );
+    public static final DeferredItem<Item> STARMETAL_HELMET = registerArmorItem(
+        "starmetal_helmet",
+        HbmArmorMaterials.STARMETAL,
+        ArmorItem.Type.HELMET,
+        armorTexture("starmetal_1.png"),
+        armorTexture("starmetal_2.png"),
+        0.0F
+    );
+    public static final DeferredItem<Item> STARMETAL_PLATE = registerArmorItem(
+        "starmetal_plate",
+        HbmArmorMaterials.STARMETAL,
+        ArmorItem.Type.CHESTPLATE,
+        armorTexture("starmetal_1.png"),
+        armorTexture("starmetal_2.png"),
+        0.0F
+    );
+    public static final DeferredItem<Item> STARMETAL_LEGS = registerArmorItem(
+        "starmetal_legs",
+        HbmArmorMaterials.STARMETAL,
+        ArmorItem.Type.LEGGINGS,
+        armorTexture("starmetal_1.png"),
+        armorTexture("starmetal_2.png"),
+        0.0F
+    );
+    public static final DeferredItem<Item> STARMETAL_BOOTS = registerArmorItem(
+        "starmetal_boots",
+        HbmArmorMaterials.STARMETAL,
+        ArmorItem.Type.BOOTS,
+        armorTexture("starmetal_1.png"),
+        armorTexture("starmetal_2.png"),
+        0.0F
+    );
+    public static final DeferredItem<Item> CMB_HELMET = registerArmorItem(
+        "cmb_helmet",
+        HbmArmorMaterials.CMB,
+        ArmorItem.Type.HELMET,
+        armorTexture("cmb_1.png"),
+        armorTexture("cmb_2.png"),
+        0.0F
+    );
+    public static final DeferredItem<Item> CMB_PLATE = registerArmorItem(
+        "cmb_plate",
+        HbmArmorMaterials.CMB,
+        ArmorItem.Type.CHESTPLATE,
+        armorTexture("cmb_1.png"),
+        armorTexture("cmb_2.png"),
+        0.0F
+    );
+    public static final DeferredItem<Item> CMB_LEGS = registerArmorItem(
+        "cmb_legs",
+        HbmArmorMaterials.CMB,
+        ArmorItem.Type.LEGGINGS,
+        armorTexture("cmb_1.png"),
+        armorTexture("cmb_2.png"),
+        0.0F
+    );
+    public static final DeferredItem<Item> CMB_BOOTS = registerArmorItem(
+        "cmb_boots",
+        HbmArmorMaterials.CMB,
+        ArmorItem.Type.BOOTS,
+        armorTexture("cmb_1.png"),
+        armorTexture("cmb_2.png"),
+        0.0F
+    );
+    public static final DeferredItem<Item> SCHRABIDIUM_HELMET = registerArmorItem(
+        "schrabidium_helmet",
+        HbmArmorMaterials.SCHRABIDIUM,
+        ArmorItem.Type.HELMET,
+        armorTexture("schrabidium_1.png"),
+        armorTexture("schrabidium_2.png"),
+        0.0F
+    );
+    public static final DeferredItem<Item> SCHRABIDIUM_PLATE = registerArmorItem(
+        "schrabidium_plate",
+        HbmArmorMaterials.SCHRABIDIUM,
+        ArmorItem.Type.CHESTPLATE,
+        armorTexture("schrabidium_1.png"),
+        armorTexture("schrabidium_2.png"),
+        0.0F
+    );
+    public static final DeferredItem<Item> SCHRABIDIUM_LEGS = registerArmorItem(
+        "schrabidium_legs",
+        HbmArmorMaterials.SCHRABIDIUM,
+        ArmorItem.Type.LEGGINGS,
+        armorTexture("schrabidium_1.png"),
+        armorTexture("schrabidium_2.png"),
+        0.0F
+    );
+    public static final DeferredItem<Item> SCHRABIDIUM_BOOTS = registerArmorItem(
+        "schrabidium_boots",
+        HbmArmorMaterials.SCHRABIDIUM,
+        ArmorItem.Type.BOOTS,
+        armorTexture("schrabidium_1.png"),
+        armorTexture("schrabidium_2.png"),
+        0.0F
+    );
+
     private HbmItems() {
     }
 
