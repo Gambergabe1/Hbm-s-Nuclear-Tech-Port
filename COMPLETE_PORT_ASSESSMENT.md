@@ -1,9 +1,45 @@
 # HBM Nuclear Tech - Complete Port Assessment
 
+## Session update (2026-09-25)
+
+This environment's network policy denies every modding maven host tested
+(`maven.neoforged.net`, `maven.latvian.dev`, etc - see `curl -sS
+http://127.0.0.1:43167/__agentproxy/status` for the live list of recent
+denials), so **nothing in this repository has been compiled or run in this
+session** - the "Build Status: SUCCESSFUL" claim below is from an earlier
+session and unverified here. To unblock: broaden this environment's network
+access or add those hosts to its allowlist (environment settings -> Edit ->
+Network access).
+
+Work done this session (see git log on `claude/brave-carson-unvk0j`):
+- Bulk-registered 290 previously-missing simple items (the `ItemBase`/
+  `ItemCustomLore` legacy classes - flavor items with no unique behavior),
+  bringing that specific category to 100% coverage. New `WEAPON`/`NUKE`
+  dynamic creative-tab item lists added to support it.
+- Converted the shredder and press machines from hardcoded Java recipe maps
+  to proper data-driven `Recipe`/`RecipeSerializer`/`RecipeType`
+  implementations (`hbm:shredding`, `hbm:pressing`), preserving all 132
+  existing recipes as JSON under `data/hbm/recipe/`.
+- Scaffolded native KubeJS support: a `compileOnly` Gradle dependency, a
+  ServiceLoader-wired plugin entry point, and an optional mods.toml
+  dependency. See `migration/1.21.1/KUBEJS_INTEGRATION.md` for exactly
+  what's verified vs. still a documented TODO (recipe schema registration
+  for the two custom recipe types above).
+- A registry-level audit (comparing every `new <ItemClass>("id", ...)` in
+  the legacy `ModItems.java` against what's registered in
+  `HbmItems`/`HbmBlocks`) found **1,093 items still missing**, heavily
+  concentrated in systems that don't exist in the port yet at all: ammo/guns
+  (136+46+32), missiles (62+26), grenades (41), armor sets (40), and various
+  machine-specific items (upgrades, fuel rods, satellite parts, RTG
+  pellets, tool abilities) that need their owning systems built first rather
+  than being safe to bulk-register as inert items. That's the honest shape
+  of what's left - the original percentage estimates below likely undercount
+  it in the opposite direction depending on which snapshot they're from.
+
 ## Current Status: Infrastructure Complete, Content Port ~10%
 
 **Date**: April 12, 2026  
-**Build Status**: ✅ SUCCESSFUL  
+**Build Status**: ✅ SUCCESSFUL (as of that session - unverified since, see above)  
 **Ported Content**: ~10-15% of total mod content  
 **Remaining Content**: ~85-90%
 
