@@ -39,6 +39,8 @@ public final class HbmToolTiers {
     public static final Tier ELEC = unbreakable(30.0F, 12.0F, Tiers.IRON, 2, null);
     public static final Tier BOTTLE_OPENER = simple(250, 1.5F, 0.5F, Tiers.STONE, 200, null);
     public static final Tier SLEDGE = unbreakable(25.0F, 26.0F, Tiers.STONE, 200, null);
+    public static final Tier SCHRABIDIUM = simple(10000, 50.0F, 100.0F, Tiers.NETHERITE, 200, () -> HbmItems.INGOT_SCHRABIDIUM.get());
+    public static final Tier MESE_GAVEL = unbreakable(50.0F, 0.0F, Tiers.NETHERITE, 200, () -> HbmItems.PLATE_PAA.get());
 
     private static Tier simple(
         int uses,

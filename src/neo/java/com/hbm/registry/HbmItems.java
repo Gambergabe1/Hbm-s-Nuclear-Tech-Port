@@ -2940,6 +2940,19 @@ public final class HbmItems {
     public static final DeferredItem<Item> SOPSIGN = registerSwordItem("sopsign", HbmToolTiers.ALLOY);
     public static final DeferredItem<Item> CHERNOBYLSIGN = registerSwordItem("chernobylsign", HbmToolTiers.ALLOY);
 
+    // --- Bulk-ported ItemSwordAbility items (tiered swords/gavels; on-hit ability
+    //     effects from WeaponAbility not yet ported, same caveat as WeaponSpecial) ---
+    public static final DeferredItem<Item> TITANIUM_SWORD = registerSwordItem("titanium_sword", HbmToolTiers.TITANIUM);
+    public static final DeferredItem<Item> STEEL_SWORD = registerSwordItem("steel_sword", HbmToolTiers.STEEL);
+    public static final DeferredItem<Item> ALLOY_SWORD = registerSwordItem("alloy_sword", HbmToolTiers.ALLOY);
+    public static final DeferredItem<Item> DESH_SWORD = registerSwordItem("desh_sword", HbmToolTiers.DESH);
+    public static final DeferredItem<Item> COBALT_SWORD = registerSwordItem("cobalt_sword", HbmToolTiers.COBALT);
+    public static final DeferredItem<Item> COBALT_DECORATED_SWORD = registerSwordItem("cobalt_decorated_sword", HbmToolTiers.COBALT_DECORATED);
+    public static final DeferredItem<Item> STARMETAL_SWORD = registerSwordItem("starmetal_sword", HbmToolTiers.STARMETAL);
+    public static final DeferredItem<Item> CMB_SWORD = registerSwordItem("cmb_sword", HbmToolTiers.CMB);
+    public static final DeferredItem<Item> SCHRABIDIUM_SWORD = registerSwordItem("schrabidium_sword", HbmToolTiers.SCHRABIDIUM);
+    public static final DeferredItem<Item> MESE_GAVEL = registerSwordItem("mese_gavel", HbmToolTiers.MESE_GAVEL);
+
     private HbmItems() {
     }
 
