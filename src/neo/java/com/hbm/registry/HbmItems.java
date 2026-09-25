@@ -2443,6 +2443,24 @@ public final class HbmItems {
     public static final DeferredItem<Item> MULTITOOL_JOULE = ITEMS.register("multitool_joule", () -> new Item(new Item.Properties().stacksTo(1)));
     public static final DeferredItem<Item> MULTITOOL_DECON = ITEMS.register("multitool_decon", () -> new Item(new Item.Properties().stacksTo(1)));
 
+    // --- Bulk-ported swords/hoes using HbmToolTiers (ModSword/ModHoe) ---
+    public static final DeferredItem<Item> CROWBAR = registerSwordItem("crowbar", HbmToolTiers.STEEL);
+    public static final DeferredItem<Item> WEAPON_SAW = registerSwordItem("weapon_saw", HbmToolTiers.SAW);
+    public static final DeferredItem<Item> WEAPON_BAT = registerSwordItem("weapon_bat", HbmToolTiers.BAT);
+    public static final DeferredItem<Item> WEAPON_BAT_NAIL = registerSwordItem("weapon_bat_nail", HbmToolTiers.BAT_NAIL);
+    public static final DeferredItem<Item> WEAPON_GOLF_CLUB = registerSwordItem("weapon_golf_club", HbmToolTiers.GOLF_CLUB);
+    public static final DeferredItem<Item> WEAPON_PIPE_RUSTY = registerSwordItem("weapon_pipe_rusty", HbmToolTiers.PIPE_RUSTY);
+    public static final DeferredItem<Item> WEAPON_PIPE_LEAD = registerSwordItem("weapon_pipe_lead", HbmToolTiers.PIPE_LEAD);
+    public static final DeferredItem<Item> REER_GRAAR = registerSwordItem("reer_graar", HbmToolTiers.TITANIUM);
+    public static final DeferredItem<Item> TITANIUM_HOE = registerHoeItem("titanium_hoe", HbmToolTiers.TITANIUM);
+    public static final DeferredItem<Item> STEEL_HOE = registerHoeItem("steel_hoe", HbmToolTiers.STEEL);
+    public static final DeferredItem<Item> ALLOY_HOE = registerHoeItem("alloy_hoe", HbmToolTiers.ALLOY);
+    public static final DeferredItem<Item> DESH_HOE = registerHoeItem("desh_hoe", HbmToolTiers.DESH);
+    public static final DeferredItem<Item> COBALT_HOE = registerHoeItem("cobalt_hoe", HbmToolTiers.COBALT);
+    public static final DeferredItem<Item> COBALT_DECORATED_HOE = registerHoeItem("cobalt_decorated_hoe", HbmToolTiers.COBALT_DECORATED);
+    public static final DeferredItem<Item> STARMETAL_HOE = registerHoeItem("starmetal_hoe", HbmToolTiers.STARMETAL);
+    public static final DeferredItem<Item> CMB_HOE = registerHoeItem("cmb_hoe", HbmToolTiers.CMB);
+
     private HbmItems() {
     }
 
@@ -2554,6 +2572,18 @@ public final class HbmItems {
     private static DeferredItem<Item> registerSimpleWeaponItem(String name) {
         DeferredItem<Item> item = ITEMS.registerSimpleItem(name);
         WEAPON_TAB_DYNAMIC_ITEMS.add(item);
+        return item;
+    }
+
+    private static DeferredItem<Item> registerSwordItem(String name, net.minecraft.world.item.Tier tier) {
+        DeferredItem<Item> item = ITEMS.register(name, () -> new net.minecraft.world.item.SwordItem(tier, new Item.Properties()));
+        WEAPON_TAB_DYNAMIC_ITEMS.add(item);
+        return item;
+    }
+
+    private static DeferredItem<Item> registerHoeItem(String name, net.minecraft.world.item.Tier tier) {
+        DeferredItem<Item> item = ITEMS.register(name, () -> new net.minecraft.world.item.HoeItem(tier, new Item.Properties()));
+        CONTROL_TAB_DYNAMIC_ITEMS.add(item);
         return item;
     }
 
