@@ -1,6 +1,7 @@
 package com.hbm.block.rbmk;
 
 import com.hbm.blockentity.rbmk.RBMKControlRodBlockEntity;
+import com.hbm.registry.HbmRBMKBlocks;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.ItemInteractionResult;
@@ -32,7 +33,7 @@ public class RBMKControlRodBlock extends AbstractRBMKBlock {
     @Nullable
     @Override
     public <T extends BlockEntity> BlockEntityTicker<T> getTicker(Level level, BlockState state, BlockEntityType<T> type) {
-        return createTickerHelper(type, null,
+        return createTickerHelper(type, HbmRBMKBlocks.RBMK_CONTROL_ROD_BE.get(),
             (lvl, pos, st, be) -> {
                 if (be instanceof RBMKControlRodBlockEntity controlRod) {
                     controlRod.serverTick(lvl, pos, st);
