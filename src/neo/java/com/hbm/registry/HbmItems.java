@@ -2332,6 +2332,54 @@ public final class HbmItems {
     public static final DeferredItem<Item> GRENADE_IF_SPARK = registerSimpleWeaponItem("grenade_if_spark");
     public static final DeferredItem<Item> GRENADE_IF_NULL = registerSimpleWeaponItem("grenade_if_null");
 
+    // --- Bulk-ported gun items (ItemGunBase; no firing/ammo-compatibility system yet, durability preserved where the legacy declaration set one) ---
+    public static final DeferredItem<Item> GUN_REVOLVER_IRON = registerDurableWeaponItem("gun_revolver_iron", 100);
+    public static final DeferredItem<Item> GUN_REVOLVER = registerDurableWeaponItem("gun_revolver", 0);
+    public static final DeferredItem<Item> GUN_REVOLVER_SATURNITE = registerDurableWeaponItem("gun_revolver_saturnite", 0);
+    public static final DeferredItem<Item> GUN_REVOLVER_GOLD = registerDurableWeaponItem("gun_revolver_gold", 1000);
+    public static final DeferredItem<Item> GUN_REVOLVER_LEAD = registerDurableWeaponItem("gun_revolver_lead", 250);
+    public static final DeferredItem<Item> GUN_REVOLVER_SCHRABIDIUM = registerDurableWeaponItem("gun_revolver_schrabidium", 20000);
+    public static final DeferredItem<Item> GUN_REVOLVER_CURSED = registerDurableWeaponItem("gun_revolver_cursed", 5000);
+    public static final DeferredItem<Item> GUN_REVOLVER_NIGHTMARE = registerDurableWeaponItem("gun_revolver_nightmare", 6);
+    public static final DeferredItem<Item> GUN_REVOLVER_NIGHTMARE2 = registerDurableWeaponItem("gun_revolver_nightmare2", 6);
+    public static final DeferredItem<Item> GUN_REVOLVER_PIP = registerDurableWeaponItem("gun_revolver_pip", 1000);
+    public static final DeferredItem<Item> GUN_REVOLVER_NOPIP = registerDurableWeaponItem("gun_revolver_nopip", 1000);
+    public static final DeferredItem<Item> GUN_REVOLVER_BLACKJACK = registerDurableWeaponItem("gun_revolver_blackjack", 1000);
+    public static final DeferredItem<Item> GUN_REVOLVER_SILVER = registerDurableWeaponItem("gun_revolver_silver", 1000);
+    public static final DeferredItem<Item> GUN_REVOLVER_RED = registerDurableWeaponItem("gun_revolver_red", 1000);
+    public static final DeferredItem<Item> GUN_DEAGLE = registerDurableWeaponItem("gun_deagle", 0);
+    public static final DeferredItem<Item> GUN_FLECHETTE = registerDurableWeaponItem("gun_flechette", 0);
+    public static final DeferredItem<Item> GUN_AR15 = registerDurableWeaponItem("gun_ar15", 0);
+    public static final DeferredItem<Item> GUN_UBOINIK = registerDurableWeaponItem("gun_uboinik", 0);
+    public static final DeferredItem<Item> GUN_KS23 = registerDurableWeaponItem("gun_ks23", 0);
+    public static final DeferredItem<Item> GUN_SAUER = registerDurableWeaponItem("gun_sauer", 0);
+    public static final DeferredItem<Item> GUN_CALAMITY = registerDurableWeaponItem("gun_calamity", 0);
+    public static final DeferredItem<Item> GUN_CALAMITY_DUAL = registerDurableWeaponItem("gun_calamity_dual", 0);
+    public static final DeferredItem<Item> GUN_BOLT_ACTION = registerDurableWeaponItem("gun_bolt_action", 0);
+    public static final DeferredItem<Item> GUN_BOLT_ACTION_GREEN = registerDurableWeaponItem("gun_bolt_action_green", 0);
+    public static final DeferredItem<Item> GUN_UZI = registerDurableWeaponItem("gun_uzi", 0);
+    public static final DeferredItem<Item> GUN_UZI_SILENCER = registerDurableWeaponItem("gun_uzi_silencer", 0);
+    public static final DeferredItem<Item> GUN_UZI_SATURNITE = registerDurableWeaponItem("gun_uzi_saturnite", 0);
+    public static final DeferredItem<Item> GUN_UZI_SATURNITE_SILENCER = registerDurableWeaponItem("gun_uzi_saturnite_silencer", 0);
+    public static final DeferredItem<Item> GUN_MP40 = registerDurableWeaponItem("gun_mp40", 0);
+    public static final DeferredItem<Item> GUN_THOMPSON = registerDurableWeaponItem("gun_thompson", 0);
+    public static final DeferredItem<Item> GUN_RPG = registerDurableWeaponItem("gun_rpg", 0);
+    public static final DeferredItem<Item> GUN_KARL = registerDurableWeaponItem("gun_karl", 0);
+    public static final DeferredItem<Item> GUN_PANZERSCHRECK = registerDurableWeaponItem("gun_panzerschreck", 0);
+    public static final DeferredItem<Item> GUN_QUADRO = registerDurableWeaponItem("gun_quadro", 0);
+    public static final DeferredItem<Item> GUN_LEVER_ACTION = registerDurableWeaponItem("gun_lever_action", 0);
+    public static final DeferredItem<Item> GUN_LEVER_ACTION_DARK = registerDurableWeaponItem("gun_lever_action_dark", 0);
+    public static final DeferredItem<Item> GUN_HK69 = registerDurableWeaponItem("gun_hk69", 0);
+    public static final DeferredItem<Item> GUN_FATMAN = registerDurableWeaponItem("gun_fatman", 0);
+    public static final DeferredItem<Item> GUN_PROTO = registerDurableWeaponItem("gun_proto", 0);
+    public static final DeferredItem<Item> GUN_MIRV = registerDurableWeaponItem("gun_mirv", 0);
+    public static final DeferredItem<Item> GUN_BF = registerDurableWeaponItem("gun_bf", 0);
+    public static final DeferredItem<Item> GUN_ZOMG = registerDurableWeaponItem("gun_zomg", 0);
+    public static final DeferredItem<Item> GUN_MP = registerDurableWeaponItem("gun_mp", 0);
+    public static final DeferredItem<Item> GUN_BOLTER = registerDurableWeaponItem("gun_bolter", 0);
+    public static final DeferredItem<Item> GUN_FLAMER = registerDurableWeaponItem("gun_flamer", 0);
+    public static final DeferredItem<Item> GUN_EMP = registerDurableWeaponItem("gun_emp", 0);
+
     private HbmItems() {
     }
 
@@ -2436,6 +2484,18 @@ public final class HbmItems {
 
     private static DeferredItem<Item> registerSimpleWeaponItem(String name) {
         DeferredItem<Item> item = ITEMS.registerSimpleItem(name);
+        WEAPON_TAB_DYNAMIC_ITEMS.add(item);
+        return item;
+    }
+
+    private static DeferredItem<Item> registerDurableWeaponItem(String name, int durability) {
+        DeferredItem<Item> item = ITEMS.register(name, () -> {
+            Item.Properties properties = new Item.Properties().stacksTo(1);
+            if (durability > 0) {
+                properties.durability(durability);
+            }
+            return new Item(properties);
+        });
         WEAPON_TAB_DYNAMIC_ITEMS.add(item);
         return item;
     }
