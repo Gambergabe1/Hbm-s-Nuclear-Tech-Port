@@ -45,6 +45,7 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.effect.MobEffectInstance;
 import net.minecraft.world.effect.MobEffects;
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.ArmorMaterials;
 import net.minecraft.world.item.BlockItem;
@@ -2095,6 +2096,52 @@ public final class HbmItems {
     public static final DeferredItem<Item> APPLE_SCHRABIDIUM = registerFoodConsumableItem("apple_schrabidium", 5, 25.0F);
     public static final DeferredItem<Item> APPLE_SCHRABIDIUM1 = registerFoodConsumableItem("apple_schrabidium1", 10, 50.0F);
     public static final DeferredItem<Item> APPLE_SCHRABIDIUM2 = registerFoodConsumableItem("apple_schrabidium2", 20, 100.0F);
+
+    // --- Bulk-ported IV/syringe consumables (ItemSimpleConsumable stragglers) ---
+    public static final DeferredItem<Item> IV_EMPTY = registerInstantConsumableItem(
+        "iv_empty",
+        properties -> properties.stacksTo(16),
+        (level, livingEntity) -> {
+            livingEntity.hurt(level.damageSources().magic(), 5.0F);
+            if (livingEntity instanceof Player player) {
+                player.getInventory().add(new ItemStack(HbmItems.IV_BLOOD.get()));
+            }
+        },
+        SoundEvents.PLAYER_HURT
+    );
+    public static final DeferredItem<Item> IV_BLOOD = registerInstantConsumableItem(
+        "iv_blood",
+        properties -> properties.stacksTo(16),
+        (level, livingEntity) -> {
+            livingEntity.heal(3.0F);
+            if (livingEntity instanceof Player player) {
+                player.getInventory().add(new ItemStack(HbmItems.IV_EMPTY.get()));
+            }
+        },
+        SoundEvents.HONEY_DRINK
+    );
+    public static final DeferredItem<Item> IV_XP_EMPTY = registerInstantConsumableItem(
+        "iv_xp_empty",
+        properties -> properties.stacksTo(16),
+        (level, livingEntity) -> {
+            if (livingEntity instanceof Player player) {
+                player.giveExperiencePoints(-100);
+                player.getInventory().add(new ItemStack(HbmItems.IV_XP.get()));
+            }
+        },
+        SoundEvents.HONEY_DRINK
+    );
+    public static final DeferredItem<Item> IV_XP = registerInstantConsumableItem(
+        "iv_xp",
+        properties -> properties.stacksTo(16),
+        (level, livingEntity) -> {
+            if (livingEntity instanceof Player player) {
+                player.giveExperiencePoints(100);
+                player.getInventory().add(new ItemStack(HbmItems.IV_XP_EMPTY.get()));
+            }
+        },
+        SoundEvents.EXPERIENCE_ORB_PICKUP
+    );
 
     private HbmItems() {
     }
