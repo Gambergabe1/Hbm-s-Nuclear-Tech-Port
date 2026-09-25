@@ -2433,6 +2433,16 @@ public final class HbmItems {
     public static final DeferredItem<Item> NUKE_ADVANCED_KIT = registerSimpleConsumableItem("nuke_advanced_kit", properties -> properties.stacksTo(1));
     public static final DeferredItem<Item> LETTER = registerSimpleConsumableItem("letter", properties -> properties.stacksTo(1));
 
+    // --- Bulk-ported multitool passive items (ItemMultitoolPassive; hidden-from-creative like their legacy setCreativeTab(null)) ---
+    public static final DeferredItem<Item> MULTITOOL_HIT = ITEMS.register("multitool_hit", () -> new Item(new Item.Properties().stacksTo(1)));
+    public static final DeferredItem<Item> MULTITOOL_EXT = ITEMS.register("multitool_ext", () -> new Item(new Item.Properties().stacksTo(1)));
+    public static final DeferredItem<Item> MULTITOOL_MINER = ITEMS.register("multitool_miner", () -> new Item(new Item.Properties().stacksTo(1)));
+    public static final DeferredItem<Item> MULTITOOL_BEAM = ITEMS.register("multitool_beam", () -> new Item(new Item.Properties().stacksTo(1)));
+    public static final DeferredItem<Item> MULTITOOL_SKY = ITEMS.register("multitool_sky", () -> new Item(new Item.Properties().stacksTo(1)));
+    public static final DeferredItem<Item> MULTITOOL_MEGA = ITEMS.register("multitool_mega", () -> new Item(new Item.Properties().stacksTo(1)));
+    public static final DeferredItem<Item> MULTITOOL_JOULE = ITEMS.register("multitool_joule", () -> new Item(new Item.Properties().stacksTo(1)));
+    public static final DeferredItem<Item> MULTITOOL_DECON = ITEMS.register("multitool_decon", () -> new Item(new Item.Properties().stacksTo(1)));
+
     private HbmItems() {
     }
 
