@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:glass_boron" }
+		"": { "model": "hbm:glass_boron" }
 	}
 }

@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:basalt_asbestos" }
+		"": { "model": "hbm:basalt_asbestos" }
 	}
 }

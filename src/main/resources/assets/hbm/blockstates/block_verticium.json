@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:block_verticium" }
+		"": { "model": "hbm:block_verticium" }
 	}
 }

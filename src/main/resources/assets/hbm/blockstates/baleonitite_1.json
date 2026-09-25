@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:baleonitite_1" }
+		"": { "model": "hbm:baleonitite_1" }
 	}
 }

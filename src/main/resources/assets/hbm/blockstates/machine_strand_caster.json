@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:machine_strand_caster" }
+		"": { "model": "hbm:machine_strand_caster" }
 	}
 }

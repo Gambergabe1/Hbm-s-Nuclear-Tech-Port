@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:ore_gneiss_iron" }
+		"": { "model": "hbm:ore_gneiss_iron" }
 	}
 }

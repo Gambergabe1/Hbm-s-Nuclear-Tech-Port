@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:dummy_port_radgen" }
+		"": { "model": "hbm:dummy_port_radgen" }
 	}
 }

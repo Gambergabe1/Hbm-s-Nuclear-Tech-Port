@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:rbmk_steam_outlet" }
+		"": { "model": "hbm:rbmk_steam_outlet" }
 	}
 }

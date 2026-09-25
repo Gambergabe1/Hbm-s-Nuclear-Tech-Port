@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:machine_press" }
+		"": { "model": "hbm:machine_press" }
 	}
 }

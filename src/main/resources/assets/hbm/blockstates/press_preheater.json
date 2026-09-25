@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:press_preheater" }
+		"": { "model": "hbm:press_preheater" }
 	}
 }

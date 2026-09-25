@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:block_magnetized_tungsten" }
+		"": { "model": "hbm:block_magnetized_tungsten" }
 	}
 }

@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:sand_uranium" }
+		"": { "model": "hbm:sand_uranium" }
 	}
 }

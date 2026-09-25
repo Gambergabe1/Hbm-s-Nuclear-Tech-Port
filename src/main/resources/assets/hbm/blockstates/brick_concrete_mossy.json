@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:brick_concrete_mossy" }
+		"": { "model": "hbm:brick_concrete_mossy" }
 	}
 }

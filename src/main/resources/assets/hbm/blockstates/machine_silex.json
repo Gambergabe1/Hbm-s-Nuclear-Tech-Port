@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:machine_silex" }
+		"": { "model": "hbm:machine_silex" }
 	}
 }

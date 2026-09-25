@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:ams_base" }
+		"": { "model": "hbm:ams_base" }
 	}
 }

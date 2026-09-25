@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:concrete_purple" }
+		"": { "model": "hbm:concrete_purple" }
 	}
 }

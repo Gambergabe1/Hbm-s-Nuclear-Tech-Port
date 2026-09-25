@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:ore_meteor_titanium" }
+		"": { "model": "hbm:ore_meteor_titanium" }
 	}
 }

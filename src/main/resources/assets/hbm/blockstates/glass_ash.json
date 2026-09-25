@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:glass_ash" }
+		"": { "model": "hbm:glass_ash" }
 	}
 }

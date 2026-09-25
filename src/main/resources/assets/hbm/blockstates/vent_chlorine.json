@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:vent_chlorine" }
+		"": { "model": "hbm:vent_chlorine" }
 	}
 }

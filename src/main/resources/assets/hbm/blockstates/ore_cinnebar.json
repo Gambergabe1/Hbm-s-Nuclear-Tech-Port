@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:ore_cinnebar" }
+		"": { "model": "hbm:ore_cinnebar" }
 	}
 }

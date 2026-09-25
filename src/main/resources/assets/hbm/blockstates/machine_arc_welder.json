@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:machine_arc_welder" }
+		"": { "model": "hbm:machine_arc_welder" }
 	}
 }

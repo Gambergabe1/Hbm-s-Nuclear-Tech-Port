@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:block_meteor_molten" }
+		"": { "model": "hbm:block_meteor_molten" }
 	}
 }

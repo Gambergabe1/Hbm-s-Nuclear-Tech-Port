@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:heater_firebox" }
+		"": { "model": "hbm:heater_firebox" }
 	}
 }

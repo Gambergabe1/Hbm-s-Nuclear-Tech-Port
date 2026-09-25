@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:turret_heavy" }
+		"": { "model": "hbm:turret_heavy" }
 	}
 }

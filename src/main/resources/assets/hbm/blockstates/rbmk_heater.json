@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:rbmk_heater" }
+		"": { "model": "hbm:rbmk_heater" }
 	}
 }

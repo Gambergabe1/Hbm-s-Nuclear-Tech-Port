@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:machine_chungus" }
+		"": { "model": "hbm:machine_chungus" }
 	}
 }

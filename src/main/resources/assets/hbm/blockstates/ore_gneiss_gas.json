@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:ore_gneiss_gas" }
+		"": { "model": "hbm:ore_gneiss_gas" }
 	}
 }

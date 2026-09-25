@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:turret_spitfire" }
+		"": { "model": "hbm:turret_spitfire" }
 	}
 }

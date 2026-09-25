@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:sand_gold" }
+		"": { "model": "hbm:sand_gold" }
 	}
 }

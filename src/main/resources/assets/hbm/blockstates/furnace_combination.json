@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:furnace_combination" }
+		"": { "model": "hbm:furnace_combination" }
 	}
 }

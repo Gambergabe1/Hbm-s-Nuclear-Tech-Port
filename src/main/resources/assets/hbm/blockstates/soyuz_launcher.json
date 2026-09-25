@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:soyuz_launcher" }
+		"": { "model": "hbm:soyuz_launcher" }
 	}
 }

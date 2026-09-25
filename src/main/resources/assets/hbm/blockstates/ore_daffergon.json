@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:ore_daffergon" }
+		"": { "model": "hbm:ore_daffergon" }
 	}
 }

@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:lamp_demon" }
+		"": { "model": "hbm:lamp_demon" }
 	}
 }

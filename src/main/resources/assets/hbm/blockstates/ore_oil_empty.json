@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:ore_oil_empty" }
+		"": { "model": "hbm:ore_oil_empty" }
 	}
 }

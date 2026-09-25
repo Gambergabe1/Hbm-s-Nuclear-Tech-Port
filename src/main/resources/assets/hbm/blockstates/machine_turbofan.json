@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:machine_turbofan" }
+		"": { "model": "hbm:machine_turbofan" }
 	}
 }

@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:machine_condenser_powered" }
+		"": { "model": "hbm:machine_condenser_powered" }
 	}
 }

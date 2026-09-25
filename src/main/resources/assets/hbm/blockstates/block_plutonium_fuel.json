@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:block_plutonium_fuel" }
+		"": { "model": "hbm:block_plutonium_fuel" }
 	}
 }

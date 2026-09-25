@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:concrete" }
+		"": { "model": "hbm:concrete" }
 	}
 }

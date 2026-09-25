@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:brick_dungeon_tile" }
+		"": { "model": "hbm:brick_dungeon_tile" }
 	}
 }

@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:machine_vacuum_distill" }
+		"": { "model": "hbm:machine_vacuum_distill" }
 	}
 }

@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:block_polymer" }
+		"": { "model": "hbm:block_polymer" }
 	}
 }

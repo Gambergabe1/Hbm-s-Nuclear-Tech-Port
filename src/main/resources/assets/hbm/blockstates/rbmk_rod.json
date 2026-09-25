@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:rbmk_rod" }
+		"": { "model": "hbm:rbmk_rod" }
 	}
 }

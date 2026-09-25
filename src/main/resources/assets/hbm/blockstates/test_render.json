@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:test_render" }
+		"": { "model": "hbm:test_render" }
 	}
 }

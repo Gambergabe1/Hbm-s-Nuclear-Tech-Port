@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:struct_soyuz_core" }
+		"": { "model": "hbm:struct_soyuz_core" }
 	}
 }

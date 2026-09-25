@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:mine_fat" }
+		"": { "model": "hbm:mine_fat" }
 	}
 }

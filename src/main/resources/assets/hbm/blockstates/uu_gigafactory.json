@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:uu_gigafactory" }
+		"": { "model": "hbm:uu_gigafactory" }
 	}
 }

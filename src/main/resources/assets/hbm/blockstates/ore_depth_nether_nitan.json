@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:ore_depth_nether_nitan" }
+		"": { "model": "hbm:ore_depth_nether_nitan" }
 	}
 }

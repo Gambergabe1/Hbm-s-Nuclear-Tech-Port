@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:deco_titanium" }
+		"": { "model": "hbm:deco_titanium" }
 	}
 }

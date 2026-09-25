@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:machine_tower_large" }
+		"": { "model": "hbm:machine_tower_large" }
 	}
 }

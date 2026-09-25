@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:dfc_core" }
+		"": { "model": "hbm:dfc_core" }
 	}
 }

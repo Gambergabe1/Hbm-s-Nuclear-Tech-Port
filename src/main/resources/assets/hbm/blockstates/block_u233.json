@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:block_u233" }
+		"": { "model": "hbm:block_u233" }
 	}
 }

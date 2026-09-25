@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:dummy_plate_cargo" }
+		"": { "model": "hbm:dummy_plate_cargo" }
 	}
 }

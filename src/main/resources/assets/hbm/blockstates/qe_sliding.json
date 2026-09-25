@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:qe_sliding" }
+		"": { "model": "hbm:qe_sliding" }
 	}
 }

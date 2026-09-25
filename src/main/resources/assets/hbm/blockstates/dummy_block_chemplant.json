@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:dummy_block_chemplant" }
+		"": { "model": "hbm:dummy_block_chemplant" }
 	}
 }

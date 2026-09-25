@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:block_tungsten" }
+		"": { "model": "hbm:block_tungsten" }
 	}
 }

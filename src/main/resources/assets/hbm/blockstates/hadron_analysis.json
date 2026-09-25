@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:hadron_analysis" }
+		"": { "model": "hbm:hadron_analysis" }
 	}
 }

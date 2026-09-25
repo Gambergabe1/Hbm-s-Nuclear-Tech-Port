@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:block_meteor" }
+		"": { "model": "hbm:block_meteor" }
 	}
 }

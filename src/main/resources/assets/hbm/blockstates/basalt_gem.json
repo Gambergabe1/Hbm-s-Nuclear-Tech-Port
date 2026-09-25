@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:basalt_gem" }
+		"": { "model": "hbm:basalt_gem" }
 	}
 }

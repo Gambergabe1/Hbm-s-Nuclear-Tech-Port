@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:fwatz_computer" }
+		"": { "model": "hbm:fwatz_computer" }
 	}
 }

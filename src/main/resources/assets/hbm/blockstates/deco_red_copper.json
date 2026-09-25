@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:deco_red_copper" }
+		"": { "model": "hbm:deco_red_copper" }
 	}
 }

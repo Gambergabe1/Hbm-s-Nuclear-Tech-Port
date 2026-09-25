@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:block_coal_infernal" }
+		"": { "model": "hbm:block_coal_infernal" }
 	}
 }

@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:substation" }
+		"": { "model": "hbm:substation" }
 	}
 }

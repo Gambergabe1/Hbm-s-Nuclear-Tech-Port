@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:heat_boiler" }
+		"": { "model": "hbm:heat_boiler" }
 	}
 }

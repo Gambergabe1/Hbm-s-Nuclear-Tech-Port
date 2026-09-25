@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:mine_shrap" }
+		"": { "model": "hbm:mine_shrap" }
 	}
 }

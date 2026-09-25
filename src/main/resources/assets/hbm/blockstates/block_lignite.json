@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:block_lignite" }
+		"": { "model": "hbm:block_lignite" }
 	}
 }

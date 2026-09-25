@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:rbmk_control" }
+		"": { "model": "hbm:rbmk_control" }
 	}
 }

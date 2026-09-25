@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:machine_hydrotreater" }
+		"": { "model": "hbm:machine_hydrotreater" }
 	}
 }

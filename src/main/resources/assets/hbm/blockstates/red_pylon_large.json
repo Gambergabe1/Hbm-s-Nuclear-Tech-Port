@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:red_pylon_large" }
+		"": { "model": "hbm:red_pylon_large" }
 	}
 }

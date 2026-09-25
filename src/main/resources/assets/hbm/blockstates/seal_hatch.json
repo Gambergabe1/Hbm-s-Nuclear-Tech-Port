@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:seal_hatch" }
+		"": { "model": "hbm:seal_hatch" }
 	}
 }

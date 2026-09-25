@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:rbmk_storage" }
+		"": { "model": "hbm:rbmk_storage" }
 	}
 }

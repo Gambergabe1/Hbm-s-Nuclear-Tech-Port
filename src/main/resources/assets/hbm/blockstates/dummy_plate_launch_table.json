@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:dummy_plate_launch_table" }
+		"": { "model": "hbm:dummy_plate_launch_table" }
 	}
 }

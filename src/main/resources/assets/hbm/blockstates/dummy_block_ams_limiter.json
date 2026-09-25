@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:dummy_block_ams_limiter" }
+		"": { "model": "hbm:dummy_block_ams_limiter" }
 	}
 }

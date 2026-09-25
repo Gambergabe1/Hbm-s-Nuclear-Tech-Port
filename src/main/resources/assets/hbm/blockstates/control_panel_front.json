@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:control_panel_front" }
+		"": { "model": "hbm:control_panel_front" }
 	}
 }

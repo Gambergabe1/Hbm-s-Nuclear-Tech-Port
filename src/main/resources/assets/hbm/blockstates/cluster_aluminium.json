@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:cluster_aluminium" }
+		"": { "model": "hbm:cluster_aluminium" }
 	}
 }

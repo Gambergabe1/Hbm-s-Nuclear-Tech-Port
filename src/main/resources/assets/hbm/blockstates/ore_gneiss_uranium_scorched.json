@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:ore_gneiss_uranium_scorched" }
+		"": { "model": "hbm:ore_gneiss_uranium_scorched" }
 	}
 }

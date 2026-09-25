@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:hadron_coil_chlorophyte" }
+		"": { "model": "hbm:hadron_coil_chlorophyte" }
 	}
 }

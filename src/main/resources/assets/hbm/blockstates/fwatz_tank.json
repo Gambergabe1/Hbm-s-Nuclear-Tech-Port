@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:fwatz_tank" }
+		"": { "model": "hbm:fwatz_tank" }
 	}
 }

@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:reinforced_light" }
+		"": { "model": "hbm:reinforced_light" }
 	}
 }

@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:dummy_block_blast" }
+		"": { "model": "hbm:dummy_block_blast" }
 	}
 }

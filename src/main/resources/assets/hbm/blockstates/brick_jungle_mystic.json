@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:brick_jungle_mystic" }
+		"": { "model": "hbm:brick_jungle_mystic" }
 	}
 }

@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:factory_titanium_conductor" }
+		"": { "model": "hbm:factory_titanium_conductor" }
 	}
 }

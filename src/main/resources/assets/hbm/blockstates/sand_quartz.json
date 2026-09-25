@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:sand_quartz" }
+		"": { "model": "hbm:sand_quartz" }
 	}
 }

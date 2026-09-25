@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:rbmk_loader" }
+		"": { "model": "hbm:rbmk_loader" }
 	}
 }

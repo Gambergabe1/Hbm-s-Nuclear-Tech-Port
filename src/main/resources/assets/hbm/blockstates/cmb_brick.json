@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:cmb_brick" }
+		"": { "model": "hbm:cmb_brick" }
 	}
 }

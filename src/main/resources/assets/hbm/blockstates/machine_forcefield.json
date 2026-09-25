@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:machine_forcefield" }
+		"": { "model": "hbm:machine_forcefield" }
 	}
 }

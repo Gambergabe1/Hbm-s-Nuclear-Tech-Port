@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:waste_ice" }
+		"": { "model": "hbm:waste_ice" }
 	}
 }

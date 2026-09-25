@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:stone_depth" }
+		"": { "model": "hbm:stone_depth" }
 	}
 }

@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:ore_bedrock_block" }
+		"": { "model": "hbm:ore_bedrock_block" }
 	}
 }

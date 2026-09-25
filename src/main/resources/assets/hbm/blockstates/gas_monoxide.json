@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:gas_monoxide" }
+		"": { "model": "hbm:gas_monoxide" }
 	}
 }

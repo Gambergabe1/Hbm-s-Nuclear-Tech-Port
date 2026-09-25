@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:turret_light" }
+		"": { "model": "hbm:turret_light" }
 	}
 }

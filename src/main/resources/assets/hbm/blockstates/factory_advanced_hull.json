@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:factory_advanced_hull" }
+		"": { "model": "hbm:factory_advanced_hull" }
 	}
 }

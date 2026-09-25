@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:block_scrap" }
+		"": { "model": "hbm:block_scrap" }
 	}
 }

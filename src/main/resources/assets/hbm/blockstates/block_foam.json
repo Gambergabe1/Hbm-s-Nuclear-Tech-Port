@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:block_foam" }
+		"": { "model": "hbm:block_foam" }
 	}
 }

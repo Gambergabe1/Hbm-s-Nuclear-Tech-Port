@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:machine_satlinker" }
+		"": { "model": "hbm:machine_satlinker" }
 	}
 }

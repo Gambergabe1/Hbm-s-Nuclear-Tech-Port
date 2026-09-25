@@ -1,5 +1,5 @@
 {
 	"variants": {
-		"normal": { "model": "hbm:machine_refinery" }
+		"": { "model": "hbm:machine_refinery" }
 	}
 }
