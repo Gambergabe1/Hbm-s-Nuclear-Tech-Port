@@ -2409,6 +2409,30 @@ public final class HbmItems {
     public static final DeferredItem<Item> MISSILE_ANTI_BALLISTIC = registerSimpleMissileItem("missile_anti_ballistic");
     public static final DeferredItem<Item> MISSILE_CARRIER = registerSimpleMissileItem("missile_carrier");
 
+    // --- Bulk-ported starter kit items (ItemStarterKit; 'give kit contents' behavior not carried over) ---
+    public static final DeferredItem<Item> STEALTH_BOY = registerSimpleConsumableItem("stealth_boy", properties -> properties.stacksTo(1));
+    public static final DeferredItem<Item> EUPHEMIUM_KIT = ITEMS.register("euphemium_kit", () -> new Item(new Item.Properties().stacksTo(1)));
+    public static final DeferredItem<Item> GRENADE_KIT = registerSimpleWeaponItem("grenade_kit");
+    public static final DeferredItem<Item> GADGET_KIT = registerSimpleNukeItem("gadget_kit");
+    public static final DeferredItem<Item> BOY_KIT = registerSimpleNukeItem("boy_kit");
+    public static final DeferredItem<Item> MAN_KIT = registerSimpleNukeItem("man_kit");
+    public static final DeferredItem<Item> MIKE_KIT = registerSimpleNukeItem("mike_kit");
+    public static final DeferredItem<Item> TSAR_KIT = registerSimpleNukeItem("tsar_kit");
+    public static final DeferredItem<Item> PROTOTYPE_KIT = registerSimpleNukeItem("prototype_kit");
+    public static final DeferredItem<Item> FLEIJA_KIT = registerSimpleNukeItem("fleija_kit");
+    public static final DeferredItem<Item> SOLINIUM_KIT = registerSimpleNukeItem("solinium_kit");
+    public static final DeferredItem<Item> BALEFIRE_KIT = registerSimpleNukeItem("balefire_kit");
+    public static final DeferredItem<Item> MULTI_KIT = registerSimpleNukeItem("multi_kit");
+    public static final DeferredItem<Item> CUSTOM_KIT = registerSimpleNukeItem("custom_kit");
+    public static final DeferredItem<Item> MISSILE_KIT = registerSimpleMissileItem("missile_kit");
+    public static final DeferredItem<Item> T45_KIT = registerSimpleConsumableItem("t45_kit", properties -> properties.stacksTo(1));
+    public static final DeferredItem<Item> HAZMAT_KIT = registerSimpleConsumableItem("hazmat_kit", properties -> properties.stacksTo(1));
+    public static final DeferredItem<Item> HAZMAT_RED_KIT = registerSimpleConsumableItem("hazmat_red_kit", properties -> properties.stacksTo(1));
+    public static final DeferredItem<Item> HAZMAT_GREY_KIT = registerSimpleConsumableItem("hazmat_grey_kit", properties -> properties.stacksTo(1));
+    public static final DeferredItem<Item> NUKE_STARTER_KIT = registerSimpleConsumableItem("nuke_starter_kit", properties -> properties.stacksTo(1));
+    public static final DeferredItem<Item> NUKE_ADVANCED_KIT = registerSimpleConsumableItem("nuke_advanced_kit", properties -> properties.stacksTo(1));
+    public static final DeferredItem<Item> LETTER = registerSimpleConsumableItem("letter", properties -> properties.stacksTo(1));
+
     private HbmItems() {
     }
 
