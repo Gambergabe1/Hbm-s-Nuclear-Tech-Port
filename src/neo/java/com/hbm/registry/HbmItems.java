@@ -2847,6 +2847,21 @@ public final class HbmItems {
     public static final DeferredItem<BlockItem> LADDER_STEEL = ITEMS.registerSimpleBlockItem("ladder_steel", HbmBlocks.LADDER_STEEL);
     public static final DeferredItem<BlockItem> LADDER_TUNGSTEN = ITEMS.registerSimpleBlockItem("ladder_tungsten", HbmBlocks.LADDER_TUNGSTEN);
 
+    // --- Block items for bulk-ported BlockOutgas blocks ---
+    public static final DeferredItem<BlockItem> BRICK_ASBESTOS = ITEMS.registerSimpleBlockItem("brick_asbestos", HbmBlocks.BRICK_ASBESTOS);
+    public static final DeferredItem<BlockItem> CONCRETE_ASBESTOS = ITEMS.registerSimpleBlockItem("concrete_asbestos", HbmBlocks.CONCRETE_ASBESTOS);
+    public static final DeferredItem<BlockItem> ORE_URANIUM = ITEMS.registerSimpleBlockItem("ore_uranium", HbmBlocks.ORE_URANIUM);
+    public static final DeferredItem<BlockItem> ORE_URANIUM_SCORCHED = ITEMS.registerSimpleBlockItem("ore_uranium_scorched", HbmBlocks.ORE_URANIUM_SCORCHED);
+    public static final DeferredItem<BlockItem> ORE_GNEISS_URANIUM = ITEMS.registerSimpleBlockItem("ore_gneiss_uranium", HbmBlocks.ORE_GNEISS_URANIUM);
+    public static final DeferredItem<BlockItem> ORE_GNEISS_URANIUM_SCORCHED = ITEMS.registerSimpleBlockItem("ore_gneiss_uranium_scorched", HbmBlocks.ORE_GNEISS_URANIUM_SCORCHED);
+    public static final DeferredItem<BlockItem> ORE_NETHER_URANIUM = ITEMS.registerSimpleBlockItem("ore_nether_uranium", HbmBlocks.ORE_NETHER_URANIUM);
+    public static final DeferredItem<BlockItem> ORE_NETHER_URANIUM_SCORCHED = ITEMS.registerSimpleBlockItem("ore_nether_uranium_scorched", HbmBlocks.ORE_NETHER_URANIUM_SCORCHED);
+    public static final DeferredItem<BlockItem> DECO_ASBESTOS = ITEMS.registerSimpleBlockItem("deco_asbestos", HbmBlocks.DECO_ASBESTOS);
+    public static final DeferredItem<BlockItem> BLOCK_ASBESTOS = ITEMS.registerSimpleBlockItem("block_asbestos", HbmBlocks.BLOCK_ASBESTOS);
+    public static final DeferredItem<BlockItem> BASALT_ASBESTOS = ITEMS.registerSimpleBlockItem("basalt_asbestos", HbmBlocks.BASALT_ASBESTOS);
+    public static final DeferredItem<BlockItem> BLOCK_CORIUM_COBBLE = ITEMS.registerSimpleBlockItem("block_corium_cobble", HbmBlocks.BLOCK_CORIUM_COBBLE);
+    public static final DeferredItem<BlockItem> ANCIENT_SCRAP = ITEMS.registerSimpleBlockItem("ancient_scrap", HbmBlocks.ANCIENT_SCRAP);
+
     private HbmItems() {
     }
 

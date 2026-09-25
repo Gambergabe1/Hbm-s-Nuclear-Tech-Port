@@ -676,6 +676,21 @@ public final class HbmBlocks {
     public static final DeferredBlock<LadderBlock> LADDER_STEEL = registerLadderBlock("ladder_steel");
     public static final DeferredBlock<LadderBlock> LADDER_TUNGSTEN = registerLadderBlock("ladder_tungsten");
 
+    // --- Bulk-ported BlockOutgas-equivalent blocks (radiation outgassing tick behavior not carried over) ---
+    public static final DeferredBlock<Block> BRICK_ASBESTOS = registerOreBlock("brick_asbestos", 2);
+    public static final DeferredBlock<Block> CONCRETE_ASBESTOS = registerOreBlock("concrete_asbestos", 2);
+    public static final DeferredBlock<Block> ORE_URANIUM = registerOreBlock("ore_uranium", 2);
+    public static final DeferredBlock<Block> ORE_URANIUM_SCORCHED = registerOreBlock("ore_uranium_scorched", 2);
+    public static final DeferredBlock<Block> ORE_GNEISS_URANIUM = registerOreBlock("ore_gneiss_uranium", 2);
+    public static final DeferredBlock<Block> ORE_GNEISS_URANIUM_SCORCHED = registerOreBlock("ore_gneiss_uranium_scorched", 2);
+    public static final DeferredBlock<Block> ORE_NETHER_URANIUM = registerOreBlock("ore_nether_uranium", 2);
+    public static final DeferredBlock<Block> ORE_NETHER_URANIUM_SCORCHED = registerOreBlock("ore_nether_uranium_scorched", 2);
+    public static final DeferredBlock<Block> DECO_ASBESTOS = registerOreBlock("deco_asbestos", 2);
+    public static final DeferredBlock<Block> BLOCK_ASBESTOS = registerOreBlock("block_asbestos", 2);
+    public static final DeferredBlock<Block> BASALT_ASBESTOS = registerOreBlock("basalt_asbestos", 2);
+    public static final DeferredBlock<Block> BLOCK_CORIUM_COBBLE = registerOreBlock("block_corium_cobble", 2);
+    public static final DeferredBlock<Block> ANCIENT_SCRAP = registerOreBlock("ancient_scrap", 2);
+
     private HbmBlocks() {
     }
 
