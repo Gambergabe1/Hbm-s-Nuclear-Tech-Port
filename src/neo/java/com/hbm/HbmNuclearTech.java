@@ -2,7 +2,6 @@ package com.hbm;
 
 import org.slf4j.Logger;
 
-import com.hbm.attachment.HbmAttachments;
 import com.hbm.bootstrap.HbmBootstrap;
 import com.hbm.config.HbmCommonConfig;
 import com.hbm.config.RadiationConfig;
@@ -24,10 +23,10 @@ public final class HbmNuclearTech {
     public HbmNuclearTech(IEventBus modEventBus, ModContainer modContainer) {
         HbmBootstrap.register(modEventBus, modContainer);
         HbmRegistries.register(modEventBus);
-        
-        // Register entity attachments (radiation data)
-        HbmAttachments.ATTACHMENT_TYPES.register(modEventBus);
-        
+
+        // Entity attachments (radiation data etc) are registered by
+        // HbmRegistries via HbmAttachmentTypes.ATTACHMENT_TYPES above.
+
         // Register RBMK reactor system
         HbmRBMKBlocks.BLOCKS.register(modEventBus);
         HbmRBMKBlocks.BLOCK_ENTITIES.register(modEventBus);

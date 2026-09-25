@@ -2,6 +2,7 @@ package com.hbm.util;
 
 import com.hbm.attachment.HbmAttachmentAccess;
 import com.hbm.attachment.HbmLivingData;
+import com.hbm.config.RadiationConfig;
 import com.hbm.registry.HbmDataComponents;
 import com.hbm.registry.HbmMobEffects;
 
@@ -80,28 +81,28 @@ public final class HazardHandler {
 
         // Radiation passive drain (very slow)
         if (living.tickCount % 20 == 0) {
-            data.decreaseRads(0.01F);
+            data.decreaseRads(RadiationConfig.passiveDrainPerSecond());
         }
 
         // Apply radiation effects
         float rads = data.getRads();
-        if (rads > 200) {
+        if (rads > RadiationConfig.hungerThreshold()) {
             living.addEffect(new MobEffectInstance(MobEffects.HUNGER, 40, 0, false, false));
         }
-        if (rads > 400) {
+        if (rads > RadiationConfig.weaknessThreshold()) {
             living.addEffect(new MobEffectInstance(MobEffects.WEAKNESS, 40, 0, false, false));
         }
-        if (rads > 600) {
+        if (rads > RadiationConfig.slownessThreshold()) {
             living.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 40, 0, false, false));
             living.addEffect(new MobEffectInstance(MobEffects.DIG_SLOWDOWN, 40, 0, false, false));
         }
-        if (rads > 800) {
+        if (rads > RadiationConfig.poisonThreshold()) {
             living.addEffect(new MobEffectInstance(MobEffects.POISON, 40, 0, false, false));
             living.addEffect(new MobEffectInstance(MobEffects.CONFUSION, 100, 0, false, false));
         }
-        if (rads > 1000) {
+        if (rads > RadiationConfig.damageThreshold()) {
             if (living.tickCount % 20 == 0) {
-                living.hurt(living.damageSources().generic(), 1.0F);
+                living.hurt(living.damageSources().generic(), RadiationConfig.damagePerSecond());
             }
         }
     }
