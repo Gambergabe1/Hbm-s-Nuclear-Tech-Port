@@ -560,6 +560,11 @@ public final class HbmBlocks {
     );
 
     // --- Bulk-ported simple blocks (BlockHazard equivalents; radiation behavior TODO once the radiation system exists) ---
+
+    // --- Bulk-ported simple blocks (BlockRadResistant equivalents; radiation shielding TODO once the radiation system exists) ---
+    public static final DeferredBlock<Block> REINFORCED_LIGHT = registerStoneBlock("reinforced_light", MapColor.STONE, 15.0F, 300.0F, SoundType.STONE);
+    public static final DeferredBlock<Block> BLOCK_NITER_REINFORCED = registerStoneBlock("block_niter_reinforced", MapColor.METAL, 15.0F, 6000.0F, SoundType.METAL);
+    public static final DeferredBlock<Block> HAZMAT = registerStoneBlock("hazmat", MapColor.COLOR_LIGHT_GRAY, 15.0F, 100.0F, SoundType.WOOL);
     public static final DeferredBlock<Block> BLOCK_METEOR_MOLTEN = registerStoneBlock("block_meteor_molten", MapColor.STONE, 15.0F, 15.0F, SoundType.STONE);
     public static final DeferredBlock<Block> BRICK_JUNGLE_LAVA = registerStoneBlock("brick_jungle_lava", MapColor.STONE, 15.0F, 900.0F, SoundType.STONE);
     public static final DeferredBlock<Block> BRICK_JUNGLE_OOZE = registerStoneBlock("brick_jungle_ooze", MapColor.STONE, 15.0F, 900.0F, SoundType.STONE);

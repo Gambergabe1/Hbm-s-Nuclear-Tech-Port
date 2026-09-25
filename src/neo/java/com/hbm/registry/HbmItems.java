@@ -1691,6 +1691,10 @@ public final class HbmItems {
     public static final DeferredItem<BlockItem> PINK_PLANKS = ITEMS.registerSimpleBlockItem("pink_planks", HbmBlocks.PINK_PLANKS);
 
     // --- Block items for bulk-ported BlockHazard-equivalent blocks ---
+    // --- Block items for bulk-ported BlockRadResistant-equivalent blocks ---
+    public static final DeferredItem<BlockItem> REINFORCED_LIGHT = ITEMS.registerSimpleBlockItem("reinforced_light", HbmBlocks.REINFORCED_LIGHT);
+    public static final DeferredItem<BlockItem> BLOCK_NITER_REINFORCED = ITEMS.registerSimpleBlockItem("block_niter_reinforced", HbmBlocks.BLOCK_NITER_REINFORCED);
+    public static final DeferredItem<BlockItem> HAZMAT = ITEMS.registerSimpleBlockItem("hazmat", HbmBlocks.HAZMAT);
     public static final DeferredItem<BlockItem> BLOCK_METEOR_MOLTEN = ITEMS.registerSimpleBlockItem("block_meteor_molten", HbmBlocks.BLOCK_METEOR_MOLTEN);
     public static final DeferredItem<BlockItem> BRICK_JUNGLE_LAVA = ITEMS.registerSimpleBlockItem("brick_jungle_lava", HbmBlocks.BRICK_JUNGLE_LAVA);
     public static final DeferredItem<BlockItem> BRICK_JUNGLE_OOZE = ITEMS.registerSimpleBlockItem("brick_jungle_ooze", HbmBlocks.BRICK_JUNGLE_OOZE);
