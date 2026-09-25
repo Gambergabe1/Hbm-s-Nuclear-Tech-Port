@@ -615,6 +615,54 @@ public final class HbmBlocks {
     public static final DeferredBlock<Block> BLOCK_WHITE_PHOSPHORUS = registerStoneBlock("block_white_phosphorus", MapColor.STONE, 5.0F, 5.0F, SoundType.STONE);
     public static final DeferredBlock<Block> BLOCK_CORIUM = registerStoneBlock("block_corium", MapColor.METAL, 100.0F, 100.0F, SoundType.METAL);
 
+    // --- Bulk-ported ore blocks (BlockNTMOre; world generation not wired up yet - see migration notes) ---
+    public static final DeferredBlock<Block> BASALT_FLUORITE = registerOreBlock("basalt_fluorite", 2);
+    public static final DeferredBlock<Block> BASALT_SULFUR = registerOreBlock("basalt_sulfur", 2);
+    public static final DeferredBlock<Block> BLOCK_METEOR = registerOreBlock("block_meteor", 2);
+    public static final DeferredBlock<Block> BLOCK_METEOR_BROKEN = registerOreBlock("block_meteor_broken", 0);
+    public static final DeferredBlock<Block> BLOCK_METEOR_COBBLE = registerOreBlock("block_meteor_cobble", 0);
+    public static final DeferredBlock<Block> BLOCK_METEOR_TREASURE = registerOreBlock("block_meteor_treasure", 2);
+    public static final DeferredBlock<Block> ORE_ASBESTOS = registerOreBlock("ore_asbestos", 6);
+    public static final DeferredBlock<Block> ORE_AUSTRALIUM = registerOreBlock("ore_australium", 10000);
+    public static final DeferredBlock<Block> ORE_COLTAN = registerOreBlock("ore_coltan", 20);
+    public static final DeferredBlock<Block> ORE_DAFFERGON = registerOreBlock("ore_daffergon", 10000000);
+    public static final DeferredBlock<Block> ORE_GNEISS_ASBESTOS = registerOreBlock("ore_gneiss_asbestos", 2);
+    public static final DeferredBlock<Block> ORE_GNEISS_COPPER = registerOreBlock("ore_gneiss_copper", 2);
+    public static final DeferredBlock<Block> ORE_GNEISS_GAS = registerOreBlock("ore_gneiss_gas", 2);
+    public static final DeferredBlock<Block> ORE_GNEISS_GOLD = registerOreBlock("ore_gneiss_gold", 2);
+    public static final DeferredBlock<Block> ORE_GNEISS_IRON = registerOreBlock("ore_gneiss_iron", 2);
+    public static final DeferredBlock<Block> ORE_GNEISS_LITHIUM = registerOreBlock("ore_gneiss_lithium", 2);
+    public static final DeferredBlock<Block> ORE_GNEISS_RARE = registerOreBlock("ore_gneiss_rare", 2);
+    public static final DeferredBlock<Block> ORE_GNEISS_SCHRABIDIUM = registerOreBlock("ore_gneiss_schrabidium", 2);
+    public static final DeferredBlock<Block> ORE_HEMATITE = registerOreBlock("ore_hematite", 2);
+    public static final DeferredBlock<Block> ORE_LIGNITE = registerOreBlock("ore_lignite", 2);
+    public static final DeferredBlock<Block> ORE_MALACHITE = registerOreBlock("ore_malachite", 2);
+    public static final DeferredBlock<Block> ORE_METEOR_ALUMINIUM = registerOreBlock("ore_meteor_aluminium", 30);
+    public static final DeferredBlock<Block> ORE_METEOR_COPPER = registerOreBlock("ore_meteor_copper", 30);
+    public static final DeferredBlock<Block> ORE_METEOR_LEAD = registerOreBlock("ore_meteor_lead", 30);
+    public static final DeferredBlock<Block> ORE_METEOR_LITHIUM = registerOreBlock("ore_meteor_lithium", 30);
+    public static final DeferredBlock<Block> ORE_METEOR_STARMETAL = registerOreBlock("ore_meteor_starmetal", 60);
+    public static final DeferredBlock<Block> ORE_METEOR_SULFUR = registerOreBlock("ore_meteor_sulfur", 30);
+    public static final DeferredBlock<Block> ORE_METEOR_THORIUM = registerOreBlock("ore_meteor_thorium", 30);
+    public static final DeferredBlock<Block> ORE_METEOR_TITANIUM = registerOreBlock("ore_meteor_titanium", 30);
+    public static final DeferredBlock<Block> ORE_METEOR_TUNGSTEN = registerOreBlock("ore_meteor_tungsten", 30);
+    public static final DeferredBlock<Block> ORE_METEOR_URANIUM = registerOreBlock("ore_meteor_uranium", 30);
+    public static final DeferredBlock<Block> ORE_NETHER_COBALT = registerOreBlock("ore_nether_cobalt", 2);
+    public static final DeferredBlock<Block> ORE_NETHER_FIRE = registerOreBlock("ore_nether_fire", 2);
+    public static final DeferredBlock<Block> ORE_NETHER_PLUTONIUM = registerOreBlock("ore_nether_plutonium", 2);
+    public static final DeferredBlock<Block> ORE_NETHER_SCHRABIDIUM = registerOreBlock("ore_nether_schrabidium", 2);
+    public static final DeferredBlock<Block> ORE_NETHER_SULFUR = registerOreBlock("ore_nether_sulfur", 2);
+    public static final DeferredBlock<Block> ORE_NETHER_TUNGSTEN = registerOreBlock("ore_nether_tungsten", 2);
+    public static final DeferredBlock<Block> ORE_OIL = registerOreBlock("ore_oil", 2);
+    public static final DeferredBlock<Block> ORE_RARE = registerOreBlock("ore_rare", 12);
+    public static final DeferredBlock<Block> ORE_REIIUM = registerOreBlock("ore_reiium", 100);
+    public static final DeferredBlock<Block> ORE_SCHRABIDIUM = registerOreBlock("ore_schrabidium", 300);
+    public static final DeferredBlock<Block> ORE_THORIUM = registerOreBlock("ore_thorium", 2);
+    public static final DeferredBlock<Block> ORE_TIKITE = registerOreBlock("ore_tikite", 2);
+    public static final DeferredBlock<Block> ORE_UNOBTAINIUM = registerOreBlock("ore_unobtainium", 1000000);
+    public static final DeferredBlock<Block> ORE_VERTICIUM = registerOreBlock("ore_verticium", 100000);
+    public static final DeferredBlock<Block> ORE_WEIDANIUM = registerOreBlock("ore_weidanium", 1000);
+
     private HbmBlocks() {
     }
 

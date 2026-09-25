@@ -2783,6 +2783,58 @@ public final class HbmItems {
         0.0F
     );
 
+    // --- Small item prerequisites for ore block drops (ItemFuel; burn-time not carried over) ---
+    public static final DeferredItem<Item> POWDER_FIRE = registerSimplePartItem("powder_fire");
+    public static final DeferredItem<Item> LIGNITE = registerSimplePartItem("lignite");
+
+    // --- Block items for bulk-ported ore blocks ---
+    public static final DeferredItem<BlockItem> BASALT_FLUORITE = ITEMS.registerSimpleBlockItem("basalt_fluorite", HbmBlocks.BASALT_FLUORITE);
+    public static final DeferredItem<BlockItem> BASALT_SULFUR = ITEMS.registerSimpleBlockItem("basalt_sulfur", HbmBlocks.BASALT_SULFUR);
+    public static final DeferredItem<BlockItem> BLOCK_METEOR = ITEMS.registerSimpleBlockItem("block_meteor", HbmBlocks.BLOCK_METEOR);
+    public static final DeferredItem<BlockItem> BLOCK_METEOR_BROKEN = ITEMS.registerSimpleBlockItem("block_meteor_broken", HbmBlocks.BLOCK_METEOR_BROKEN);
+    public static final DeferredItem<BlockItem> BLOCK_METEOR_COBBLE = ITEMS.registerSimpleBlockItem("block_meteor_cobble", HbmBlocks.BLOCK_METEOR_COBBLE);
+    public static final DeferredItem<BlockItem> BLOCK_METEOR_TREASURE = ITEMS.registerSimpleBlockItem("block_meteor_treasure", HbmBlocks.BLOCK_METEOR_TREASURE);
+    public static final DeferredItem<BlockItem> ORE_ASBESTOS = ITEMS.registerSimpleBlockItem("ore_asbestos", HbmBlocks.ORE_ASBESTOS);
+    public static final DeferredItem<BlockItem> ORE_AUSTRALIUM = ITEMS.registerSimpleBlockItem("ore_australium", HbmBlocks.ORE_AUSTRALIUM);
+    public static final DeferredItem<BlockItem> ORE_COLTAN = ITEMS.registerSimpleBlockItem("ore_coltan", HbmBlocks.ORE_COLTAN);
+    public static final DeferredItem<BlockItem> ORE_DAFFERGON = ITEMS.registerSimpleBlockItem("ore_daffergon", HbmBlocks.ORE_DAFFERGON);
+    public static final DeferredItem<BlockItem> ORE_GNEISS_ASBESTOS = ITEMS.registerSimpleBlockItem("ore_gneiss_asbestos", HbmBlocks.ORE_GNEISS_ASBESTOS);
+    public static final DeferredItem<BlockItem> ORE_GNEISS_COPPER = ITEMS.registerSimpleBlockItem("ore_gneiss_copper", HbmBlocks.ORE_GNEISS_COPPER);
+    public static final DeferredItem<BlockItem> ORE_GNEISS_GAS = ITEMS.registerSimpleBlockItem("ore_gneiss_gas", HbmBlocks.ORE_GNEISS_GAS);
+    public static final DeferredItem<BlockItem> ORE_GNEISS_GOLD = ITEMS.registerSimpleBlockItem("ore_gneiss_gold", HbmBlocks.ORE_GNEISS_GOLD);
+    public static final DeferredItem<BlockItem> ORE_GNEISS_IRON = ITEMS.registerSimpleBlockItem("ore_gneiss_iron", HbmBlocks.ORE_GNEISS_IRON);
+    public static final DeferredItem<BlockItem> ORE_GNEISS_LITHIUM = ITEMS.registerSimpleBlockItem("ore_gneiss_lithium", HbmBlocks.ORE_GNEISS_LITHIUM);
+    public static final DeferredItem<BlockItem> ORE_GNEISS_RARE = ITEMS.registerSimpleBlockItem("ore_gneiss_rare", HbmBlocks.ORE_GNEISS_RARE);
+    public static final DeferredItem<BlockItem> ORE_GNEISS_SCHRABIDIUM = ITEMS.registerSimpleBlockItem("ore_gneiss_schrabidium", HbmBlocks.ORE_GNEISS_SCHRABIDIUM);
+    public static final DeferredItem<BlockItem> ORE_HEMATITE = ITEMS.registerSimpleBlockItem("ore_hematite", HbmBlocks.ORE_HEMATITE);
+    public static final DeferredItem<BlockItem> ORE_LIGNITE = ITEMS.registerSimpleBlockItem("ore_lignite", HbmBlocks.ORE_LIGNITE);
+    public static final DeferredItem<BlockItem> ORE_MALACHITE = ITEMS.registerSimpleBlockItem("ore_malachite", HbmBlocks.ORE_MALACHITE);
+    public static final DeferredItem<BlockItem> ORE_METEOR_ALUMINIUM = ITEMS.registerSimpleBlockItem("ore_meteor_aluminium", HbmBlocks.ORE_METEOR_ALUMINIUM);
+    public static final DeferredItem<BlockItem> ORE_METEOR_COPPER = ITEMS.registerSimpleBlockItem("ore_meteor_copper", HbmBlocks.ORE_METEOR_COPPER);
+    public static final DeferredItem<BlockItem> ORE_METEOR_LEAD = ITEMS.registerSimpleBlockItem("ore_meteor_lead", HbmBlocks.ORE_METEOR_LEAD);
+    public static final DeferredItem<BlockItem> ORE_METEOR_LITHIUM = ITEMS.registerSimpleBlockItem("ore_meteor_lithium", HbmBlocks.ORE_METEOR_LITHIUM);
+    public static final DeferredItem<BlockItem> ORE_METEOR_STARMETAL = ITEMS.registerSimpleBlockItem("ore_meteor_starmetal", HbmBlocks.ORE_METEOR_STARMETAL);
+    public static final DeferredItem<BlockItem> ORE_METEOR_SULFUR = ITEMS.registerSimpleBlockItem("ore_meteor_sulfur", HbmBlocks.ORE_METEOR_SULFUR);
+    public static final DeferredItem<BlockItem> ORE_METEOR_THORIUM = ITEMS.registerSimpleBlockItem("ore_meteor_thorium", HbmBlocks.ORE_METEOR_THORIUM);
+    public static final DeferredItem<BlockItem> ORE_METEOR_TITANIUM = ITEMS.registerSimpleBlockItem("ore_meteor_titanium", HbmBlocks.ORE_METEOR_TITANIUM);
+    public static final DeferredItem<BlockItem> ORE_METEOR_TUNGSTEN = ITEMS.registerSimpleBlockItem("ore_meteor_tungsten", HbmBlocks.ORE_METEOR_TUNGSTEN);
+    public static final DeferredItem<BlockItem> ORE_METEOR_URANIUM = ITEMS.registerSimpleBlockItem("ore_meteor_uranium", HbmBlocks.ORE_METEOR_URANIUM);
+    public static final DeferredItem<BlockItem> ORE_NETHER_COBALT = ITEMS.registerSimpleBlockItem("ore_nether_cobalt", HbmBlocks.ORE_NETHER_COBALT);
+    public static final DeferredItem<BlockItem> ORE_NETHER_FIRE = ITEMS.registerSimpleBlockItem("ore_nether_fire", HbmBlocks.ORE_NETHER_FIRE);
+    public static final DeferredItem<BlockItem> ORE_NETHER_PLUTONIUM = ITEMS.registerSimpleBlockItem("ore_nether_plutonium", HbmBlocks.ORE_NETHER_PLUTONIUM);
+    public static final DeferredItem<BlockItem> ORE_NETHER_SCHRABIDIUM = ITEMS.registerSimpleBlockItem("ore_nether_schrabidium", HbmBlocks.ORE_NETHER_SCHRABIDIUM);
+    public static final DeferredItem<BlockItem> ORE_NETHER_SULFUR = ITEMS.registerSimpleBlockItem("ore_nether_sulfur", HbmBlocks.ORE_NETHER_SULFUR);
+    public static final DeferredItem<BlockItem> ORE_NETHER_TUNGSTEN = ITEMS.registerSimpleBlockItem("ore_nether_tungsten", HbmBlocks.ORE_NETHER_TUNGSTEN);
+    public static final DeferredItem<BlockItem> ORE_OIL = ITEMS.registerSimpleBlockItem("ore_oil", HbmBlocks.ORE_OIL);
+    public static final DeferredItem<BlockItem> ORE_RARE = ITEMS.registerSimpleBlockItem("ore_rare", HbmBlocks.ORE_RARE);
+    public static final DeferredItem<BlockItem> ORE_REIIUM = ITEMS.registerSimpleBlockItem("ore_reiium", HbmBlocks.ORE_REIIUM);
+    public static final DeferredItem<BlockItem> ORE_SCHRABIDIUM = ITEMS.registerSimpleBlockItem("ore_schrabidium", HbmBlocks.ORE_SCHRABIDIUM);
+    public static final DeferredItem<BlockItem> ORE_THORIUM = ITEMS.registerSimpleBlockItem("ore_thorium", HbmBlocks.ORE_THORIUM);
+    public static final DeferredItem<BlockItem> ORE_TIKITE = ITEMS.registerSimpleBlockItem("ore_tikite", HbmBlocks.ORE_TIKITE);
+    public static final DeferredItem<BlockItem> ORE_UNOBTAINIUM = ITEMS.registerSimpleBlockItem("ore_unobtainium", HbmBlocks.ORE_UNOBTAINIUM);
+    public static final DeferredItem<BlockItem> ORE_VERTICIUM = ITEMS.registerSimpleBlockItem("ore_verticium", HbmBlocks.ORE_VERTICIUM);
+    public static final DeferredItem<BlockItem> ORE_WEIDANIUM = ITEMS.registerSimpleBlockItem("ore_weidanium", HbmBlocks.ORE_WEIDANIUM);
+
     private HbmItems() {
     }
 
