@@ -466,6 +466,7 @@ public final class HbmCreativeTabs {
         "nuke",
         "itemGroup.tabNuke",
         () -> new ItemStack(Items.TNT),
+        (Consumer<CreativeModeTab.Output>) HbmItems::addDynamicNukeTabItems,
         sup(Items.TNT),
         sup(Items.FIRE_CHARGE),
         sup(Items.END_CRYSTAL)
@@ -486,6 +487,7 @@ public final class HbmCreativeTabs {
         "weapon",
         "itemGroup.tabWeapon",
         () -> new ItemStack(Items.CROSSBOW),
+        (Consumer<CreativeModeTab.Output>) HbmItems::addDynamicWeaponTabItems,
         sup(Items.CROSSBOW),
         sup(Items.IRON_SWORD),
         sup(Items.SHIELD),

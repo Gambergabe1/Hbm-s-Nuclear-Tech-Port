@@ -59,6 +59,8 @@ public final class HbmItems {
     private static final List<Supplier<? extends Item>> PARTS_TAB_DYNAMIC_ITEMS = new ArrayList<>();
     private static final List<Supplier<? extends Item>> CONTROL_TAB_DYNAMIC_ITEMS = new ArrayList<>();
     private static final List<Supplier<? extends Item>> CONSUMABLE_TAB_DYNAMIC_ITEMS = new ArrayList<>();
+    private static final List<Supplier<? extends Item>> WEAPON_TAB_DYNAMIC_ITEMS = new ArrayList<>();
+    private static final List<Supplier<? extends Item>> NUKE_TAB_DYNAMIC_ITEMS = new ArrayList<>();
     public static final DeferredItem<Item> INGOT_ADVANCED_ALLOY = ITEMS.registerSimpleItem("ingot_advanced_alloy");
     public static final DeferredItem<Item> INGOT_ALUMINIUM = ITEMS.registerSimpleItem("ingot_aluminium");
     public static final DeferredItem<Item> INGOT_BERYLLIUM = ITEMS.registerSimpleItem("ingot_beryllium");
@@ -1688,6 +1690,298 @@ public final class HbmItems {
     public static final DeferredItem<BlockItem> FWATZ_COMPUTER = ITEMS.registerSimpleBlockItem("fwatz_computer", HbmBlocks.FWATZ_COMPUTER);
     public static final DeferredItem<BlockItem> PINK_PLANKS = ITEMS.registerSimpleBlockItem("pink_planks", HbmBlocks.PINK_PLANKS);
 
+    // --- Bulk-ported simple items (ItemBase/ItemCustomLore equivalents) ---
+    public static final DeferredItem<Item> CANISTER_NAPALM = registerSimpleControlItem("canister_napalm");
+    public static final DeferredItem<Item> IGNITER = registerSimpleNukeItem("igniter");
+    public static final DeferredItem<Item> GUN_SUPER_SHOTGUN = registerSimpleWeaponItem("gun_super_shotgun");
+    public static final DeferredItem<Item> PELLET_RTG_DEPLETED_BISMUTH = registerSimpleControlItem("pellet_rtg_depleted_bismuth");
+    public static final DeferredItem<Item> PELLET_RTG_DEPLETED_LEAD = registerSimpleControlItem("pellet_rtg_depleted_lead");
+    public static final DeferredItem<Item> PELLET_RTG_DEPLETED_MERCURY = registerSimpleControlItem("pellet_rtg_depleted_mercury");
+    public static final DeferredItem<Item> PELLET_RTG_DEPLETED_NEPTUNIUM = registerSimpleControlItem("pellet_rtg_depleted_neptunium");
+    public static final DeferredItem<Item> PELLET_RTG_DEPLETED_ZIRCONIUM = registerSimpleControlItem("pellet_rtg_depleted_zirconium");
+    public static final DeferredItem<Item> CHLORINE_PINWHEEL = registerSimplePartItem("chlorine_pinwheel");
+    public static final DeferredItem<Item> RING_STARMETAL = registerSimplePartItem("ring_starmetal");
+    public static final DeferredItem<Item> THERMO_UNIT_ENDO = registerSimplePartItem("thermo_unit_endo");
+    public static final DeferredItem<Item> THERMO_UNIT_EXO = registerSimplePartItem("thermo_unit_exo");
+    public static final DeferredItem<Item> LEVITATION_UNIT = registerSimplePartItem("levitation_unit");
+    public static final DeferredItem<Item> MAGNETRON = registerSimplePartItem("magnetron");
+    public static final DeferredItem<Item> PELLET_BUCKSHOT = registerSimplePartItem("pellet_buckshot");
+    public static final DeferredItem<Item> PELLET_FLECHETTE = registerSimplePartItem("pellet_flechette");
+    public static final DeferredItem<Item> PELLET_CHLOROPHYTE = registerSimplePartItem("pellet_chlorophyte");
+    public static final DeferredItem<Item> PELLET_MERCURY = registerSimplePartItem("pellet_mercury");
+    public static final DeferredItem<Item> PELLET_METEORITE = registerSimplePartItem("pellet_meteorite");
+    public static final DeferredItem<Item> PELLET_CANISTER = registerSimplePartItem("pellet_canister");
+    public static final DeferredItem<Item> PELLET_CLAWS = registerSimplePartItem("pellet_claws");
+    public static final DeferredItem<Item> PELLET_CHARGED = registerSimplePartItem("pellet_charged");
+    public static final DeferredItem<Item> PELLET_CLUSTER = registerSimplePartItem("pellet_cluster");
+    public static final DeferredItem<Item> PELLET_GAS = registerSimplePartItem("pellet_gas");
+    public static final DeferredItem<Item> TOOTHPICKS = registerSimplePartItem("toothpicks");
+    public static final DeferredItem<Item> DUCTTAPE = registerSimplePartItem("ducttape");
+    public static final DeferredItem<Item> MOTOR = registerSimplePartItem("motor");
+    public static final DeferredItem<Item> PHOTO_PANEL = registerSimplePartItem("photo_panel");
+    public static final DeferredItem<Item> SAT_BASE = registerSimplePartItem("sat_base");
+    public static final DeferredItem<Item> THRUSTER_NUCLEAR = registerSimplePartItem("thruster_nuclear");
+    public static final DeferredItem<Item> PIPES_STEEL = registerSimplePartItem("pipes_steel");
+    public static final DeferredItem<Item> RAG_PISS = registerSimplePartItem("rag_piss");
+    public static final DeferredItem<Item> RING_PULL = registerSimpleConsumableItem("ring_pull");
+    public static final DeferredItem<Item> COIN_MASKMAN = registerSimpleConsumableItem("coin_maskman");
+    public static final DeferredItem<Item> COIN_RADIATION = registerSimpleConsumableItem("coin_radiation");
+    public static final DeferredItem<Item> COIN_WORM = registerSimpleConsumableItem("coin_worm");
+    public static final DeferredItem<Item> COIN_UFO = registerSimpleConsumableItem("coin_ufo");
+    public static final DeferredItem<Item> PLATE_PAA = registerSimplePartItem("plate_paa");
+    public static final DeferredItem<Item> PLATE_SCHRABIDIUM = registerSimplePartItem("plate_schrabidium");
+    public static final DeferredItem<Item> PLATE_KEVLAR = registerSimplePartItem("plate_kevlar");
+    public static final DeferredItem<Item> PLATE_POLYMER = registerSimplePartItem("plate_polymer");
+    public static final DeferredItem<Item> PLATE_DESH = registerSimplePartItem("plate_desh");
+    public static final DeferredItem<Item> PLATE_EUPHEMIUM = registerSimplePartItem("plate_euphemium");
+    public static final DeferredItem<Item> PLATE_DINEUTRONIUM = registerSimplePartItem("plate_dineutronium");
+    public static final DeferredItem<Item> CRYSTAL_SCHRARANIUM = registerSimplePartItem("crystal_schraranium");
+    public static final DeferredItem<Item> CRYSTAL_SCHRABIDIUM = registerSimplePartItem("crystal_schrabidium");
+    public static final DeferredItem<Item> CRYSTAL_TRIXITE = registerSimplePartItem("crystal_trixite");
+    public static final DeferredItem<Item> CRYSTAL_OSMIRIDIUM = registerSimplePartItem("crystal_osmiridium");
+    public static final DeferredItem<Item> GEM_VOLCANIC = registerSimplePartItem("gem_volcanic");
+    public static final DeferredItem<Item> GUN_REVOLVER_IRON_AMMO = registerSimpleWeaponItem("gun_revolver_iron_ammo");
+    public static final DeferredItem<Item> GUN_REVOLVER_AMMO = registerSimpleWeaponItem("gun_revolver_ammo");
+    public static final DeferredItem<Item> GUN_REVOLVER_LEAD_AMMO = registerSimpleWeaponItem("gun_revolver_lead_ammo");
+    public static final DeferredItem<Item> GUN_REVOLVER_GOLD_AMMO = registerSimpleWeaponItem("gun_revolver_gold_ammo");
+    public static final DeferredItem<Item> GUN_REVOLVER_SCHRABIDIUM_AMMO = registerSimpleWeaponItem("gun_revolver_schrabidium_ammo");
+    public static final DeferredItem<Item> GUN_REVOLVER_NIGHTMARE_AMMO = registerSimpleWeaponItem("gun_revolver_nightmare_ammo");
+    public static final DeferredItem<Item> GUN_REVOLVER_NIGHTMARE2_AMMO = registerSimpleWeaponItem("gun_revolver_nightmare2_ammo");
+    public static final DeferredItem<Item> GUN_REVOLVER_CURSED_AMMO = registerSimpleWeaponItem("gun_revolver_cursed_ammo");
+    public static final DeferredItem<Item> GUN_MP_AMMO = registerSimpleWeaponItem("gun_mp_ammo");
+    public static final DeferredItem<Item> GUN_SPARK_AMMO = registerSimpleWeaponItem("gun_spark_ammo");
+    public static final DeferredItem<Item> GUN_EUTHANASIA_AMMO = registerSimpleWeaponItem("gun_euthanasia_ammo");
+    public static final DeferredItem<Item> GUN_BF_AMMO = registerSimpleWeaponItem("gun_bf_ammo");
+    public static final DeferredItem<Item> GUN_STINGER_AMMO = registerSimpleWeaponItem("gun_stinger_ammo");
+    public static final DeferredItem<Item> GUN_XVL1456_AMMO = registerSimpleWeaponItem("gun_xvl1456_ammo");
+    public static final DeferredItem<Item> GUN_HP_AMMO = registerSimpleWeaponItem("gun_hp_ammo");
+    public static final DeferredItem<Item> GUN_DASH_AMMO = registerSimpleControlItem("gun_dash_ammo");
+    public static final DeferredItem<Item> GUN_DEFABRICATOR_AMMO = registerSimpleWeaponItem("gun_defabricator_ammo");
+    public static final DeferredItem<Item> GUN_CRYOLATOR_AMMO = registerSimpleWeaponItem("gun_cryolator_ammo");
+    public static final DeferredItem<Item> GUN_JACK_AMMO = registerSimpleWeaponItem("gun_jack_ammo");
+    public static final DeferredItem<Item> GUN_IMMOLATOR_AMMO = registerSimpleWeaponItem("gun_immolator_ammo");
+    public static final DeferredItem<Item> GUN_OSIPR_AMMO = registerSimpleWeaponItem("gun_osipr_ammo");
+    public static final DeferredItem<Item> GUN_OSIPR_AMMO2 = registerSimpleWeaponItem("gun_osipr_ammo2");
+    public static final DeferredItem<Item> GUN_EMP_AMMO = registerSimpleWeaponItem("gun_emp_ammo");
+    public static final DeferredItem<Item> FOLLY_SHELL = registerSimplePartItem("folly_shell");
+    public static final DeferredItem<Item> FOLLY_BULLET = registerSimplePartItem("folly_bullet");
+    public static final DeferredItem<Item> FOLLY_BULLET_NUCLEAR = registerSimplePartItem("folly_bullet_nuclear");
+    public static final DeferredItem<Item> FOLLY_BULLET_DU = registerSimplePartItem("folly_bullet_du");
+    public static final DeferredItem<Item> ENERGY_BALL = registerSimpleControlItem("energy_ball");
+    public static final DeferredItem<Item> CHARGE_RAILGUN = registerSimpleWeaponItem("charge_railgun");
+    public static final DeferredItem<Item> RUNE_BLANK = registerSimplePartItem("rune_blank");
+    public static final DeferredItem<Item> RUNE_ISA = registerSimplePartItem("rune_isa");
+    public static final DeferredItem<Item> RUNE_DAGAZ = registerSimplePartItem("rune_dagaz");
+    public static final DeferredItem<Item> RUNE_HAGALAZ = registerSimplePartItem("rune_hagalaz");
+    public static final DeferredItem<Item> RUNE_JERA = registerSimplePartItem("rune_jera");
+    public static final DeferredItem<Item> RUNE_THURISAZ = registerSimplePartItem("rune_thurisaz");
+    public static final DeferredItem<Item> DEBRIS_GRAPHITE = registerSimpleControlItem("debris_graphite");
+    public static final DeferredItem<Item> DEBRIS_METAL = registerSimpleControlItem("debris_metal");
+    public static final DeferredItem<Item> DEBRIS_FUEL = registerSimpleControlItem("debris_fuel");
+    public static final DeferredItem<Item> RBMK_FUEL_EMPTY = registerSimpleControlItem("rbmk_fuel_empty");
+    public static final DeferredItem<Item> PARTICLE_EMPTY = registerSimpleControlItem("particle_empty");
+    public static final DeferredItem<Item> PARTICLE_HYDROGEN = registerSimpleControlItem("particle_hydrogen");
+    public static final DeferredItem<Item> PARTICLE_COPPER = registerSimpleControlItem("particle_copper");
+    public static final DeferredItem<Item> PARTICLE_LEAD = registerSimpleControlItem("particle_lead");
+    public static final DeferredItem<Item> PARTICLE_APROTON = registerSimpleControlItem("particle_aproton");
+    public static final DeferredItem<Item> PARTICLE_AELECTRON = registerSimpleControlItem("particle_aelectron");
+    public static final DeferredItem<Item> PARTICLE_MUON = registerSimpleControlItem("particle_muon");
+    public static final DeferredItem<Item> PARTICLE_AMAT = registerSimpleControlItem("particle_amat");
+    public static final DeferredItem<Item> PARTICLE_ASCHRAB = registerSimpleControlItem("particle_aschrab");
+    public static final DeferredItem<Item> PARTICLE_HIGGS = registerSimpleControlItem("particle_higgs");
+    public static final DeferredItem<Item> PARTICLE_TACHYON = registerSimpleControlItem("particle_tachyon");
+    public static final DeferredItem<Item> PARTICLE_DARK = registerSimpleControlItem("particle_dark");
+    public static final DeferredItem<Item> PARTICLE_STRANGE = registerSimpleControlItem("particle_strange");
+    public static final DeferredItem<Item> PARTICLE_SPARKTICLE = registerSimpleControlItem("particle_sparkticle");
+    public static final DeferredItem<Item> KEY_RED = registerSimpleConsumableItem("key_red");
+    public static final DeferredItem<Item> PIN = registerSimpleConsumableItem("pin");
+    public static final DeferredItem<Item> MECH_KEY = registerSimpleConsumableItem("mech_key");
+    public static final DeferredItem<Item> AMS_MUZZLE = registerSimpleControlItem("ams_muzzle");
+    public static final DeferredItem<Item> GADGET_EXPLOSIVE = registerSimpleNukeItem("gadget_explosive");
+    public static final DeferredItem<Item> MAN_EXPLOSIVE = registerSimpleNukeItem("man_explosive");
+    public static final DeferredItem<Item> EGG_BALEFIRE_SHARD = registerSimpleNukeItem("egg_balefire_shard");
+    public static final DeferredItem<Item> EGG_BALEFIRE = registerSimpleNukeItem("egg_balefire");
+    public static final DeferredItem<Item> DEMON_CORE_CLOSED = registerSimpleNukeItem("demon_core_closed");
+    public static final DeferredItem<Item> CUSTOM_TNT = registerSimpleNukeItem("custom_tnt");
+    public static final DeferredItem<Item> CUSTOM_NUKE = registerSimpleNukeItem("custom_nuke");
+    public static final DeferredItem<Item> CUSTOM_HYDRO = registerSimpleNukeItem("custom_hydro");
+    public static final DeferredItem<Item> CUSTOM_AMAT = registerSimpleNukeItem("custom_amat");
+    public static final DeferredItem<Item> CUSTOM_DIRTY = registerSimpleNukeItem("custom_dirty");
+    public static final DeferredItem<Item> CUSTOM_SCHRAB = registerSimpleNukeItem("custom_schrab");
+    public static final DeferredItem<Item> CUSTOM_SOL = registerSimpleNukeItem("custom_sol");
+    public static final DeferredItem<Item> CUSTOM_EUPH = registerSimpleNukeItem("custom_euph");
+    public static final DeferredItem<Item> CUSTOM_FALL = registerSimpleNukeItem("custom_fall");
+    public static final DeferredItem<Item> MISSILE_ASSEMBLY = registerSimplePartItem("missile_assembly");
+    public static final DeferredItem<Item> MISSILE_SOYUZ_LANDER = registerSimpleControlItem("missile_soyuz_lander");
+    public static final DeferredItem<Item> WARHEAD_GENERIC_SMALL = registerSimplePartItem("warhead_generic_small");
+    public static final DeferredItem<Item> WARHEAD_INCENDIARY_SMALL = registerSimplePartItem("warhead_incendiary_small");
+    public static final DeferredItem<Item> WARHEAD_CLUSTER_SMALL = registerSimplePartItem("warhead_cluster_small");
+    public static final DeferredItem<Item> WARHEAD_BUSTER_SMALL = registerSimplePartItem("warhead_buster_small");
+    public static final DeferredItem<Item> WARHEAD_GENERIC_MEDIUM = registerSimplePartItem("warhead_generic_medium");
+    public static final DeferredItem<Item> WARHEAD_INCENDIARY_MEDIUM = registerSimplePartItem("warhead_incendiary_medium");
+    public static final DeferredItem<Item> WARHEAD_CLUSTER_MEDIUM = registerSimplePartItem("warhead_cluster_medium");
+    public static final DeferredItem<Item> WARHEAD_BUSTER_MEDIUM = registerSimplePartItem("warhead_buster_medium");
+    public static final DeferredItem<Item> WARHEAD_GENERIC_LARGE = registerSimplePartItem("warhead_generic_large");
+    public static final DeferredItem<Item> WARHEAD_INCENDIARY_LARGE = registerSimplePartItem("warhead_incendiary_large");
+    public static final DeferredItem<Item> WARHEAD_CLUSTER_LARGE = registerSimplePartItem("warhead_cluster_large");
+    public static final DeferredItem<Item> WARHEAD_BUSTER_LARGE = registerSimplePartItem("warhead_buster_large");
+    public static final DeferredItem<Item> WARHEAD_N2 = registerSimplePartItem("warhead_n2");
+    public static final DeferredItem<Item> WARHEAD_NUCLEAR = registerSimplePartItem("warhead_nuclear");
+    public static final DeferredItem<Item> WARHEAD_MIRVLET = registerSimplePartItem("warhead_mirvlet");
+    public static final DeferredItem<Item> WARHEAD_MIRV = registerSimplePartItem("warhead_mirv");
+    public static final DeferredItem<Item> WARHEAD_VOLCANO = registerSimplePartItem("warhead_volcano");
+    public static final DeferredItem<Item> WARHEAD_THERMO_ENDO = registerSimplePartItem("warhead_thermo_endo");
+    public static final DeferredItem<Item> WARHEAD_THERMO_EXO = registerSimplePartItem("warhead_thermo_exo");
+    public static final DeferredItem<Item> THRUSTER_SMALL = registerSimplePartItem("thruster_small");
+    public static final DeferredItem<Item> THRUSTER_MEDIUM = registerSimplePartItem("thruster_medium");
+    public static final DeferredItem<Item> THRUSTER_LARGE = registerSimplePartItem("thruster_large");
+    public static final DeferredItem<Item> HULL_SMALL_STEEL = registerSimplePartItem("hull_small_steel");
+    public static final DeferredItem<Item> HULL_SMALL_ALUMINIUM = registerSimplePartItem("hull_small_aluminium");
+    public static final DeferredItem<Item> HULL_BIG_STEEL = registerSimplePartItem("hull_big_steel");
+    public static final DeferredItem<Item> MISSILE_SKIN_CAMO = registerSimpleControlItem("missile_skin_camo");
+    public static final DeferredItem<Item> MISSILE_SKIN_DESERT = registerSimpleControlItem("missile_skin_desert");
+    public static final DeferredItem<Item> MISSILE_SKIN_FLAMES = registerSimpleControlItem("missile_skin_flames");
+    public static final DeferredItem<Item> MISSILE_SKIN_MANLY_PINK = registerSimpleControlItem("missile_skin_manly_pink");
+    public static final DeferredItem<Item> MISSILE_SKIN_ORANGE_INSULATION = registerSimpleControlItem("missile_skin_orange_insulation");
+    public static final DeferredItem<Item> MISSILE_SKIN_SLEEK = registerSimpleControlItem("missile_skin_sleek");
+    public static final DeferredItem<Item> MISSILE_SKIN_SOVIET_GLORY = registerSimpleControlItem("missile_skin_soviet_glory");
+    public static final DeferredItem<Item> MISSILE_SKIN_SOVIET_STANK = registerSimpleControlItem("missile_skin_soviet_stank");
+    public static final DeferredItem<Item> MISSILE_SKIN_METAL = registerSimpleControlItem("missile_skin_metal");
+    public static final DeferredItem<Item> FLAME_PONY = registerSimplePartItem("flame_pony");
+    public static final DeferredItem<Item> FLAME_CONSPIRACY = registerSimplePartItem("flame_conspiracy");
+    public static final DeferredItem<Item> FLAME_POLITICS = registerSimplePartItem("flame_politics");
+    public static final DeferredItem<Item> FLAME_OPINION = registerSimplePartItem("flame_opinion");
+    public static final DeferredItem<Item> BURNT_BARK = registerSimpleConsumableItem("burnt_bark");
+    public static final DeferredItem<Item> BOOK_SECRET = registerSimpleConsumableItem("book_secret");
+    public static final DeferredItem<Item> CRYSTAL_HORN = registerSimplePartItem("crystal_horn");
+    public static final DeferredItem<Item> CRYSTAL_CHARRED = registerSimplePartItem("crystal_charred");
+    public static final DeferredItem<Item> WATCH = registerSimpleConsumableItem("watch");
+    public static final DeferredItem<Item> CHOPPER_HEAD = registerSimplePartItem("chopper_head");
+    public static final DeferredItem<Item> CHOPPER_GUN = registerSimplePartItem("chopper_gun");
+    public static final DeferredItem<Item> CHOPPER_TORSO = registerSimplePartItem("chopper_torso");
+    public static final DeferredItem<Item> CHOPPER_TAIL = registerSimplePartItem("chopper_tail");
+    public static final DeferredItem<Item> CHOPPER_WING = registerSimplePartItem("chopper_wing");
+    public static final DeferredItem<Item> CHOPPER_BLADES = registerSimplePartItem("chopper_blades");
+    public static final DeferredItem<Item> SHIMMER_HEAD = registerSimplePartItem("shimmer_head");
+    public static final DeferredItem<Item> SHIMMER_AXE_HEAD = registerSimplePartItem("shimmer_axe_head");
+    public static final DeferredItem<Item> SHIMMER_HANDLE = registerSimplePartItem("shimmer_handle");
+    public static final DeferredItem<Item> TELEPAD = registerSimplePartItem("telepad");
+    public static final DeferredItem<Item> ENTANGLEMENT_KIT = registerSimplePartItem("entanglement_kit");
+    public static final DeferredItem<Item> BOB_METALWORKS = registerSimpleControlItem("bob_metalworks");
+    public static final DeferredItem<Item> BOB_ASSEMBLY = registerSimpleControlItem("bob_assembly");
+    public static final DeferredItem<Item> BOB_CHEMISTRY = registerSimpleControlItem("bob_chemistry");
+    public static final DeferredItem<Item> BOB_OIL = registerSimpleControlItem("bob_oil");
+    public static final DeferredItem<Item> BOB_NUCLEAR = registerSimpleControlItem("bob_nuclear");
+    public static final DeferredItem<Item> DIGAMMA_SEE = registerSimpleControlItem("digamma_see");
+    public static final DeferredItem<Item> DIGAMMA_FEEL = registerSimpleControlItem("digamma_feel");
+    public static final DeferredItem<Item> DIGAMMA_KNOW = registerSimpleControlItem("digamma_know");
+    public static final DeferredItem<Item> DIGAMMA_KAUAI_MOHO = registerSimpleControlItem("digamma_kauai_moho");
+    public static final DeferredItem<Item> DIGAMMA_UP_ON_TOP = registerSimpleControlItem("digamma_up_on_top");
+    public static final DeferredItem<Item> SMOKE1 = registerSimpleControlItem("smoke1");
+    public static final DeferredItem<Item> SMOKE2 = registerSimpleControlItem("smoke2");
+    public static final DeferredItem<Item> SMOKE3 = registerSimpleControlItem("smoke3");
+    public static final DeferredItem<Item> SMOKE4 = registerSimpleControlItem("smoke4");
+    public static final DeferredItem<Item> SMOKE5 = registerSimpleControlItem("smoke5");
+    public static final DeferredItem<Item> SMOKE6 = registerSimpleControlItem("smoke6");
+    public static final DeferredItem<Item> SMOKE7 = registerSimpleControlItem("smoke7");
+    public static final DeferredItem<Item> SMOKE8 = registerSimpleControlItem("smoke8");
+    public static final DeferredItem<Item> B_SMOKE1 = registerSimpleControlItem("b_smoke1");
+    public static final DeferredItem<Item> B_SMOKE2 = registerSimpleControlItem("b_smoke2");
+    public static final DeferredItem<Item> B_SMOKE3 = registerSimpleControlItem("b_smoke3");
+    public static final DeferredItem<Item> B_SMOKE4 = registerSimpleControlItem("b_smoke4");
+    public static final DeferredItem<Item> B_SMOKE5 = registerSimpleControlItem("b_smoke5");
+    public static final DeferredItem<Item> B_SMOKE6 = registerSimpleControlItem("b_smoke6");
+    public static final DeferredItem<Item> B_SMOKE7 = registerSimpleControlItem("b_smoke7");
+    public static final DeferredItem<Item> B_SMOKE8 = registerSimpleControlItem("b_smoke8");
+    public static final DeferredItem<Item> D_SMOKE1 = registerSimpleControlItem("d_smoke1");
+    public static final DeferredItem<Item> D_SMOKE2 = registerSimpleControlItem("d_smoke2");
+    public static final DeferredItem<Item> D_SMOKE3 = registerSimpleControlItem("d_smoke3");
+    public static final DeferredItem<Item> D_SMOKE4 = registerSimpleControlItem("d_smoke4");
+    public static final DeferredItem<Item> D_SMOKE5 = registerSimpleControlItem("d_smoke5");
+    public static final DeferredItem<Item> D_SMOKE6 = registerSimpleControlItem("d_smoke6");
+    public static final DeferredItem<Item> D_SMOKE7 = registerSimpleControlItem("d_smoke7");
+    public static final DeferredItem<Item> D_SMOKE8 = registerSimpleControlItem("d_smoke8");
+    public static final DeferredItem<Item> CLOUD1 = registerSimpleControlItem("cloud1");
+    public static final DeferredItem<Item> CLOUD2 = registerSimpleControlItem("cloud2");
+    public static final DeferredItem<Item> CLOUD3 = registerSimpleControlItem("cloud3");
+    public static final DeferredItem<Item> CLOUD4 = registerSimpleControlItem("cloud4");
+    public static final DeferredItem<Item> CLOUD5 = registerSimpleControlItem("cloud5");
+    public static final DeferredItem<Item> CLOUD6 = registerSimpleControlItem("cloud6");
+    public static final DeferredItem<Item> CLOUD7 = registerSimpleControlItem("cloud7");
+    public static final DeferredItem<Item> CLOUD8 = registerSimpleControlItem("cloud8");
+    public static final DeferredItem<Item> GASFLAME1 = registerSimpleControlItem("gasflame1");
+    public static final DeferredItem<Item> GASFLAME2 = registerSimpleControlItem("gasflame2");
+    public static final DeferredItem<Item> GASFLAME3 = registerSimpleControlItem("gasflame3");
+    public static final DeferredItem<Item> GASFLAME4 = registerSimpleControlItem("gasflame4");
+    public static final DeferredItem<Item> GASFLAME5 = registerSimpleControlItem("gasflame5");
+    public static final DeferredItem<Item> GASFLAME6 = registerSimpleControlItem("gasflame6");
+    public static final DeferredItem<Item> GASFLAME7 = registerSimpleControlItem("gasflame7");
+    public static final DeferredItem<Item> GASFLAME8 = registerSimpleControlItem("gasflame8");
+    public static final DeferredItem<Item> FLAME_1 = registerSimpleControlItem("flame_1");
+    public static final DeferredItem<Item> FLAME_2 = registerSimpleControlItem("flame_2");
+    public static final DeferredItem<Item> FLAME_3 = registerSimpleControlItem("flame_3");
+    public static final DeferredItem<Item> FLAME_4 = registerSimpleControlItem("flame_4");
+    public static final DeferredItem<Item> FLAME_5 = registerSimpleControlItem("flame_5");
+    public static final DeferredItem<Item> FLAME_6 = registerSimpleControlItem("flame_6");
+    public static final DeferredItem<Item> FLAME_7 = registerSimpleControlItem("flame_7");
+    public static final DeferredItem<Item> FLAME_8 = registerSimpleControlItem("flame_8");
+    public static final DeferredItem<Item> FLAME_9 = registerSimpleControlItem("flame_9");
+    public static final DeferredItem<Item> FLAME_10 = registerSimpleControlItem("flame_10");
+    public static final DeferredItem<Item> ORANGE1 = registerSimpleControlItem("orange1");
+    public static final DeferredItem<Item> ORANGE2 = registerSimpleControlItem("orange2");
+    public static final DeferredItem<Item> ORANGE3 = registerSimpleControlItem("orange3");
+    public static final DeferredItem<Item> ORANGE4 = registerSimpleControlItem("orange4");
+    public static final DeferredItem<Item> ORANGE5 = registerSimpleControlItem("orange5");
+    public static final DeferredItem<Item> ORANGE6 = registerSimpleControlItem("orange6");
+    public static final DeferredItem<Item> ORANGE7 = registerSimpleControlItem("orange7");
+    public static final DeferredItem<Item> ORANGE8 = registerSimpleControlItem("orange8");
+    public static final DeferredItem<Item> PC1 = registerSimpleControlItem("pc1");
+    public static final DeferredItem<Item> PC2 = registerSimpleControlItem("pc2");
+    public static final DeferredItem<Item> PC3 = registerSimpleControlItem("pc3");
+    public static final DeferredItem<Item> PC4 = registerSimpleControlItem("pc4");
+    public static final DeferredItem<Item> PC5 = registerSimpleControlItem("pc5");
+    public static final DeferredItem<Item> PC6 = registerSimpleControlItem("pc6");
+    public static final DeferredItem<Item> PC7 = registerSimpleControlItem("pc7");
+    public static final DeferredItem<Item> PC8 = registerSimpleControlItem("pc8");
+    public static final DeferredItem<Item> CHLORINE1 = registerSimpleControlItem("chlorine1");
+    public static final DeferredItem<Item> CHLORINE2 = registerSimpleControlItem("chlorine2");
+    public static final DeferredItem<Item> CHLORINE3 = registerSimpleControlItem("chlorine3");
+    public static final DeferredItem<Item> CHLORINE4 = registerSimpleControlItem("chlorine4");
+    public static final DeferredItem<Item> CHLORINE5 = registerSimpleControlItem("chlorine5");
+    public static final DeferredItem<Item> CHLORINE6 = registerSimpleControlItem("chlorine6");
+    public static final DeferredItem<Item> CHLORINE7 = registerSimpleControlItem("chlorine7");
+    public static final DeferredItem<Item> CHLORINE8 = registerSimpleControlItem("chlorine8");
+    public static final DeferredItem<Item> LN2_1 = registerSimpleControlItem("ln2_1");
+    public static final DeferredItem<Item> LN2_2 = registerSimpleControlItem("ln2_2");
+    public static final DeferredItem<Item> LN2_3 = registerSimpleControlItem("ln2_3");
+    public static final DeferredItem<Item> LN2_4 = registerSimpleControlItem("ln2_4");
+    public static final DeferredItem<Item> LN2_5 = registerSimpleControlItem("ln2_5");
+    public static final DeferredItem<Item> LN2_6 = registerSimpleControlItem("ln2_6");
+    public static final DeferredItem<Item> LN2_7 = registerSimpleControlItem("ln2_7");
+    public static final DeferredItem<Item> LN2_8 = registerSimpleControlItem("ln2_8");
+    public static final DeferredItem<Item> LN2_9 = registerSimpleControlItem("ln2_9");
+    public static final DeferredItem<Item> LN2_10 = registerSimpleControlItem("ln2_10");
+    public static final DeferredItem<Item> GAS1 = registerSimpleControlItem("gas1");
+    public static final DeferredItem<Item> GAS2 = registerSimpleControlItem("gas2");
+    public static final DeferredItem<Item> GAS3 = registerSimpleControlItem("gas3");
+    public static final DeferredItem<Item> GAS4 = registerSimpleControlItem("gas4");
+    public static final DeferredItem<Item> GAS5 = registerSimpleControlItem("gas5");
+    public static final DeferredItem<Item> GAS6 = registerSimpleControlItem("gas6");
+    public static final DeferredItem<Item> GAS7 = registerSimpleControlItem("gas7");
+    public static final DeferredItem<Item> GAS8 = registerSimpleControlItem("gas8");
+    public static final DeferredItem<Item> SPILL1 = registerSimpleControlItem("spill1");
+    public static final DeferredItem<Item> SPILL2 = registerSimpleControlItem("spill2");
+    public static final DeferredItem<Item> SPILL3 = registerSimpleControlItem("spill3");
+    public static final DeferredItem<Item> SPILL4 = registerSimpleControlItem("spill4");
+    public static final DeferredItem<Item> SPILL5 = registerSimpleControlItem("spill5");
+    public static final DeferredItem<Item> SPILL6 = registerSimpleControlItem("spill6");
+    public static final DeferredItem<Item> SPILL7 = registerSimpleControlItem("spill7");
+    public static final DeferredItem<Item> SPILL8 = registerSimpleControlItem("spill8");
+    public static final DeferredItem<Item> NOTHING = registerSimpleControlItem("nothing");
+    public static final DeferredItem<Item> DUCC = registerSimpleControlItem("ducc");
+    public static final DeferredItem<Item> DISCHARGE = registerSimpleControlItem("discharge");
+    public static final DeferredItem<Item> UNDEFINED = registerSimplePartItem("undefined");
+
     private HbmItems() {
     }
 
@@ -1705,6 +1999,18 @@ public final class HbmItems {
 
     public static void addDynamicConsumableTabItems(CreativeModeTab.Output output) {
         for (Supplier<? extends Item> item : CONSUMABLE_TAB_DYNAMIC_ITEMS) {
+            output.accept(item.get());
+        }
+    }
+
+    public static void addDynamicWeaponTabItems(CreativeModeTab.Output output) {
+        for (Supplier<? extends Item> item : WEAPON_TAB_DYNAMIC_ITEMS) {
+            output.accept(item.get());
+        }
+    }
+
+    public static void addDynamicNukeTabItems(CreativeModeTab.Output output) {
+        for (Supplier<? extends Item> item : NUKE_TAB_DYNAMIC_ITEMS) {
             output.accept(item.get());
         }
     }
@@ -1753,6 +2059,18 @@ public final class HbmItems {
     private static DeferredItem<Item> registerSimpleConsumableItem(String name, UnaryOperator<Item.Properties> propertiesFactory) {
         DeferredItem<Item> item = ITEMS.register(name, () -> new Item(propertiesFactory.apply(new Item.Properties())));
         CONSUMABLE_TAB_DYNAMIC_ITEMS.add(item);
+        return item;
+    }
+
+    private static DeferredItem<Item> registerSimpleWeaponItem(String name) {
+        DeferredItem<Item> item = ITEMS.registerSimpleItem(name);
+        WEAPON_TAB_DYNAMIC_ITEMS.add(item);
+        return item;
+    }
+
+    private static DeferredItem<Item> registerSimpleNukeItem(String name) {
+        DeferredItem<Item> item = ITEMS.registerSimpleItem(name);
+        NUKE_TAB_DYNAMIC_ITEMS.add(item);
         return item;
     }
 
