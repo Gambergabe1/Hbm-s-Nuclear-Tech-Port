@@ -1690,6 +1690,49 @@ public final class HbmItems {
     public static final DeferredItem<BlockItem> FWATZ_COMPUTER = ITEMS.registerSimpleBlockItem("fwatz_computer", HbmBlocks.FWATZ_COMPUTER);
     public static final DeferredItem<BlockItem> PINK_PLANKS = ITEMS.registerSimpleBlockItem("pink_planks", HbmBlocks.PINK_PLANKS);
 
+    // --- Block items for bulk-ported BlockHazard-equivalent blocks ---
+    public static final DeferredItem<BlockItem> BLOCK_METEOR_MOLTEN = ITEMS.registerSimpleBlockItem("block_meteor_molten", HbmBlocks.BLOCK_METEOR_MOLTEN);
+    public static final DeferredItem<BlockItem> BRICK_JUNGLE_LAVA = ITEMS.registerSimpleBlockItem("brick_jungle_lava", HbmBlocks.BRICK_JUNGLE_LAVA);
+    public static final DeferredItem<BlockItem> BRICK_JUNGLE_OOZE = ITEMS.registerSimpleBlockItem("brick_jungle_ooze", HbmBlocks.BRICK_JUNGLE_OOZE);
+    public static final DeferredItem<BlockItem> BRICK_JUNGLE_MYSTIC = ITEMS.registerSimpleBlockItem("brick_jungle_mystic", HbmBlocks.BRICK_JUNGLE_MYSTIC);
+    public static final DeferredItem<BlockItem> BLOCK_THORIUM = ITEMS.registerSimpleBlockItem("block_thorium", HbmBlocks.BLOCK_THORIUM);
+    public static final DeferredItem<BlockItem> BLOCK_THORIUM_FUEL = ITEMS.registerSimpleBlockItem("block_thorium_fuel", HbmBlocks.BLOCK_THORIUM_FUEL);
+    public static final DeferredItem<BlockItem> BLOCK_NEPTUNIUM = ITEMS.registerSimpleBlockItem("block_neptunium", HbmBlocks.BLOCK_NEPTUNIUM);
+    public static final DeferredItem<BlockItem> BLOCK_POLONIUM = ITEMS.registerSimpleBlockItem("block_polonium", HbmBlocks.BLOCK_POLONIUM);
+    public static final DeferredItem<BlockItem> BLOCK_MOX_FUEL = ITEMS.registerSimpleBlockItem("block_mox_fuel", HbmBlocks.BLOCK_MOX_FUEL);
+    public static final DeferredItem<BlockItem> BLOCK_PLUTONIUM = ITEMS.registerSimpleBlockItem("block_plutonium", HbmBlocks.BLOCK_PLUTONIUM);
+    public static final DeferredItem<BlockItem> BLOCK_PU238 = ITEMS.registerSimpleBlockItem("block_pu238", HbmBlocks.BLOCK_PU238);
+    public static final DeferredItem<BlockItem> BLOCK_PU239 = ITEMS.registerSimpleBlockItem("block_pu239", HbmBlocks.BLOCK_PU239);
+    public static final DeferredItem<BlockItem> BLOCK_PU240 = ITEMS.registerSimpleBlockItem("block_pu240", HbmBlocks.BLOCK_PU240);
+    public static final DeferredItem<BlockItem> BLOCK_PU_MIX = ITEMS.registerSimpleBlockItem("block_pu_mix", HbmBlocks.BLOCK_PU_MIX);
+    public static final DeferredItem<BlockItem> BLOCK_PLUTONIUM_FUEL = ITEMS.registerSimpleBlockItem("block_plutonium_fuel", HbmBlocks.BLOCK_PLUTONIUM_FUEL);
+    public static final DeferredItem<BlockItem> BLOCK_URANIUM = ITEMS.registerSimpleBlockItem("block_uranium", HbmBlocks.BLOCK_URANIUM);
+    public static final DeferredItem<BlockItem> BLOCK_U233 = ITEMS.registerSimpleBlockItem("block_u233", HbmBlocks.BLOCK_U233);
+    public static final DeferredItem<BlockItem> BLOCK_U235 = ITEMS.registerSimpleBlockItem("block_u235", HbmBlocks.BLOCK_U235);
+    public static final DeferredItem<BlockItem> BLOCK_U238 = ITEMS.registerSimpleBlockItem("block_u238", HbmBlocks.BLOCK_U238);
+    public static final DeferredItem<BlockItem> BLOCK_URANIUM_FUEL = ITEMS.registerSimpleBlockItem("block_uranium_fuel", HbmBlocks.BLOCK_URANIUM_FUEL);
+    public static final DeferredItem<BlockItem> BLOCK_TRINITITE = ITEMS.registerSimpleBlockItem("block_trinitite", HbmBlocks.BLOCK_TRINITITE);
+    public static final DeferredItem<BlockItem> BLOCK_SCHRARANIUM = ITEMS.registerSimpleBlockItem("block_schraranium", HbmBlocks.BLOCK_SCHRARANIUM);
+    public static final DeferredItem<BlockItem> BLOCK_SCHRABIDIUM = ITEMS.registerSimpleBlockItem("block_schrabidium", HbmBlocks.BLOCK_SCHRABIDIUM);
+    public static final DeferredItem<BlockItem> BLOCK_SCHRABIDATE = ITEMS.registerSimpleBlockItem("block_schrabidate", HbmBlocks.BLOCK_SCHRABIDATE);
+    public static final DeferredItem<BlockItem> BLOCK_SOLINIUM = ITEMS.registerSimpleBlockItem("block_solinium", HbmBlocks.BLOCK_SOLINIUM);
+    public static final DeferredItem<BlockItem> BLOCK_SCHRABIDIUM_FUEL = ITEMS.registerSimpleBlockItem("block_schrabidium_fuel", HbmBlocks.BLOCK_SCHRABIDIUM_FUEL);
+    public static final DeferredItem<BlockItem> BLOCK_AU198 = ITEMS.registerSimpleBlockItem("block_au198", HbmBlocks.BLOCK_AU198);
+    public static final DeferredItem<BlockItem> BLOCK_MAGNETIZED_TUNGSTEN = ITEMS.registerSimpleBlockItem("block_magnetized_tungsten", HbmBlocks.BLOCK_MAGNETIZED_TUNGSTEN);
+    public static final DeferredItem<BlockItem> FROZEN_PLANKS = ITEMS.registerSimpleBlockItem("frozen_planks", HbmBlocks.FROZEN_PLANKS);
+    public static final DeferredItem<BlockItem> FROZEN_DIRT = ITEMS.registerSimpleBlockItem("frozen_dirt", HbmBlocks.FROZEN_DIRT);
+    public static final DeferredItem<BlockItem> BLOCK_RA226 = ITEMS.registerSimpleBlockItem("block_ra226", HbmBlocks.BLOCK_RA226);
+    public static final DeferredItem<BlockItem> BLOCK_RADSPICE = ITEMS.registerSimpleBlockItem("block_radspice", HbmBlocks.BLOCK_RADSPICE);
+    public static final DeferredItem<BlockItem> BALEONITITE_SLAKED = ITEMS.registerSimpleBlockItem("baleonitite_slaked", HbmBlocks.BALEONITITE_SLAKED);
+    public static final DeferredItem<BlockItem> BALEONITITE_0 = ITEMS.registerSimpleBlockItem("baleonitite_0", HbmBlocks.BALEONITITE_0);
+    public static final DeferredItem<BlockItem> BALEONITITE_1 = ITEMS.registerSimpleBlockItem("baleonitite_1", HbmBlocks.BALEONITITE_1);
+    public static final DeferredItem<BlockItem> BALEONITITE_2 = ITEMS.registerSimpleBlockItem("baleonitite_2", HbmBlocks.BALEONITITE_2);
+    public static final DeferredItem<BlockItem> BALEONITITE_3 = ITEMS.registerSimpleBlockItem("baleonitite_3", HbmBlocks.BALEONITITE_3);
+    public static final DeferredItem<BlockItem> BALEONITITE_4 = ITEMS.registerSimpleBlockItem("baleonitite_4", HbmBlocks.BALEONITITE_4);
+    public static final DeferredItem<BlockItem> BALEONITITE_CORE = ITEMS.registerSimpleBlockItem("baleonitite_core", HbmBlocks.BALEONITITE_CORE);
+    public static final DeferredItem<BlockItem> BLOCK_WHITE_PHOSPHORUS = ITEMS.registerSimpleBlockItem("block_white_phosphorus", HbmBlocks.BLOCK_WHITE_PHOSPHORUS);
+    public static final DeferredItem<BlockItem> BLOCK_CORIUM = ITEMS.registerSimpleBlockItem("block_corium", HbmBlocks.BLOCK_CORIUM);
+
     // --- Bulk-ported simple items (ItemBase/ItemCustomLore equivalents) ---
     public static final DeferredItem<Item> CANISTER_NAPALM = registerSimpleControlItem("canister_napalm");
     public static final DeferredItem<Item> IGNITER = registerSimpleNukeItem("igniter");

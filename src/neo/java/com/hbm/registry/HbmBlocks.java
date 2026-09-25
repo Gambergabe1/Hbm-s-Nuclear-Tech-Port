@@ -559,6 +559,49 @@ public final class HbmBlocks {
         )
     );
 
+    // --- Bulk-ported simple blocks (BlockHazard equivalents; radiation behavior TODO once the radiation system exists) ---
+    public static final DeferredBlock<Block> BLOCK_METEOR_MOLTEN = registerStoneBlock("block_meteor_molten", MapColor.STONE, 15.0F, 15.0F, SoundType.STONE);
+    public static final DeferredBlock<Block> BRICK_JUNGLE_LAVA = registerStoneBlock("brick_jungle_lava", MapColor.STONE, 15.0F, 900.0F, SoundType.STONE);
+    public static final DeferredBlock<Block> BRICK_JUNGLE_OOZE = registerStoneBlock("brick_jungle_ooze", MapColor.STONE, 15.0F, 900.0F, SoundType.STONE);
+    public static final DeferredBlock<Block> BRICK_JUNGLE_MYSTIC = registerStoneBlock("brick_jungle_mystic", MapColor.STONE, 15.0F, 900.0F, SoundType.STONE);
+    public static final DeferredBlock<Block> BLOCK_THORIUM = registerStoneBlock("block_thorium", MapColor.METAL, 5.0F, 5.0F, SoundType.METAL);
+    public static final DeferredBlock<Block> BLOCK_THORIUM_FUEL = registerStoneBlock("block_thorium_fuel", MapColor.METAL, 5.0F, 5.0F, SoundType.METAL);
+    public static final DeferredBlock<Block> BLOCK_NEPTUNIUM = registerStoneBlock("block_neptunium", MapColor.METAL, 5.0F, 5.0F, SoundType.METAL);
+    public static final DeferredBlock<Block> BLOCK_POLONIUM = registerStoneBlock("block_polonium", MapColor.METAL, 5.0F, 5.0F, SoundType.METAL);
+    public static final DeferredBlock<Block> BLOCK_MOX_FUEL = registerStoneBlock("block_mox_fuel", MapColor.METAL, 5.0F, 5.0F, SoundType.METAL);
+    public static final DeferredBlock<Block> BLOCK_PLUTONIUM = registerStoneBlock("block_plutonium", MapColor.METAL, 5.0F, 5.0F, SoundType.METAL);
+    public static final DeferredBlock<Block> BLOCK_PU238 = registerStoneBlock("block_pu238", MapColor.METAL, 5.0F, 5.0F, SoundType.METAL);
+    public static final DeferredBlock<Block> BLOCK_PU239 = registerStoneBlock("block_pu239", MapColor.METAL, 5.0F, 5.0F, SoundType.METAL);
+    public static final DeferredBlock<Block> BLOCK_PU240 = registerStoneBlock("block_pu240", MapColor.METAL, 5.0F, 5.0F, SoundType.METAL);
+    public static final DeferredBlock<Block> BLOCK_PU_MIX = registerStoneBlock("block_pu_mix", MapColor.METAL, 5.0F, 5.0F, SoundType.METAL);
+    public static final DeferredBlock<Block> BLOCK_PLUTONIUM_FUEL = registerStoneBlock("block_plutonium_fuel", MapColor.METAL, 5.0F, 5.0F, SoundType.METAL);
+    public static final DeferredBlock<Block> BLOCK_URANIUM = registerStoneBlock("block_uranium", MapColor.METAL, 5.0F, 5.0F, SoundType.METAL);
+    public static final DeferredBlock<Block> BLOCK_U233 = registerStoneBlock("block_u233", MapColor.METAL, 5.0F, 5.0F, SoundType.METAL);
+    public static final DeferredBlock<Block> BLOCK_U235 = registerStoneBlock("block_u235", MapColor.METAL, 5.0F, 5.0F, SoundType.METAL);
+    public static final DeferredBlock<Block> BLOCK_U238 = registerStoneBlock("block_u238", MapColor.METAL, 5.0F, 5.0F, SoundType.METAL);
+    public static final DeferredBlock<Block> BLOCK_URANIUM_FUEL = registerStoneBlock("block_uranium_fuel", MapColor.METAL, 5.0F, 5.0F, SoundType.METAL);
+    public static final DeferredBlock<Block> BLOCK_TRINITITE = registerStoneBlock("block_trinitite", MapColor.METAL, 5.0F, 5.0F, SoundType.METAL);
+    public static final DeferredBlock<Block> BLOCK_SCHRARANIUM = registerStoneBlock("block_schraranium", MapColor.METAL, 5.0F, 5.0F, SoundType.METAL);
+    public static final DeferredBlock<Block> BLOCK_SCHRABIDIUM = registerStoneBlock("block_schrabidium", MapColor.METAL, 5.0F, 5.0F, SoundType.METAL);
+    public static final DeferredBlock<Block> BLOCK_SCHRABIDATE = registerStoneBlock("block_schrabidate", MapColor.METAL, 5.0F, 5.0F, SoundType.METAL);
+    public static final DeferredBlock<Block> BLOCK_SOLINIUM = registerStoneBlock("block_solinium", MapColor.METAL, 5.0F, 5.0F, SoundType.METAL);
+    public static final DeferredBlock<Block> BLOCK_SCHRABIDIUM_FUEL = registerStoneBlock("block_schrabidium_fuel", MapColor.METAL, 5.0F, 5.0F, SoundType.METAL);
+    public static final DeferredBlock<Block> BLOCK_AU198 = registerStoneBlock("block_au198", MapColor.METAL, 5.0F, 5.0F, SoundType.METAL);
+    public static final DeferredBlock<Block> BLOCK_MAGNETIZED_TUNGSTEN = registerStoneBlock("block_magnetized_tungsten", MapColor.METAL, 5.0F, 5.0F, SoundType.METAL);
+    public static final DeferredBlock<Block> FROZEN_PLANKS = registerStoneBlock("frozen_planks", MapColor.WOOD, 0.5F, 0.5F, SoundType.WOOD);
+    public static final DeferredBlock<Block> FROZEN_DIRT = registerStoneBlock("frozen_dirt", MapColor.DIRT, 0.5F, 0.5F, SoundType.GRAVEL);
+    public static final DeferredBlock<Block> BLOCK_RA226 = registerStoneBlock("block_ra226", MapColor.METAL, 5.0F, 5.0F, SoundType.METAL);
+    public static final DeferredBlock<Block> BLOCK_RADSPICE = registerStoneBlock("block_radspice", MapColor.METAL, 5.0F, 5.0F, SoundType.METAL);
+    public static final DeferredBlock<Block> BALEONITITE_SLAKED = registerStoneBlock("baleonitite_slaked", MapColor.STONE, 5.0F, 6F, SoundType.STONE);
+    public static final DeferredBlock<Block> BALEONITITE_0 = registerStoneBlock("baleonitite_0", MapColor.STONE, 5.0F, 6F, SoundType.STONE);
+    public static final DeferredBlock<Block> BALEONITITE_1 = registerStoneBlock("baleonitite_1", MapColor.STONE, 5.0F, 6F, SoundType.STONE);
+    public static final DeferredBlock<Block> BALEONITITE_2 = registerStoneBlock("baleonitite_2", MapColor.STONE, 5.0F, 6F, SoundType.STONE);
+    public static final DeferredBlock<Block> BALEONITITE_3 = registerStoneBlock("baleonitite_3", MapColor.STONE, 5.0F, 7F, SoundType.STONE);
+    public static final DeferredBlock<Block> BALEONITITE_4 = registerStoneBlock("baleonitite_4", MapColor.STONE, 5.0F, 8F, SoundType.STONE);
+    public static final DeferredBlock<Block> BALEONITITE_CORE = registerStoneBlock("baleonitite_core", MapColor.STONE, 10.0F, 9F, SoundType.STONE);
+    public static final DeferredBlock<Block> BLOCK_WHITE_PHOSPHORUS = registerStoneBlock("block_white_phosphorus", MapColor.STONE, 5.0F, 5.0F, SoundType.STONE);
+    public static final DeferredBlock<Block> BLOCK_CORIUM = registerStoneBlock("block_corium", MapColor.METAL, 100.0F, 100.0F, SoundType.METAL);
+
     private HbmBlocks() {
     }
 
