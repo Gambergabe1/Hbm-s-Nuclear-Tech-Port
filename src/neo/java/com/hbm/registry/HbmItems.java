@@ -48,6 +48,7 @@ import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.ArmorMaterials;
 import net.minecraft.world.item.BlockItem;
+import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.neoforged.neoforge.common.DeferredSpawnEggItem;
@@ -1697,6 +1698,52 @@ public final class HbmItems {
     public static final DeferredItem<BlockItem> FWATZ_SCAFFOLD = ITEMS.registerSimpleBlockItem("fwatz_scaffold", HbmBlocks.FWATZ_SCAFFOLD);
     public static final DeferredItem<BlockItem> FWATZ_COMPUTER = ITEMS.registerSimpleBlockItem("fwatz_computer", HbmBlocks.FWATZ_COMPUTER);
     public static final DeferredItem<BlockItem> PINK_PLANKS = ITEMS.registerSimpleBlockItem("pink_planks", HbmBlocks.PINK_PLANKS);
+    // --- Bulk-ported food items (ItemLemon equivalents) ---
+    public static final DeferredItem<Item> BIO_WAFER = registerFoodPartItem("bio_wafer", 8, 8F);
+    public static final DeferredItem<Item> INGOT_SEMTEX = registerFoodPartItem("ingot_semtex", 4, 5F);
+    public static final DeferredItem<Item> LEMON = registerFoodConsumableItem("lemon", 3, 5F);
+    public static final DeferredItem<Item> DEFINITELYFOOD = registerFoodConsumableItem("definitelyfood", 2, 5F);
+    public static final DeferredItem<Item> MED_IPECAC = registerFoodConsumableItem("med_ipecac", 0, 0F);
+    public static final DeferredItem<Item> MED_PTSD = registerFoodConsumableItem("med_ptsd", 0, 0F);
+    public static final DeferredItem<Item> MED_SCHIZOPHRENIA = registerFoodItemNoTab("med_schizophrenia", 0, 0F);
+    public static final DeferredItem<Item> LOOPS = registerFoodConsumableItem("loops", 4, 5F);
+    public static final DeferredItem<Item> LOOP_STEW = registerFoodConsumableItem("loop_stew", 10, 10F);
+    public static final DeferredItem<Item> FOODITEM = registerFoodItemNoTab("fooditem", 2, 5F);
+    public static final DeferredItem<Item> TWINKIE = registerFoodConsumableItem("twinkie", 3, 5F);
+    public static final DeferredItem<Item> STATIC_SANDWICH = registerFoodConsumableItem("static_sandwich", 6, 5F);
+    public static final DeferredItem<Item> NUGGET = registerFoodConsumableItem("nugget", 200, 200F);
+    public static final DeferredItem<Item> MARSHMALLOW = registerFoodConsumableItem("marshmallow", 2, 2F);
+    public static final DeferredItem<Item> MARSHMALLOW_ROASTED = registerFoodConsumableItem("marshmallow_roasted", 6, 6F);
+    public static final DeferredItem<Item> SPONGEBOB_MACARONI = registerFoodConsumableItem("spongebob_macaroni", 5, 5F);
+    public static final DeferredItem<Item> CANNED_BEEF = registerFoodConsumableItem("canned_beef", 8, 5F);
+    public static final DeferredItem<Item> CANNED_TUNA = registerFoodConsumableItem("canned_tuna", 4, 5F);
+    public static final DeferredItem<Item> CANNED_MYSTERY = registerFoodConsumableItem("canned_mystery", 6, 5F);
+    public static final DeferredItem<Item> CANNED_PASHTET = registerFoodConsumableItem("canned_pashtet", 4, 5F);
+    public static final DeferredItem<Item> CANNED_CHEESE = registerFoodConsumableItem("canned_cheese", 3, 5F);
+    public static final DeferredItem<Item> CANNED_JIZZ = registerFoodConsumableItem("canned_jizz", 15, 5F);
+    public static final DeferredItem<Item> CANNED_MILK = registerFoodConsumableItem("canned_milk", 5, 5F);
+    public static final DeferredItem<Item> CANNED_ASS = registerFoodConsumableItem("canned_ass", 6, 5F);
+    public static final DeferredItem<Item> CANNED_PIZZA = registerFoodConsumableItem("canned_pizza", 8, 5F);
+    public static final DeferredItem<Item> CANNED_TUBE = registerFoodConsumableItem("canned_tube", 2, 5F);
+    public static final DeferredItem<Item> CANNED_TOMATO = registerFoodConsumableItem("canned_tomato", 4, 5F);
+    public static final DeferredItem<Item> CANNED_ASBESTOS = registerFoodConsumableItem("canned_asbestos", 7, 5F);
+    public static final DeferredItem<Item> CANNED_BHOLE = registerFoodConsumableItem("canned_bhole", 10, 5F);
+    public static final DeferredItem<Item> CANNED_HOTDOGS = registerFoodConsumableItem("canned_hotdogs", 5, 5F);
+    public static final DeferredItem<Item> CANNED_LEFTOVERS = registerFoodConsumableItem("canned_leftovers", 1, 5F);
+    public static final DeferredItem<Item> CANNED_YOGURT = registerFoodConsumableItem("canned_yogurt", 3, 5F);
+    public static final DeferredItem<Item> CANNED_STEW = registerFoodConsumableItem("canned_stew", 5, 5F);
+    public static final DeferredItem<Item> CANNED_CHINESE = registerFoodConsumableItem("canned_chinese", 6, 5F);
+    public static final DeferredItem<Item> CANNED_OIL = registerFoodConsumableItem("canned_oil", 3, 5F);
+    public static final DeferredItem<Item> CANNED_FIST = registerFoodConsumableItem("canned_fist", 6, 5F);
+    public static final DeferredItem<Item> CANNED_SPAM = registerFoodConsumableItem("canned_spam", 8, 5F);
+    public static final DeferredItem<Item> CANNED_FRIED = registerFoodConsumableItem("canned_fried", 10, 5F);
+    public static final DeferredItem<Item> CANNED_NAPALM = registerFoodConsumableItem("canned_napalm", 6, 5F);
+    public static final DeferredItem<Item> CANNED_DIESEL = registerFoodConsumableItem("canned_diesel", 6, 5F);
+    public static final DeferredItem<Item> CANNED_KEROSENE = registerFoodConsumableItem("canned_kerosene", 6, 5F);
+    public static final DeferredItem<Item> CANNED_RECURSION = registerFoodConsumableItem("canned_recursion", 1, 5F);
+    public static final DeferredItem<Item> CANNED_BARK = registerFoodConsumableItem("canned_bark", 2, 5F);
+    public static final DeferredItem<Item> PUDDING = registerFoodConsumableItem("pudding", 6, 15F);
+
 
     // --- Block items for bulk-ported BlockHazard-equivalent blocks ---
     // --- Block items for bulk-ported BlockRadResistant-equivalent blocks ---
@@ -2115,6 +2162,28 @@ public final class HbmItems {
         DeferredItem<Item> item = ITEMS.register(name, () -> new Item(propertiesFactory.apply(new Item.Properties())));
         CONSUMABLE_TAB_DYNAMIC_ITEMS.add(item);
         return item;
+    }
+
+    private static Item.Properties foodProperties(int nutrition, float saturationModifier) {
+        return new Item.Properties().food(
+            new FoodProperties.Builder().nutrition(nutrition).saturationModifier(saturationModifier).build()
+        );
+    }
+
+    private static DeferredItem<Item> registerFoodConsumableItem(String name, int nutrition, float saturationModifier) {
+        DeferredItem<Item> item = ITEMS.register(name, () -> new Item(foodProperties(nutrition, saturationModifier)));
+        CONSUMABLE_TAB_DYNAMIC_ITEMS.add(item);
+        return item;
+    }
+
+    private static DeferredItem<Item> registerFoodPartItem(String name, int nutrition, float saturationModifier) {
+        DeferredItem<Item> item = ITEMS.register(name, () -> new Item(foodProperties(nutrition, saturationModifier)));
+        PARTS_TAB_DYNAMIC_ITEMS.add(item);
+        return item;
+    }
+
+    private static DeferredItem<Item> registerFoodItemNoTab(String name, int nutrition, float saturationModifier) {
+        return ITEMS.register(name, () -> new Item(foodProperties(nutrition, saturationModifier)));
     }
 
     private static DeferredItem<Item> registerSimpleWeaponItem(String name) {
