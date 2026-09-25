@@ -35,6 +35,10 @@ public final class HbmToolTiers {
     public static final Tier PIPE_RUSTY = simple(350, 1.5F, 4.5F, Tiers.STONE, 25, null);
     public static final Tier PIPE_LEAD = simple(250, 1.5F, 5.5F, Tiers.STONE, 25, null);
     public static final Tier STARMETAL = simple(1000, 20.0F, 2.5F, Tiers.DIAMOND, 30, () -> HbmItems.INGOT_STARMETAL.get());
+    public static final Tier HAMMER = unbreakable(50.0F, 999999996.0F, Tiers.DIAMOND, 200, null);
+    public static final Tier ELEC = unbreakable(30.0F, 12.0F, Tiers.IRON, 2, null);
+    public static final Tier BOTTLE_OPENER = simple(250, 1.5F, 0.5F, Tiers.STONE, 200, null);
+    public static final Tier SLEDGE = unbreakable(25.0F, 26.0F, Tiers.STONE, 200, null);
 
     private static Tier simple(
         int uses,

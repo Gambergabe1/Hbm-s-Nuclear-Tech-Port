@@ -2924,6 +2924,22 @@ public final class HbmItems {
     public static final DeferredItem<Item> CMB_SHIELD = registerShieldItem("cmb_shield", HbmToolTiers.CMB.getUses());
     public static final DeferredItem<Item> SCHRABIDIUM_SHIELD = registerShieldItem("schrabidium_shield", HbmToolTiers.SCHRABIDIUM.getUses());
 
+    // --- Bulk-ported WeaponSpecial items (melee tools/joke weapons using swords) ---
+    public static final DeferredItem<Item> ULLAPOOL_CABER = registerSwordItem("ullapool_caber", HbmToolTiers.STEEL);
+    public static final DeferredItem<Item> BOTTLE_OPENER = registerSwordItem("bottle_opener", HbmToolTiers.BOTTLE_OPENER);
+    public static final DeferredItem<Item> SCHRABIDIUM_HAMMER = registerSwordItem("schrabidium_hammer", HbmToolTiers.HAMMER);
+    public static final DeferredItem<Item> WRENCH = registerSwordItem("wrench", HbmToolTiers.STEEL);
+    public static final DeferredItem<Item> WRENCH_FLIPPED = registerSwordItem("wrench_flipped", HbmToolTiers.ELEC);
+    public static final DeferredItem<Item> MEMESPOON = registerSwordItem("memespoon", HbmToolTiers.STEEL);
+    public static final DeferredItem<Item> WOOD_GAVEL = registerSwordItem("wood_gavel", net.minecraft.world.item.Tiers.WOOD);
+    public static final DeferredItem<Item> LEAD_GAVEL = registerSwordItem("lead_gavel", HbmToolTiers.STEEL);
+    public static final DeferredItem<Item> DIAMOND_GAVEL = registerSwordItem("diamond_gavel", net.minecraft.world.item.Tiers.DIAMOND);
+    public static final DeferredItem<Item> SHIMMER_SLEDGE = registerSwordItem("shimmer_sledge", HbmToolTiers.SLEDGE);
+    public static final DeferredItem<Item> SHIMMER_AXE = registerSwordItem("shimmer_axe", HbmToolTiers.SLEDGE);
+    public static final DeferredItem<Item> STOPSIGN = registerSwordItem("stopsign", HbmToolTiers.ALLOY);
+    public static final DeferredItem<Item> SOPSIGN = registerSwordItem("sopsign", HbmToolTiers.ALLOY);
+    public static final DeferredItem<Item> CHERNOBYLSIGN = registerSwordItem("chernobylsign", HbmToolTiers.ALLOY);
+
     private HbmItems() {
     }
 
